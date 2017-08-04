@@ -309,7 +309,7 @@ The databases used to store the information are called NIS maps
 these maps are stored in stored in /var/yp/[domainname]
 
 
-initialize the NIS maps:
+initialize the NIS maps::
 	ypinit -m sa-domain
 
 
@@ -325,17 +325,17 @@ saduty -> ypcat passwd
 	NIS Client	
 =====================
 
-vim /etc/rc.conf
+vim /etc/rc.conf::
 	nisdomainname="test-domain"
 	nis_client_enable="YES"
 
 
-vim /etc/master.passwd
+vim /etc/master.passwd::
 	+:::::::::
 sudo vipw
 
 
-vim /etc/group
+vim /etc/group::
 	+:*::
 
 — restart —
@@ -419,7 +419,7 @@ client : showmount -e sahome
 # 列出有哪些資料夾是從sahome mount 起來的
 
 
-ps ax |grep mountd //確認 mountd 是否執行
+ps ax | grep mountd //確認 mountd 是否執行
 
 
 [Server]
@@ -447,7 +447,7 @@ visudo 在 /usr/local/etc/sudoers
 sudo visudo 
 	#include /net/admin/sudoers
 
-/net/admin/sudoers		
+/net/admin/sudoers::	
 
 	Cmnd_Alias    SU = /usr/bin/su
 	Cmnd_Alias    REBOOT = /sbin/halt, /sbin/reboot,\
@@ -573,7 +573,7 @@ rcvar        Display which rc.conf(5) variables are used to control
 
 . file  The commands in the specified file are read and executed by the
              shell.  The return command may be used to return to the .
-             command's caller.  If file contains any `/' characters, it is
+             command's caller.  If file contains any '/' characters, it is
              used as is.  Otherwise, the shell searches the PATH for the file.
              If it is not found in the PATH, it is sought in the current
              working directory.
