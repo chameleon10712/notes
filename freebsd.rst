@@ -951,6 +951,31 @@ chameleon@:~ $ kill -s USR1 7893
 
 
 
+10.211.55.4 -> sahome ::
+	sudo vim /etc/hosts
+	
+
+用root 更改使用者密碼::
+	
+	passwd username
+
+查詢硬體資訊::
+	
+	pciconf -lv
+
+查詢安裝紀錄::
+	
+	pkg info  #FreeBSD 10.x
+	
+	pkg_info  #FreeBSD 舊版
+
+例行工作排程 ( crontab )::
+	
+	crontab -e	#編寫需要做的工作或者將要執行的工作
+	
+	#/etc/crontab
+	
+
 
 
 
