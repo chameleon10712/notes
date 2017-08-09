@@ -45,6 +45,7 @@ nvidia gtx 750
 	kldload linux64
 
 3. ::
+	
 	cd /usr/ports/x11/nvidia-driver
 	make install clean
 	
@@ -53,10 +54,12 @@ nvidia gtx 750
 	nvidia_load="YES"
 
 5. ::
+	
 	cd /usr/ports/x11/nvidia-setting
 	make install clean
 
 6. ::
+	
 	cd /usr/ports/x11/nvidia-xconfig
 	make install clean
 
