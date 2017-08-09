@@ -62,13 +62,16 @@ inser tab::
 	and then press tab
 
 4 digits::
+	
 	\d\{4}
 
 group::
+	
 	\(.*\)
 	\1	
 
 match whitespace::
+	
 	\s
 	whitespace character
 	
@@ -76,6 +79,7 @@ match whitespace::
 	non-whitespace character
 
 match blank lines::
+	
 	^\s*$
 
 
