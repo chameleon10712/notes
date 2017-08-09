@@ -12,6 +12,7 @@ vim config
   ssh key
 =============
 ::
+	
 	cd ~/.ssh
 	ssh-keygen
 
