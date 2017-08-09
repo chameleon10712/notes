@@ -53,9 +53,11 @@ replace word::
 	:1,$s/word1/word2/gc
 
 insert newline::
+	
 	\r
 
 inser tab::
+	
 	Ctrl + V 
 	and then press tab
 
