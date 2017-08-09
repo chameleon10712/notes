@@ -21,7 +21,7 @@ check graphic card version 顯示PC 硬體版本詳細資訊，可以用這個�
 	pciconf -lv
 
 
-Lab117 PC
+Lab PC
 
 nvidia gtx 750
 
