@@ -23,10 +23,11 @@ apache24/httpd.conf::
 
 + hide php version
 /usr/local/etc/php.ini::
+	
 	expose_php = Off
 
 ===================
-		DNS		
+	DNS		
 ===================
 
 Forward Domain (正解) : domain name -> IP  (Forward mapping)
