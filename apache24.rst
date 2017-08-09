@@ -3,6 +3,7 @@
 =============
 
 google key word ::
+	
 	apache enable php
 
 
@@ -10,6 +11,7 @@ google key word ::
 http://php.net/manual/en/install.unix.apache2.php
 
 /usr/local/etc/apache24/httpd.conf::
+	
 	<FilesMatch \.php$>
 	    SetHandler application/x-httpd-php
 	</FilesMatch>
