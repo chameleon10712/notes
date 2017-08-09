@@ -10,11 +10,14 @@
 
 
 start Xorg ::
+	
 	startx
 exit Xorg or others(?) ::
+	
 	ctrl + alt + F1
 
 check graphic card version 顯示PC 硬體版本詳細資訊，可以用這個查顯卡版本::
+	
 	pciconf -lv
 
 
@@ -46,6 +49,7 @@ nvidia gtx 750
 	make install clean
 	
 4. /boot/loader.conf ::
+	
 	nvidia_load="YES"
 
 5. ::
