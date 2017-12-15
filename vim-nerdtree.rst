@@ -2,7 +2,9 @@
         NERDTree
 ==========================
 
-move between open windows::
+============
+Basic Usage
+============
+- move between open windows  ``Ctrl-w + w``
     
-    Ctrl-w + w
     
