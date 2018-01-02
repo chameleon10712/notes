@@ -9,29 +9,32 @@ google keyword:
 exact match  ``/\<exact_word\>``
 
 
-replace word::
+replace word
 
-	:n1,n2s/word1/word2/g
-	
-	:1,$s/word1/word2/g
-	
-	:1,$s/word1/word2/gc
+``:n1,n2s/word1/word2/g``
+
+``:1,$s/word1/word2/g``
+
+``:1,$s/word1/word2/gc``
+
 
 insert newline  ``\r``
 
-inser tab::
+inser tab
 	
-	Ctrl + V 
-	and then press tab
+``Ctrl + V``  and then press tab
+
 
 4 digits  ``\d\{4}``
+
 
 group
 	
 - ``\(.*\)``
 - ``\1``
 
-match whitespace::
+
+match whitespace
 	
 * ``\s``  whitespace character
 
@@ -40,7 +43,6 @@ match whitespace::
 match blank lines
 	
 ``^\s*$``
-
 
 - ``^`` is the beginning of string anchor
 - ``$`` is the end of string anchor
