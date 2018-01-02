@@ -6,9 +6,7 @@ google keyword:
 	
 	`link <http://vimregex.com/>`_
 
-exact match::
-
-	/\<exact_word\>
+exact match  ``/\<exact_word\>``
 
 
 replace word::
@@ -19,18 +17,14 @@ replace word::
 	
 	:1,$s/word1/word2/gc
 
-insert newline::
-	
-	\r
+insert newline  ``\r``
 
 inser tab::
 	
 	Ctrl + V 
 	and then press tab
 
-4 digits::
-	
-	\d\{4}
+4 digits  ``\d\{4}``
 
 group::
 	
@@ -39,34 +33,31 @@ group::
 
 match whitespace::
 	
-	\s
-	whitespace character
+* ``\s``  whitespace character
+
+* ``\S``  non-whitespace character
+
+match blank lines
 	
-	\S
-	non-whitespace character
-
-match blank lines::
-	
-	^\s*$
+``^\s*$``
 
 
-	^ is the beginning of string anchor
-	$ is the end of string anchor
-	\s is the whitespace character class
-	* is zero-or-more repetition of
+^ is the beginning of string anchor
+$ is the end of string anchor
+\s is the whitespace character class
+* is zero-or-more repetition of
+
 
 convert the ^M linebreak to 'normal' linebreak in a file opened in vim::
 
-	:%s/<Ctrl-V><Ctrl-M>/\r/g
+	``:%s/<Ctrl-V><Ctrl-M>/\r/g``
 	
 	Where <Ctrl-V><Ctrl-M> means type Ctrl+V then Ctrl+M
 
-non-greedy match::
-	
-	.\{-}
+**non-greedy match**  ``.\{-}``
 
-	Instead of .* use .\{-}
-	:help non-greedy
+Instead of ``.*`` use ``.\{-}``
+``:help non-greedy``
 http://stackoverflow.com/questions/1305853/how-can-i-make-my-match-non-greedy-in-vim
 
 
