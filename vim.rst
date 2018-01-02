@@ -34,9 +34,9 @@ Fix indentation : ``gg=G``
 ============================
 	regular expression
 ============================
-keyword:
+google keyword:
 	vim regular expression
-	http://vimregex.com/
+	`link <http://vimregex.com/>`_
 
 exact match::
 
