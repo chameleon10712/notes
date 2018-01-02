@@ -1,3 +1,7 @@
+============
+	Vim
+============
+
 inset '#' at the beginning visualized text::
 	
 	<C-v> I # <esc> 
@@ -16,6 +20,8 @@ inset '#' at the beginning visualized text::
 把這次highlight 的東西塗掉::
 	
 	:noh
+
+repeat last command :  use ``.``
 
 
 ============================
