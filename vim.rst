@@ -32,18 +32,11 @@ Fix indentation : ``gg=G``
 ============
    setting
 ============
-find vimrc ::
+find vimrc   ``vim ~/.vimrc``
 
-	vim ~/.vimrc
+Highlight current line  ``:set cursorline``
 
-
-Highlight current line ::
-	
-	:set cursorline
-
-Highlight ::
-	
-	:set hls
+Highlight  ``:set hls``
 
 ==================
 	vim macro	
