@@ -24,18 +24,11 @@ inset '#' at the beginning visualized text::
 repeat last command :  use ``.``
 
 
-============================
-	Fix indentation
-============================
-in normal mode ::
-	
-	gg=G
+Fix indentation : ``gg=G``
 
-.. gg : 移到檔案最上方
-    = : 排版
-	G : 到整個檔案的最下方
-
-
+- gg : 移到檔案最上方
+- = : 排版
+- G : 到整個檔案的最下方
 
 
 ============================
