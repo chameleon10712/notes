@@ -10,7 +10,8 @@ MIME  多用途網際網路郵件擴展（MIME，Multipurpose Internet Mail Exte
 - 非文本格式附件（二進位、聲音、圖像等）；
 - 由多部分（multiple parts）組成的消息體；
 - 包含非ASCII字符的頭信息（Header information）。
-https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%94%A8%E9%80%94%E4%BA%92%E8%81%AF%E7%B6%B2%E9%83%B5%E4%BB%B6%E6%93%B4%E5%B1%95
+`wiki <https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%94%A8%E9%80%94%E4%BA%92%E8%81%AF%E7%B6%B2%E9%83%B5%E4%BB%B6%E6%93%B4%E5%B1%95>`_
+
 
 
 MUA ( Mail User Agent )   &  MTA ( Mail Transport Agent )
@@ -22,13 +23,11 @@ Mail eXchanger（MX）
 
 
 IMAP ( Internet Message Access Protocol ) 互動郵件存取設定
-	
 	是一個應用層協定，用來從本地郵件用戶端（如Microsoft Outlook、Outlook Express、Foxmail、Mozilla Thunderbird）存取遠端伺服器上的郵件。
 
 
 
 POP3 ( Post Office Protocol - Version 3 ) 郵局協定
-
 	POP支援離線郵件處理。其具體過程是：郵件傳送到伺服器上，電子郵件用戶端呼叫郵件客戶機程式以連線伺服器，並下載所有未閱讀的電子郵件。這種離線存取模式是一種儲存轉發服務，將郵件從郵件伺服器端送到個人終端機器上，一般是PC機或MAC。一旦郵件傳送到PC機或MAC上，郵件伺服器上的郵件將會被刪除。但目前的POP3郵件伺服器大都可以「只下載郵件，伺服器端並不刪除」，也就是改進的POP3協定
 
 
