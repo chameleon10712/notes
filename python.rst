@@ -3,6 +3,45 @@
 ===============
 
  
+=================
+	lambda	
+=================
+
+>>> list = [{'enabled': 'no', 'Name': 'data', 'rotation': '4', 'often': 900}ame': 'data2', 'rotation': '5', 'often': 86400}]
+>>> 
+>>> sorted(list,key = lambda often: often['often'])
+[{'enabled': 'no', 'Name': 'data', 'often': 900, 'rotation': '4'}, {'Name': 'data2', 'often': 86400, 'rotation': '5'}]
+
+
+
+>>> lambda x: x**2
+<function <lambda> at 0x80072cbf8>
+>>> (lambda x: x**2)(3)
+9
+>>> f = (lambda x: x**2)
+>>> f
+<function <lambda> at 0x80072cbf8>
+>>> f(5)
+25
+
+========================
+	string format		
+========================
+
+>>> '{}/{}'.format('backup_pool',name)
+'backup_pool/data'
+
+======================
+	subprocess
+======================
+Python 3.5 以上支援
+
+
+>>> import subprocess
+>>> subprocess.run('ls')
+<filename>.tar	daemon		HW2		sahw2-check.sh	timer.py
+>>> subprocess.run(['ls','-l'])
+
 
 
 ===========
