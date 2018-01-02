@@ -29,7 +29,7 @@ The  shell  does not load any resource or startup files, or perform
 any command hashing, and thus starts faster.
 
 
-**dispaly global variables**:
+**dispaly global variables**::
 	
 	env
 
