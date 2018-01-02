@@ -14,12 +14,10 @@ MIME  多用途網際網路郵件擴展（MIME，Multipurpose Internet Mail Exte
 
 
 
-**MUA ( Mail User Agent )   &  MTA ( Mail Transport Agent )**
-	`[link] <http://www.weithenn.org/2009/04/mail.html>`_
+**MUA ( Mail User Agent )   &  MTA ( Mail Transport Agent )**  `[link] <http://www.weithenn.org/2009/04/mail.html>`_
 	
 
-**Mail eXchanger（MX）**
-	`[link] <http://www.synnex.com.tw/asp/fae_qaDetail.asp?group=&parent=&seqno=17451>`_
+**Mail eXchanger（MX）**  `[link] <http://www.synnex.com.tw/asp/fae_qaDetail.asp?group=&parent=&seqno=17451>`_
 	
 
 **IMAP ( Internet Message Access Protocol )** 互動郵件存取設定
