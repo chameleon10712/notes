@@ -4,13 +4,13 @@
 
 
 MIME  多用途網際網路郵件擴展（MIME，Multipurpose Internet Mail Extensions）
-	是一個網際網路標準，它擴展了電子郵件標準，使其能夠支援：
-		
-		- 非ASCII字符文本；
-		- 非文本格式附件（二進位、聲音、圖像等）；
-		- 由多部分（multiple parts）組成的消息體；
-		- 包含非ASCII字符的頭信息（Header information）。
-	https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%94%A8%E9%80%94%E4%BA%92%E8%81%AF%E7%B6%B2%E9%83%B5%E4%BB%B6%E6%93%B4%E5%B1%95
+是一個網際網路標準，它擴展了電子郵件標準，使其能夠支援:
+
+- 非ASCII字符文本；
+- 非文本格式附件（二進位、聲音、圖像等）；
+- 由多部分（multiple parts）組成的消息體；
+- 包含非ASCII字符的頭信息（Header information）。
+https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%94%A8%E9%80%94%E4%BA%92%E8%81%AF%E7%B6%B2%E9%83%B5%E4%BB%B6%E6%93%B4%E5%B1%95
 
 
 MUA ( Mail User Agent )   &  MTA ( Mail Transport Agent )
