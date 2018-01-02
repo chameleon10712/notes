@@ -20,7 +20,7 @@ replace word
 
 insert newline  ``\r``
 
-inser tab  ``Ctrl + V``  and then press tab
+inser tab  ``Ctrl + V``  and then press ``<tab>``
 
 
 4 digits  ``\d\{4}``
