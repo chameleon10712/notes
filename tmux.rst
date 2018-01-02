@@ -11,7 +11,8 @@ start new ``tmux``
 start new with session name  ``tmux new -s myname``
 
 
-+ Windows
+**Windows**
+
 Creating Windows  ``Ctrl-b`` + ``c``
 
 Switch to previous window  ``Ctrl-b`` + ``p``
@@ -23,7 +24,8 @@ Switch to specific window  ``Ctrl-b`` + ``<number>``
 Rename the current window  ``Ctrl-b`` + ``,``
 
 
-+ Panes
+**Panes**
+
 Splitting Panes::
 
 	Ctrl-b + %    #左右split
@@ -43,7 +45,8 @@ Make a pane go full screen::
 	Ctrl-b + z  # go full screen
 	Ctrl-b + z  #(again) shrink it back to its previous size
 
-+ Sessions
+**Sessions**
+
 	一組tmux 視窗(several windows)
 
 Detach  ``Ctrl-b`` + ``d``
