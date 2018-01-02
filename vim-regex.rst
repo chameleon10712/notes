@@ -1,5 +1,5 @@
 ================================
-    vim regular expression	
+    regular expression - vim	
 ================================
 google keyword:
 	vim regular expression
