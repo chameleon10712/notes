@@ -2,8 +2,6 @@
 	Basic Command Line	
 ============================
 
-rename directory ::
-	mv /home/user/oldname /home/user/newname
+rename directory ``mv /home/user/<oldname> /home/user/<newname>``
 
-find file ::
-	find -iname "filename"
+find file ``find -iname <filename>``
