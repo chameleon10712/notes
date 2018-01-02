@@ -918,7 +918,7 @@ Python 3.5 以上支援
 
 >>> import subprocess
 >>> subprocess.run('ls')
-A993168.tar	daemon		HW2		sahw2-check.sh	timer.py
+<filename>.tar	daemon		HW2		sahw2-check.sh	timer.py
 
 >>> subprocess.run(['ls','-l'])
 
