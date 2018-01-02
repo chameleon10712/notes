@@ -48,7 +48,7 @@ google keyword:
 - ``*`` is zero-or-more repetition of
 
 
-**convert the ``^M`` linebreak to 'normal' linebreak in a file opened in vim**
+**convert the ^M linebreak to 'normal' linebreak in a file opened in vim**
 
 ``:%s/<Ctrl-V><Ctrl-M>/\r/g``
 
