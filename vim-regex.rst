@@ -26,10 +26,10 @@ inser tab::
 
 4 digits  ``\d\{4}``
 
-group::
+group
 	
-	\(.*\)
-	\1	
+- ``\(.*\)``
+- ``\1``
 
 match whitespace::
 	
@@ -42,22 +42,24 @@ match blank lines
 ``^\s*$``
 
 
-^ is the beginning of string anchor
-$ is the end of string anchor
-\s is the whitespace character class
-* is zero-or-more repetition of
+- ``^`` is the beginning of string anchor
+- ``$`` is the end of string anchor
+- ``\s`` is the whitespace character class
+- ``*`` is zero-or-more repetition of
 
 
-convert the ^M linebreak to 'normal' linebreak in a file opened in vim::
+convert the ``^M`` linebreak to 'normal' linebreak in a file opened in vim
 
-	``:%s/<Ctrl-V><Ctrl-M>/\r/g``
-	
-	Where <Ctrl-V><Ctrl-M> means type Ctrl+V then Ctrl+M
+``:%s/<Ctrl-V><Ctrl-M>/\r/g``
+
+Where <Ctrl-V><Ctrl-M> means type Ctrl+V then Ctrl+M
+
 
 **non-greedy match**  ``.\{-}``
 
 Instead of ``.*`` use ``.\{-}``
 ``:help non-greedy``
+
 http://stackoverflow.com/questions/1305853/how-can-i-make-my-match-non-greedy-in-vim
 
 
