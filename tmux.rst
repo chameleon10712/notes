@@ -26,14 +26,13 @@ Rename the current window  ``Ctrl-b`` + ``,``
 
 **Panes**
 
-Splitting Panes::
+Splitting Panes
 
-	Ctrl-b + %    #左右split
-	Ctrl-b + "    #上下split
+* ``Ctrl-b`` + ``%``    #左右split
 
-Navigating Panes::
+* ``Ctrl-b`` + ``"``   #上下split
 
-	Ctrl-b + <arrow key>  #移動到上/下/左/右的pane
+Navigating Panes  ``Ctrl-b`` + ``<arrow key>``  #移動到上/下/左/右的pane
 
 Closing Panes::
 
@@ -47,7 +46,7 @@ Make a pane go full screen::
 
 **Sessions**
 
-	一組tmux 視窗(several windows)
+一組tmux 視窗(several windows)
 
 Detach  ``Ctrl-b`` + ``d``
 
