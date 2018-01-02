@@ -6,10 +6,10 @@ google keyword:
 	
 	`link <http://vimregex.com/>`_
 
-exact match  ``/\<exact_word\>``
+exact match:  ``/\<exact_word\>``
 
 
-replace word
+replace word:
 
 ``:n1,n2s/word1/word2/g``
 
@@ -18,12 +18,12 @@ replace word
 ``:1,$s/word1/word2/gc``
 
 
-insert newline  ``\r``
+insert newline:  ``\r``
 
-inser tab  ``Ctrl + V``  and then press ``<tab>``
+inser tab:  ``Ctrl + V``  and then press ``<tab>``
 
 
-4 digits  ``\d\{4}``
+4 digits:  ``\d\{4}``
 
 
 group
