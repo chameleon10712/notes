@@ -25,7 +25,8 @@ AMD的API主要格式如下
 
 id 代表Module的名稱
 dependencies 代表Module所依賴的其他Module
-factory 代表產生Module的工廠(Factory)或是它的實體(Object)
+factory 代表產生Module的工廠(Factory)或是它的實體(Object) `[ref]
+<https://dotblogs.com.tw/kirkchen/2012/06/20/javascript_amd_introduction/>`_
 
 
 `AMDJS.api
@@ -53,6 +54,5 @@ AMD Library
 
 
 
-`ref
-<https://dotblogs.com.tw/kirkchen/2012/06/20/javascript_amd_introduction/>`_
+
 
