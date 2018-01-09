@@ -35,6 +35,12 @@ AMD Library
 - Require JS
 - Curl
 
+-----------------------
+    AMD 和 CMD 區別
+-----------------------
+
+`[知乎]
+<https://www.zhihu.com/question/20351507>`_
 
 
 
