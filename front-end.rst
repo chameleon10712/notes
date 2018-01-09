@@ -3,10 +3,13 @@
 ===================
 
 
-=================
-    AMD 規範    
-=================
+============
+    AMD 
+============
 
+---------
+ AMD 規範 
+---------
 
 Asynchronous Module Definition，是Common JS所定義的一組優雅且簡單API，
 
@@ -34,6 +37,13 @@ AMD Library
 
 - Require JS
 - Curl
+
+============
+    CMD
+============
+
+`[CMD spec]
+<https://github.com/cmdjs/specification/blob/master/draft/module.md>`_
 
 -----------------------
     AMD 和 CMD 區別
