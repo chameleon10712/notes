@@ -45,10 +45,9 @@ AMD Library
 `[CMD spec]
 <https://github.com/cmdjs/specification/blob/master/draft/module.md>`_
 
------------------------
+========================
     AMD 和 CMD 區別
------------------------
-
+========================
 `[知乎]
 <https://www.zhihu.com/question/20351507>`_
 
