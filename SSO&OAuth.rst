@@ -31,9 +31,9 @@ OAuth為網站（系統）用戶授權第三方應用(third party App)（網站�
 REST初期理念是“每個不同的子資源都有一個絕對唯一且不重複的URI地址”。它僅僅是一個URI資源 (URI resource)而已，而且是無狀態的(stateless)，因此REST並不適合做需要授權的應用。恰恰相反的是，在使用OAuth授權時，通常會使用REST API來完成授權操作。
 
 
-
-
-`OAuth is not Single Sign-On
+OAuth is not Single Sign-On
+++++++++++++++++++++++++
+`[ref]
 <https://stormpath.com/blog/oauth-is-not-sso>`_
 
 
@@ -54,6 +54,7 @@ Instead of making each employee at your company create different accounts for ea
 This is SSO.
 
 
+###################################################################
 YouTube - Understanding Authentication and Authorisation Protocols
 ###################################################################
 
