@@ -90,8 +90,7 @@ OpenID
 
 OAuth/OAuth2
 +++++++++++++++++
-- An authorisation protocol designed for API access
-    - ex. Facebook
+- An authorisation protocol designed for API access  (ex. Facebook)
 - Often used (incorrectly) for authentication
 - Does not always authenticate user
 - Allows unattended access without authentication
