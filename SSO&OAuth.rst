@@ -29,8 +29,8 @@ YouTube - Understanding Authentication and Authorisation Protocols
 
 
 
-**Authentication**
-
+Authentication
++++++++++++++
 AuthX
 ``who are you?``
 
@@ -41,8 +41,8 @@ claim = email address
 proof = password
 
 
-**Authorisation**
-
+Authorisation
++++++++++++++
 AuthN
 ``what can this entity do?``
 - Once I have an identity, I can check permissions
@@ -50,16 +50,16 @@ AuthN
 - An identity allows us to group entities into roles. Roles make authorsation easier but are not requeired for AuthX/N
 
 
-**Problem**
-
+Problem
++++++++++++++
 - Convenience
 - Security
-- Collaboration
-    - many goups of organisations want to work together
+- Collaboration  (many goups of organisations want to work together)
 - Unattended access
 
 
-**Solutions**
+Solutions
++++++++++++++
 - SAML/Shibboleth
 - OpenID
 - OAuth2
