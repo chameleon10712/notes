@@ -129,7 +129,8 @@ OAuth/OAuth2
 - v2 = TLS requried = simple data exchange = popular
 - The two are not compatible
 
-**OAuth2 for authentication**
+OAuth2 for authentication
++++++++++++++++++
 
 - Restrict any unattended operations e.g. refresh tokens
 - Always require authentication from the provider
@@ -137,8 +138,8 @@ OAuth/OAuth2
 - Vague specification = many different implemattions
 - Virtually all plugins have a class per provider
 
-**OAuth2 + OpenID Connect**
-
+OAuth2 + OpenID Connect
++++++++++++++++++
 - Has add a few more varations of OAuth2 'flows'
 - Has standardized more of OAuth2's vagueness
 - Much easier to implement a 'standard' provider
@@ -150,8 +151,8 @@ OAuth/OAuth2
 - Allows pure identity providers to bypass normal OAuth2 flow
 - Also allows distributed log out
 
-**Summary**
-
+Summary
++++++++++++++++++
 - Various protocols exist
 - Some are outdated
 - Difficult protocols don't get embraced by developers
