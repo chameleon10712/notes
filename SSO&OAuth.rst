@@ -55,10 +55,10 @@ This is SSO.
 
 
 ###################################################################
-YouTube - Understanding Authentication and Authorisation Protocols
+Understanding Authentication and Authorisation Protocols
 ###################################################################
-
-
+`[ref]
+<https://www.youtube.com/watch?v=ZwYlPPN3ZrE>`_
 
 Authentication
 +++++++++++++
