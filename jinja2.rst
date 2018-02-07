@@ -16,4 +16,27 @@ so make sure to disable escaping with ``|safe`` before Flask 0.10 if you intend 
     </script>
 
 
+filter
+-------
 
+::
+
+    "datacenters": [{
+        "description": "Main Datacenter", 
+        "name": "main"
+    }, {
+        "description": "Secondaty Datacenter", 
+        "name": "secondary"
+    }]
+
+
+sol::
+
+    {{ (datacenters | selectattr("name", "equalto", "main") | list | first).description }}
+
+
+set variable
+----------------
+::
+
+    {% set navigation = [('index.html', 'Index'), ('about.html', 'About')] %}
