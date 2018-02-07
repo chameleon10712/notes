@@ -18,7 +18,7 @@ so make sure to disable escaping with ``|safe`` before Flask 0.10 if you intend 
 
 filter
 -------
-
+JSON, list
 ::
 
     "datacenters": [{
