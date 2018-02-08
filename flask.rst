@@ -3,7 +3,7 @@
 ================================
 
 Unique URLs / Redirection Behavior
-	http://flask.pocoo.org/docs/0.12/quickstart/
+	<http://flask.pocoo.org/docs/0.12/quickstart/>
 	
 	trailing slash
 		localhost:5000/projects   -> 無 trailing slash
@@ -27,7 +27,7 @@ Unique URLs / Redirection Behavior
 		網址輸入  localhost:5000/about/ 會顯示 404 Not Found
 
 URL Building
-	http://flask.pocoo.org/docs/0.12/quickstart/
+	<http://flask.pocoo.org/docs/0.12/quickstart/>
 
 
 Context Locals
