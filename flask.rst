@@ -50,7 +50,7 @@ Others
 
 `Building a Bootstrap table with dynamic elements in Flask <https://stackoverflow.com/questions/32774118/building-a-bootstrap-table-with-dynamic-elements-in-flask>`_
 
-
+`Flask-login not redirecting to previous page <https://stackoverflow.com/questions/20766291/flask-login-not-redirecting-to-previous-page>`_
 
 
 
