@@ -4,26 +4,27 @@
 
 `Unique URLs / Redirection Behavior <http://flask.pocoo.org/docs/0.12/quickstart/>`_
 	
-	trailing slash
-		localhost:5000/projects   -> 無 trailing slash
-		locaohost:5000/projects/  -> 有 trailing slash
-		
-	Flask Unique URLs / Redirection Behavior::
-		@app.route('/projects/')
-		def projects():
-			return 'The project page'
+- trailing slash
+	localhost:5000/projects   -> 無 trailing slash
+	locaohost:5000/projects/  -> 有 trailing slash
 
-		@app.route('/about')
-		def about():
-			return 'The about page'	
+- Flask Unique URLs / Redirection Behavior::
 
-	如果用 '/projects/' 的寫法
-		網址輸入 localhost:5000/projects 的話會自動導向 localhost:5000/projects/
-		網址輸入 localhost:5000/projects/ 也會正常顯示
+	@app.route('/projects/')
+	def projects():
+		return 'The project page'
 
-	如果用 '/about'     的寫法
-		網址輸入  localhost:5000/about  會正常顯示
-		網址輸入  localhost:5000/about/ 會顯示 404 Not Found
+	@app.route('/about')
+	def about():
+		return 'The about page'	
+
+- 如果用 '/projects/' 的寫法
+	網址輸入 localhost:5000/projects 的話會自動導向 localhost:5000/projects/
+	網址輸入 localhost:5000/projects/ 也會正常顯示
+
+- 如果用 '/about'     的寫法
+	網址輸入  localhost:5000/about  會正常顯示
+	網址輸入  localhost:5000/about/ 會顯示 404 Not Found
 
 `URL Building <http://flask.pocoo.org/docs/0.12/quickstart/>`_
 
