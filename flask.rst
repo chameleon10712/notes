@@ -2,8 +2,7 @@
 			Flask
 ================================
 
-Unique URLs / Redirection Behavior
-	<http://flask.pocoo.org/docs/0.12/quickstart/>
+`Unique URLs / Redirection Behavior <http://flask.pocoo.org/docs/0.12/quickstart/>`_
 	
 	trailing slash
 		localhost:5000/projects   -> 無 trailing slash
@@ -26,29 +25,21 @@ Unique URLs / Redirection Behavior
 		網址輸入  localhost:5000/about  會正常顯示
 		網址輸入  localhost:5000/about/ 會顯示 404 Not Found
 
-URL Building
-	<http://flask.pocoo.org/docs/0.12/quickstart/>
+`URL Building <http://flask.pocoo.org/docs/0.12/quickstart/>`_
 
 
-Context Locals
-	http://flask.pocoo.org/docs/0.12/quickstart/#context-locals
+`Context Locals <http://flask.pocoo.org/docs/0.12/quickstart/#context-locals>`_
+
+`flask + sqlalchemy login example <https://github.com/tolgahanuzun/Flask-Login-Example>`_
+
+`Flask- session vs g? <https://stackoverflow.com/questions/32909851/flask-session-vs-g>`_
+
+`When should Flaskg be used? <https://stackoverflow.com/questions/15083967/when-should-flask-g-be-used>`_
+
+`Flask sessions, where are the cookies stored? <https://stackoverflow.com/questions/37068604/flask-sessions-where-are-the-cookies-stored>`_
 
 
-flask + sqlalchemy login example
-	https://github.com/tolgahanuzun/Flask-Login-Example
-
-Flask: 'session' vs. 'g'?
-	https://stackoverflow.com/questions/32909851/flask-session-vs-g
-
-When should Flask.g be used?
-	https://stackoverflow.com/questions/15083967/when-should-flask-g-be-used
-
-Flask sessions, where are the cookies stored?
-	https://stackoverflow.com/questions/37068604/flask-sessions-where-are-the-cookies-stored
-
-
-Building a Bootstrap table with dynamic elements in Flask
-	https://stackoverflow.com/questions/32774118/building-a-bootstrap-table-with-dynamic-elements-in-flask
+`Building a Bootstrap table with dynamic elements in Flask <https://stackoverflow.com/questions/32774118/building-a-bootstrap-table-with-dynamic-elements-in-flask>`_
 
 
 
