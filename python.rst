@@ -3,7 +3,7 @@
 ===============
 
 
-How to sort a list according to another list? 
+**How to sort a list according to another list?** 
 
 `[ref] <https://stackoverflow.com/questions/12814667/how-to-sort-a-list-according-to-another-list>`_ 
 
