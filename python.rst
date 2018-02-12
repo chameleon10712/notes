@@ -2,6 +2,31 @@
     Python
 ===============
 
+**Sort list of dictionaries by another list**
+::
+
+	list = [{
+		"id": "a", 
+		"name": "xxx", 
+		"attr": "val1"
+	 }, 
+	 {
+		"id": "b", 
+		"name": "yy", 
+		"attr": "val2"
+	 }, 
+	 {
+		"id": "c", 
+		"name": "zzz", 
+		"attr": "val3"
+	 }]
+
+	order = ['b','c','a']
+
+Sol. ::
+
+	sorted(list,key=lambda x:order.index(x['id']))
+
 
 **How to sort a list according to another list?** 
 
