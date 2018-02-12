@@ -15,3 +15,17 @@ Sol.
 <https://stackoverflow.com/questions/37721782/what-are-passive-event-listeners>`_
 
 
+
+=============================
+    Sortable.js Example
+=============================
+
+Using `Sortable.js <https://github.com/RubaXa/Sortable>`_
+drag, save order :
+`JSFiddle <https://jsfiddle.net/wpplugindev/53vhp34e/22/>`_
+
+
+
+
+
+
