@@ -2,13 +2,39 @@
     Python
 ===============
 
- `[Stack Overflow] How to sort a list according to another list? <https://stackoverflow.com/questions/12814667/how-to-sort-a-list-according-to-another-list>`_
+
+How to sort a list according to another list? 
+
+`[ref] <https://stackoverflow.com/questions/12814667/how-to-sort-a-list-according-to-another-list>`_ 
+
+Sort a according to b ::
+
+	a = [("ax", 1), ("ec",3), ("bk", 5)]
+	b = ["ec", "ax", "bk"]
+
+Sol. 1 ::
+
+	a.sort(key=lambda x: b.index(x[0]))
+	
+Sol. 2 ::
+
+	a.sort(key=lambda (x,y): b.index(x))
+
+Large List ::
+
+	mapping = dict(a)
+	a[:] = [(x,mapping[x]) for x in b]
+	
+Arbitrary-length tuples::
+
+	mapping = dict((x[0], x[1:]) for x in a)
+	a[:] = [(x,) + mapping[x] for x in b]
  
  
  
-=================
+------------------
 	lambda	
-=================
+------------------
 
 >>> list = [{'enabled': 'no', 'Name': 'data', 'rotation': '4', 'often': 900}ame': 'data2', 'rotation': '5', 'often': 86400}]
 >>> 
@@ -27,16 +53,17 @@
 >>> f(5)
 25
 
-========================
+
+-----------------------
 	string format		
-========================
+-----------------------
 
 >>> '{}/{}'.format('backup_pool',name)
 'backup_pool/data'
 
-======================
+-----------------------
 	subprocess
-======================
+-----------------------
 Python 3.5 以上支援
 
 
@@ -47,9 +74,9 @@ Python 3.5 以上支援
 
 
 
-===========
+-------------
   file io
-===========
+-------------
 >>> fo = open("zbackup.conf","r")
 >>> next(fo)
 '#zbackup.conf\n'
@@ -58,17 +85,17 @@ Python 3.5 以上支援
 >>> next(fo)
 '[backup_pool/data]\n'
 
-========
+------------
  search
-========
+------------
 >>> import re
 >>> m = re.search('\w+/\w+','[zroot/data]')
 >>> m.group(0)
 'zroot/data'
 
-=======
+-----------------------
  match
-=======
+-----------------------
 >>> import re
 >>> m = re.match(r"\[(\w+)/(\w+)\]","[zroot/data]")
 >>> m.group(0)
@@ -78,9 +105,9 @@ Python 3.5 以上支援
 >>> m.group(2)
 'data'
 
-=====================
+-----------------------
 	time stamp
-=====================
+-----------------------
 
 >>> import time
 >>> time.time()
@@ -88,10 +115,9 @@ Python 3.5 以上支援
 >>> time.time()
 1482580340.361458
 
-
-==============
+-----------------------
     others
-==============
+-----------------------
 >>> for i,line in enumerate(fo):
 ...     print(i," ",line)
 ... 
