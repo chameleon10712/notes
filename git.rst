@@ -2,6 +2,8 @@ https://shainer.gitbooks.io/git-handbook/content/some_basic_definitions.html
 https://git-scm.com/book/zh-tw/v1/開始-Git-基礎要點
 https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
+https://zlargon.gitbooks.io/git-tutorial/content/file/recover.html
+
 
 =============
     local
