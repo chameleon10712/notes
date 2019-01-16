@@ -61,7 +61,7 @@ Remote ::
 ==========================
 1. 在github 上建repository
 
-2. 在local 端 cd 進target 目錄 ex. cd  THETA
+2. 在local 端 cd 進target 目錄 ex. cd <directory name>
 
 4. $ git remote add origin <URL> (新增一個remote)
 
