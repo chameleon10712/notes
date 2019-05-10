@@ -39,6 +39,7 @@ sequence diagram
 deadlock prevent
 validation & verification
 js concurrency
+weak type 優缺
 
 
 
