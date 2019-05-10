@@ -1,0 +1,28 @@
+Programming Paradigms
+
+
+imperative paradigm (procedural paradigm)
+    - Machine Languages, FORTRAN, BASIC, C, Pascal
+
+
+declarative paradigm 宣告式程式設計
+    - asks a programmer to describe the problem to be solved rather than an algorithm
+to be followed
+
+
+Object-oriented
+    - Java, C++, Visual Basic, C#
+
+
+Functional
+    - LISP
+
+
+
+
+
+
+
+
+
+
