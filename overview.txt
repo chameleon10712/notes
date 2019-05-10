@@ -11,15 +11,17 @@ to be followed
 
 Object-oriented 物件導向程式設計
     - Java, C++, Visual Basic, C#
-
+    
 
 Functional 
-    - LISP
+    - LISP, Haskell
+    - 比起指令式編程，函數式編程更加強調程式執行的結果而非執行的過程
 
 
 
 
-
+---
+Generic programming 泛型程式設計
 
 
 
