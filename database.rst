@@ -12,8 +12,8 @@ A software system used to maintain relational databases is a relational database
 
 非關係型資料庫（NoSQL）
 ===================
-    - MongoDB
-    - CouchDB
+- MongoDB
+- CouchDB
 
 
 
