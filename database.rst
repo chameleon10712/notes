@@ -32,6 +32,7 @@ A software system used to maintain relational databases is a **relational databa
 ===================
 - MongoDB
 - CouchDB
+- Redis
 
 
 
