@@ -1,20 +1,19 @@
-Programming Paradigms
+Programming Paradigms 程式設計範式
 
 
-imperative paradigm (procedural paradigm)
+Imperative (procedural) 指令式程式設計
     - Machine Languages, FORTRAN, BASIC, C, Pascal
+    -  defines the programming process to be the development of a sequence of commands
 
-
-declarative paradigm 宣告式程式設計
+Declarative 宣告式程式設計
     - asks a programmer to describe the problem to be solved rather than an algorithm
 to be followed
 
-
-Object-oriented
+Object-oriented 物件導向程式設計
     - Java, C++, Visual Basic, C#
 
 
-Functional
+Functional 
     - LISP
 
 
