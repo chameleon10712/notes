@@ -11,8 +11,8 @@ to be followed
 
 Object-oriented 物件導向程式設計
     - Java, C++, Visual Basic, C#
+    - The object-oriented approach to a problem is to identify the objects involved and describe them as selfcontained units. 
     
-
 Functional 
     - LISP, Haskell
     - 比起指令式編程，函數式編程更加強調程式執行的結果而非執行的過程
@@ -26,13 +26,18 @@ Generic programming 泛型程式設計
 ---
 
 processor
+
 concurrency
+- In computer science, concurrency is the ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order, without affecting the final outcome. 
+
 process & thread
+
 generic
 template
 uml
 sequence diagram
-
+deadlock prevent
+validation & verification
 
 
 
