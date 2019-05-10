@@ -23,6 +23,22 @@ Functional
 ---
 Generic programming 泛型程式設計
 
+---
+
+processor
+concurrency
+process & thread
+generic
+template
+uml
+sequence diagram
+
+
+
+
+
+
+
 
 
 
