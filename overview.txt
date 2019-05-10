@@ -3,7 +3,7 @@ Programming Paradigms 程式設計範式
 
 Imperative (procedural) 指令式程式設計
     - Machine Languages, FORTRAN, BASIC, C, Pascal
-    -  defines the programming process to be the development of a sequence of commands
+    - defines the programming process to be the development of a sequence of commands
 
 Declarative 宣告式程式設計
     - asks a programmer to describe the problem to be solved rather than an algorithm
