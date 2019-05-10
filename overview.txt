@@ -38,6 +38,7 @@ uml
 sequence diagram
 deadlock prevent
 validation & verification
+js concurrency
 
 
 
