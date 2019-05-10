@@ -1,4 +1,4 @@
-
+==============================
 Relational database 關聯式資料庫
 ==============================
 - MySQL
@@ -9,16 +9,18 @@ Relational database 關聯式資料庫
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Relational_Model.svg/420px-Relational_Model.svg.png
 
+-----------
 Terminology
 -----------
 
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Relational_database_terms.svg/325px-Relational_database_terms.svg.png
 
-
++++++++++
+  RDBMS
++++++++++
 A software system used to maintain relational databases is a **relational database management system (RDBMS)**
 
-    **RDBMS**: software system that enables users to define, create, maintain and control access to the database
     
 
 
