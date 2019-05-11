@@ -66,6 +66,11 @@ AMD 和 CMD 區別
 `[知乎]
 <https://www.zhihu.com/question/20351507>`_
 
+=========
+CommonJS
+=========
+CommonJS是一套規範，它的創建和核准是開放的。這個規範已經有很多版本和具體實現。CommonJS並不是屬於ECMAScript TC39小組的工作，但TC39中的一些成員參與CommonJS的製定。2013年5月，Node.js的包管理器NPM的作者Isaac Z. Schlueter說CommonJS已經過時，`Node.js的內核開發者已經廢棄了該規範
+<https://github.com/nodejs/node-v0.x-archive/issues/5132#issuecomment-15432598>`_。
 
 
 
