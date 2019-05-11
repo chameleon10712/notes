@@ -32,4 +32,3 @@ A very interesting property of the event loop model is that JavaScript, unlike a
 
 
 
-
