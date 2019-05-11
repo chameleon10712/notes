@@ -1,5 +1,6 @@
-Front-End     
-==========
+=========
+Front-End
+=========
 
 - AMD
 - CMD
@@ -16,11 +17,11 @@ Front-End
 
 - production-ready
 
-
+=====
  AMD 
 =====
 
-
+--------
 AMD 規範 
 --------
 
@@ -45,21 +46,21 @@ factory 代表產生Module的工廠(Factory)或是它的實體(Object) `[ref]
 `AMDJS.api
 <https://github.com/amdjs/amdjs-api/wiki/AMD/>`_
 
-
+-----------
 AMD Library
 -----------
 
 - Require JS
 - Curl
 
-
+=====
  CMD
-====
+=====
 
 `[CMD spec]
 <https://github.com/cmdjs/specification/blob/master/draft/module.md>`_
 
-
+===============
 AMD 和 CMD 區別
 ===============
 `[知乎]
