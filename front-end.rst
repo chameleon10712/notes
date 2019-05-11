@@ -1,5 +1,5 @@
-    Front-End     
-===================
+Front-End     
+==========
 
 - AMD
 - CMD
@@ -17,12 +17,12 @@
 - production-ready
 
 
-    AMD 
-============
+ AMD 
+=====
 
 
- AMD 規範 
----------
+AMD 規範 
+--------
 
 Asynchronous Module Definition，是Common JS所定義的一組優雅且簡單API，
 
@@ -53,15 +53,15 @@ AMD Library
 - Curl
 
 
-    CMD
-============
+ CMD
+====
 
 `[CMD spec]
 <https://github.com/cmdjs/specification/blob/master/draft/module.md>`_
 
 
-    AMD 和 CMD 區別
-========================
+AMD 和 CMD 區別
+===============
 `[知乎]
 <https://www.zhihu.com/question/20351507>`_
 
@@ -69,8 +69,8 @@ AMD Library
 
 
 
-        Webpack
-========================
+ Webpack
+=========
 Webpack 是德國開發者 Tobias Koppers 開發的模組整合工具。它的核心功能如下:
 
 - 可同時整合 CommonJS 和 AMD 模組
