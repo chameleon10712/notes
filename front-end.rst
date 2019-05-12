@@ -80,7 +80,7 @@ TypeScript
 
 由於 JavaScript 的語法 (嚴格來講是 ECMAScript 262 3/e 或 5/e) 在 typing (資料型別) 上沒有很完美的解決方案，而且又有一些眉眉角角跟幾個大家熟悉的程式語言（如：C/C++、Java、C# 等）習慣不同，所以要使用 JavaScript 開發大型的應用程式，必須要有很小心的規範以及開發人員必須很深入瞭解 JavaScript 的「good/ugly/awful parts」（參考：JavaScript: The Good Parts）。
 
-所以一直以來都有各式各樣的 project 想要改善這個問題（參考這裡有人整理了一個列表），最常被大家提到的就像 GWT (Google Web Toolkit) 、Script# 或是 CoffeeScript，它們都希望減輕 JavaScript 開發人員的負擔，改用一些結構良好或是更輕鬆的語言來開發應用程式（GWT 是 Java、Script# 是 C# 而 CoffeeScript 則是自定的語法），再透過各自的編譯器（compiler）來產出 JavaScript 程式碼。這些 projects 各有各的優缺點，也有其市場（減低語言轉換成本），乍看之下 TypeScript 好像也是在做類似的事，但它與上述提到的這些 project 不同的地方在於：它完全相容 JavaScript 原本的語法。也就是如果你過去剛好是一位 JavaScript developer，你可以在不改變過去撰寫 JavaScript 的習慣繼續撰寫程式，如同 TypeScript 官網上的範例 `[ref]<https://blogs.msdn.microsoft.com/ericsk/2012/10/01/typescript/>`_
+所以一直以來都有各式各樣的 project 想要改善這個問題（參考這裡有人整理了一個列表），最常被大家提到的就像 GWT (Google Web Toolkit) 、Script# 或是 CoffeeScript，它們都希望減輕 JavaScript 開發人員的負擔，改用一些結構良好或是更輕鬆的語言來開發應用程式（GWT 是 Java、Script# 是 C# 而 CoffeeScript 則是自定的語法），再透過各自的編譯器（compiler）來產出 JavaScript 程式碼。這些 projects 各有各的優缺點，也有其市場（減低語言轉換成本），乍看之下 TypeScript 好像也是在做類似的事，但它與上述提到的這些 project 不同的地方在於：它完全相容 JavaScript 原本的語法。也就是如果你過去剛好是一位 JavaScript developer，你可以在不改變過去撰寫 JavaScript 的習慣繼續撰寫程式，如同 TypeScript 官網上的範例 `[ref] <https://blogs.msdn.microsoft.com/ericsk/2012/10/01/typescript/>`_
 
 .. code:: javascript
 
