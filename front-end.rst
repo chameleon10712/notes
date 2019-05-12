@@ -94,6 +94,55 @@ TypeScript
 
 - 加入靜態型別
 
+=======
+  JSX
+=======
+
+--------------
+使用 JSX 的好處
+--------------
+
+1. 提供更加語意化且易懂的標籤
+
+   .. code:: javascript
+
+    <form class="messageBox">
+      <textarea></teextarea>
+      <button type="submit"></button>
+    </from>
+
+   以 Facebook 上面按讚功能來說，若是命令式 Imperative 寫法大約會是長這樣：
+
+   .. code:: javascript
+
+    if(userLikes()) {
+      if(!hasBlueLike()) {
+        removeGrayLike();
+        addBlueLike();
+      }
+    } else {
+      if(hasBlueLike()) {
+        removeBlueLike();
+        addGrayLike();
+      }
+    }
+
+
+   若是聲明式 Declarative 則是會長這樣：
+
+   .. code:: javascript
+
+    if(this.state.liked) {
+      return (<BlueLike />);
+    } else {
+      return (<GrayLike />);
+    }
+
+2. 更加簡潔
+3. 結合原生 JavaScript 語法
+
+`[TechBridge] <https://blog.techbridge.cc/2016/04/21/react-jsx-introduction/>`_
+
 
 
 
