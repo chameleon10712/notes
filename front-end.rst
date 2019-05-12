@@ -15,7 +15,8 @@ Front-End
 
 - webpack
 
-- production-ready
+- requirejs
+- browserify
 
 =====
  AMD 
