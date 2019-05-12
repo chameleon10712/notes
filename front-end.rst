@@ -157,4 +157,5 @@ Webpack 是德國開發者 Tobias Koppers 開發的模組整合工具。它的�
 `如何使用 Webpack 模組整合工具
 <https://rhadow.github.io/2015/03/23/webpackIntro/>`_
 
+`Webpack Howto GitHub <https://github.com/petehunt/webpack-howto>`_
 
