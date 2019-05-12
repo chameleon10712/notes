@@ -25,13 +25,8 @@ Front-End
 AMD 規範 
 --------
 
-Asynchronous Module Definition，是Common JS所定義的一組優雅且簡單API，
-
-用於同步或非同步載入Javascript Module和它所依賴的其他Module，
-
-而Require JS就是一套很著名且已經實作這組API的Library。
-
-它特別適合使用於解決瀏覽器使用同步(Synchronous)載入所導致的效能、可使用性、測試和Cross Domain等問題。
+Asynchronous Module Definition，是Common JS所定義的一組優雅且簡單API，用於同步或非同步載入Javascript Module和它所依賴的其他Module，
+而Require JS就是一套很著名且已經實作這組API的Library。它特別適合使用於解決瀏覽器使用同步(Synchronous)載入所導致的效能、可使用性、測試和Cross Domain等問題。
 
 AMD的API主要格式如下 
 
