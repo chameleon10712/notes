@@ -2,18 +2,22 @@ Programming Paradigms 程式設計範式
 
 
 Imperative (procedural) 指令式程式設計
+
     - Machine Languages, FORTRAN, BASIC, C, Pascal
     - defines the programming process to be the development of a sequence of commands
 
 Declarative 宣告式程式設計
+
     - asks a programmer to describe the problem to be solved rather than an algorithm
 to be followed
 
 Object-oriented 物件導向程式設計
+
     - Java, C++, Visual Basic, C#
     - The object-oriented approach to a problem is to identify the objects involved and describe them as selfcontained units. 
     
 Functional 
+
     - LISP, Haskell
     - 比起指令式編程，函數式編程更加強調程式執行的結果而非執行的過程
 
