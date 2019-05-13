@@ -23,10 +23,17 @@ Programming Paradigms 程式設計範式
   
     - `[example] <https://gist.github.com/HabaCo/a2c8ed62efc1b5d42a1c>`_
     - `[java] <https://github.com/JustinSDK/JavaSE6Tutorial/blob/master/docs/CH08.md>`_
+
+  - Encapsulation 封裝
   
+    - 在物件導向程式設計方法中，封裝（英語：Encapsulation）是指，一種將抽象性函式介面的實作細節部份包裝、隱藏起來的方法。同時，它也是一種防止外界呼叫端，去存取物件內部實作細節的手段，這個手段是由程式語言本身來提供的。這兩個概念有一些不同，但通常被混合使用。封裝被視為是物件導向的四項原則之一。
+    - 適當的封裝，可以將物件使用介面的程式實作部份隱藏起來，不讓使用者看到，同時確保使用者無法任意更改物件內部的重要資料。它可以讓程式碼更容易理解與維護，也加強了程式碼的安全性。
+
+
   - Generics 泛型
     
     - `[java] <https://github.com/JustinSDK/JavaSE6Tutorial/blob/master/docs/CH12.md#%E7%AC%AC-12-%E7%AB%A0-%E6%B3%9B%E5%9E%8B>`_
+    
 
 |
 - Functional 
