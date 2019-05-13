@@ -12,8 +12,7 @@ Programming Paradigms 程式設計範式
 
 - Declarative 宣告式程式設計
 
-  - asks a programmer to describe the problem to be solved rather than an algorithm
-  to be followed
+  - asks a programmer to describe the problem to be solved rather than an algorithm to be followed
 
 - Object-oriented 物件導向程式設計
 
