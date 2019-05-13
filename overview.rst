@@ -24,6 +24,14 @@ Programming Paradigms 程式設計範式
     - `[example] <https://gist.github.com/HabaCo/a2c8ed62efc1b5d42a1c>`_
     - `[java] <https://github.com/JustinSDK/JavaSE6Tutorial/blob/master/docs/CH08.md>`_
 
+  - class
+    
+    - the object-oriented paradigm a template for a collection of objects is called a **class**
+
+  - methods
+  
+    - the procedures within an object are called **methods**
+
   - Encapsulation 封裝
   
     - 在物件導向程式設計方法中，封裝（英語：Encapsulation）是指，一種將抽象性函式介面的實作細節部份包裝、隱藏起來的方法。同時，它也是一種防止外界呼叫端，去存取物件內部實作細節的手段，這個手段是由程式語言本身來提供的。這兩個概念有一些不同，但通常被混合使用。封裝被視為是物件導向的四項原則之一。
