@@ -10,6 +10,10 @@
 
 - virtual machine manager (VMM)
 
+- process:  A program in execution
+
+
+
 
 |
 - processor 處理器
