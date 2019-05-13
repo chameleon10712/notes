@@ -4,6 +4,9 @@
 
   - 是對電腦資源的一種共用方式，利用多道程式與多工處理使多個用戶可以同時使用一台電腦
 
+- trap
+
+  - A trap (or an exception) is a software-generated interrupt caused either by an error (for example, division by zero or invalid memory access) or by a specific request from a user program that an operating-system service be performed
 
 
 
