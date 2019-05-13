@@ -23,6 +23,10 @@ Programming Paradigms 程式設計範式
   
     - `[example] <https://gist.github.com/HabaCo/a2c8ed62efc1b5d42a1c>`_
     - `[java] <https://github.com/JustinSDK/JavaSE6Tutorial/blob/master/docs/CH08.md>`_
+  
+  - Generics 泛型
+    
+    - `[java] <https://github.com/JustinSDK/JavaSE6Tutorial/blob/master/docs/CH12.md#%E7%AC%AC-12-%E7%AB%A0-%E6%B3%9B%E5%9E%8B>`_
 
 |
 - Functional 
@@ -30,9 +34,6 @@ Programming Paradigms 程式設計範式
   - LISP, Haskell
   - 比起指令式編程，函數式編程更加強調程式執行的結果而非執行的過程
 
-
-|
-- Generic programming 泛型程式設計
 
 
 primitive data type 原始型別
