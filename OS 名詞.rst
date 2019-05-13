@@ -8,7 +8,7 @@
 
   - A trap (or an exception) is a software-generated interrupt caused either by an error (for example, division by zero or invalid memory access) or by a specific request from a user program that an operating-system service be performed
 
-
+- virtual machine manager (VMM)
 
 
 |
