@@ -41,7 +41,7 @@ Composite data type
 -------------------
 
 - or compound data type
-- struct
+- struct (C/C++)
 
 
 
