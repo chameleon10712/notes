@@ -19,7 +19,7 @@ Programming Paradigms 程式設計範式
 
   - Java, C++, Visual Basic, C#
   - The object-oriented approach to a problem is to identify the objects involved and describe them as selfcontained units. 
-  - polymorphism(多型)、overriding(覆寫)、overloading(多載)
+  - polymorphism(多型)、overriding(覆寫)、overloading(多載)、Encapsulation(封裝)
 
 |
 - Functional 
