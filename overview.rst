@@ -27,6 +27,15 @@ Programming Paradigms 程式設計範式
   - class
     
     - the object-oriented paradigm a template for a collection of objects is called a **class**
+    - A class is a template from which objects are constructed.
+
+  - instance
+  
+    -  We often refer to an object as an instance of the class from which it was constructed.
+
+  - instance variable
+  
+    - A variable that resides within an object, such as RemainingPower, is called an **instance variable**
 
   - methods
   
