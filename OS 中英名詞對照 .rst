@@ -20,6 +20,9 @@
 |
 |
 |
+How a modern computer system works
+
+|
 
 .. image:: https://www.cs.odu.edu/~price/cs471/public_html/spring17/lectures/introduction_files/image020.jpg
 
