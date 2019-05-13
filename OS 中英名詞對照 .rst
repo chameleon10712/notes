@@ -1,5 +1,4 @@
 中英名詞對照
-==========
 
 - processor 處理器
 - modem 數據機
@@ -18,11 +17,11 @@
 
 
 
-
+|
 
 How a modern computer system works
-----------------------------------
 
+|
 
 .. image:: https://www.cs.odu.edu/~price/cs471/public_html/spring17/lectures/introduction_files/image020.jpg
 
