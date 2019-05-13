@@ -1,3 +1,13 @@
+中英名詞對照
+
+- Processor 處理器
+- modem 數據機
+- solid-state disk 固態硬碟
+
+
+
+
+
 Processor
 
 - Clock
@@ -32,7 +42,7 @@ BIOS
 
 - Basic Input/Output System
 
-Modem 數據機
+
 
 
 
