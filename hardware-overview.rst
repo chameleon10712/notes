@@ -1,16 +1,3 @@
-中英名詞對照
-
-- processor 處理器
-- modem 數據機
-
-- solid-state disk 固態硬碟
-- optical disc 光碟
-
-- DRAM (Dynamic Random Access Memory) 動態隨機存取記憶體
-- SRAM (Static Random-Access Memory) 靜態隨機存取記憶體
-
-
-
 
 Processor
 
@@ -46,7 +33,7 @@ BIOS
 
 - Basic Input/Output System
 
-
+modem 數據機
 
 
 
