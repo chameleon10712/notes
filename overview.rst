@@ -170,6 +170,19 @@ Software Engineer
 
 
 
+Database
+========
+
+- Schemas
+- Database Management Systems (DBMS)
+- Database Models
+  
+  - Relational Model
+  
+    - relations: data is stored in tables called **relations**
+    - tuple, attribute, column
+    
+      .. image:: https://www.tutorialspoint.com/dbms/images/relational_model_table.png
 
 
 
