@@ -152,7 +152,7 @@ Software Engineer
   - use case diagram
   - class diagram
 
-
+- Design Pattern
 
 
 
