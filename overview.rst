@@ -36,7 +36,7 @@ Programming Paradigms 程式設計範式
   |
   - instance variable
   
-    - A variable that resides within an object, such as RemainingPower, is called an **instance variable**
+    - A variable that resides within an object, is called an **instance variable**
   |
   - methods
   
