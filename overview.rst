@@ -88,8 +88,11 @@ concurrency
 
 process & thread
 ----------------
+...
 
 
+Others
+------
 generic
 template
 uml
@@ -99,9 +102,11 @@ validation & verification
 js concurrency
 
 
+
 - weak type 優缺
-- 優
-- 缺: may perform implicit type conversion at runtime
+
+  - 優
+  - 缺: may perform implicit type conversion at runtime
 
 |
 |
