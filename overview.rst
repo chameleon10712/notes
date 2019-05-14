@@ -94,13 +94,18 @@ process & thread
 Others
 ------
 generic
-template
-uml
-sequence diagram
-deadlock prevent
-validation & verification
-js concurrency
 
+template
+
+uml
+
+sequence diagram
+
+deadlock prevent
+
+validation & verification
+
+js concurrency
 
 
 - weak type 優缺
