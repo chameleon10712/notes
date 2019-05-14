@@ -156,7 +156,7 @@ Software Engineer
 =================
 
 - Cohesion v.s. Coupling
-- UML
+- UML (Unified Modeling Language)
 
   - sequence diagram
   - use case diagram
