@@ -102,6 +102,14 @@ js concurrency
 - 優
 - 缺: may perform implicit type conversion at runtime
 
+|
+|
+
+Software Engineer
+=================
+
+- Cohesion v.s. Coupling
+
 
 
 |
