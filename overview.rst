@@ -110,7 +110,8 @@ Software Engineer
 =================
 
 - Cohesion v.s. Coupling
-
+- UML
+- sequence diagram
 
 
 |
