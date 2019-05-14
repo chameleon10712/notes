@@ -112,6 +112,10 @@ Software Engineer
 - Cohesion v.s. Coupling
 - UML
 - sequence diagram
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CheckEmail.svg/340px-CheckEmail.svg.png
+
+- class diagram
+.. image:: http://stsmedia.net/media/spring-finance/class_diagram.png
 
 
 |
