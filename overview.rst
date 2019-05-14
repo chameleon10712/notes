@@ -163,7 +163,10 @@ Software Engineer
   - class diagram
 
 - Design Pattern
-
+- Testing
+  
+  - glass-box testing
+  - black-box testing
 
 
 
