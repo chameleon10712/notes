@@ -187,7 +187,7 @@ Database
 
   - Object-oriented Database
   
-    - Another database model is based on the object-oriented paradigm. This approach leads to an object-oriented database consisting of objects that are linked to each other to reflect their relationships
+    - based on the object-oriented paradigm. This approach leads to an object-oriented database consisting of objects that are linked to each other to reflect their relationships
 
 
 
