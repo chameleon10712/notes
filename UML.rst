@@ -14,16 +14,28 @@ UML規格中制定了九種主要的圖型(Diagram)：
 - 狀態圖型、Statechart Diagrams
 - 活動圖型、Activity Diagrams
 
+|
+|
+|
 
 sequence diagram
 ----------------
 
 .. image:: https://www.geeksforgeeks.org/wp-content/uploads/seq2.png
 
+|
+|
+|
+
+
 class diagram
 -------------
 
 .. image:: http://stsmedia.net/media/spring-finance/class_diagram.png
+
+|
+|
+|
 
 use case diagram
 ----------------
