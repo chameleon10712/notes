@@ -90,6 +90,14 @@ provides a set of methods to ensure that at least one of the necessary condition
   
     -  A process may request some resources and use them. Before it can request any additional resources, it must release all the resources that it is currently allocated.
 
+  - disadvantages of these protocols
+  
+    - resource utilization may be low
+    - starvation is possible
+    
+      - A process that needs several popular resources may have to wait indefinitely, because at least one of the resources that it needs is always allocated to some other process
+
+
 
 Deadlock avoidance
 ++++++++++++++++++
