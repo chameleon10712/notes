@@ -113,7 +113,7 @@ provides a set of methods to ensure that at least one of the necessary condition
   
     - a process requests some resources 
     
-      => check availability
+      => if resources are not available
    
       => check whether they are allocated to some other process that is waiting for additional resources
       
