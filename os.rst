@@ -77,13 +77,13 @@ Deadlock prevention
 
 provides a set of methods to ensure that at least one of the necessary conditions
 
-- Mutual Exclusion
+- **Mutual Exclusion**
 
   - we cannot prevent deadlocks by denying the mutual-exclusion condition, because some resources are intrinsically nonsharable.
   
     - ex. a mutex lock cannot be simultaneously shared by several processes
 
-- Hold and Wait
+- **Hold and Wait**
 
   - One protocol that we can use requires each process to request and be allocated all its resources before it begins execution.
   - An alternative protocol allows a process to request resources only when it has none.
