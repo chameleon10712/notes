@@ -150,13 +150,16 @@ provides a set of methods to ensure that at least one of the necessary condition
 Deadlock avoidance
 ++++++++++++++++++
 
-requires that the operating system be given additional
-information in advance concerning which resources a process will request
-and use during its lifetime
+- requires that the operating system be given additional information in advance concerning which resources a process will request and use during its lifetime
 
+- A deadlock-avoidance algorithm dynamically examines the resource-allocation state to ensure that a circular-wait condition can never exist.
 
+safe state
+^^^^^^^^^^
+  
+a system is in a safe state only if there exists a **safe sequence**. 
 
-
+A sequence of processes <P1, P2, ..., Pn> is a safe sequence for the current allocation state if, for each Pi , the resource requests that Pi can still make can be satisfied by the currently available resources plus the resources held by all Pj , with j < i.
 
 
 
