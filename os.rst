@@ -81,6 +81,10 @@ process, it can be added to a queue of processes waiting for this resource.
 Deadlock prevention
 +++++++++++++++++++
 
+prevent deadlocks by limiting how requests can be made
+
+
+
 provides a set of methods to ensure that at least one of the necessary conditions
 
 - Mutual Exclusion
