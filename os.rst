@@ -124,14 +124,15 @@ provides a set of methods to ensure that at least one of the necessary condition
     - This protocol is often applied to resources whose state can be easily saved and restored later, such as CPU registers and memory space. It cannot generally be applied to such resources as mutex locks and semaphores.
 
 
+
 -  Circular Wait
 
-  - 給每個 resource type 一個編號，request 順序須依照編號小到大; 如果要 request 一個編號比當前持有的更小的 resource ，則必須先釋放當前持有的 resource
-    
-    - the process can request instances of resource type Rj if and only if F(Rj) > F(Ri)
-    - require that a process requesting an instance of resource type Rj must have released any resources Ri such that F(Ri) ≥ F(Rj).
-    - 仍有 deadlock 發生的可能性，這個 protocol 需要 programmer 寫程式時遵守規則才可以 prevent deadlock
+  - the process can request instances of resource type Rj if and only if F(Rj) > F(Ri)
+  - require that a process requesting an instance of resource type Rj must have released any resources Ri such that F(Ri) ≥ F(Rj).
   
+  - 仍有 deadlock 發生的可能性，這個 protocol 需要 programmer 寫程式時遵守規則才可以 prevent deadlock
+
+  - 給每個 resource type 一個編號，request 順序須依照編號小到大; 如果要 request 一個編號比當前持有的更小的 resource ，則必須先釋放當前持有的 resource
 
 Deadlock avoidance
 ++++++++++++++++++
