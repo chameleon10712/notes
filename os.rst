@@ -121,6 +121,7 @@ provides a set of methods to ensure that at least one of the necessary condition
       
       => or waiting, some of its resources may be preempted, but only if another process requests them
   
+    - This protocol is often applied to resources whose state can be easily saved and restored later, such as CPU registers and memory space. It cannot generally be applied to such resources as mutex locks and semaphores.
 
 
 Deadlock avoidance
