@@ -60,10 +60,13 @@ process, it can be added to a queue of processes waiting for this resource.
 7.2 Necessary Conditions
 ------------------------
 
-1. Mutual exclusion
-2. Hold and wait
-3. No preemption
-4. Circular wait
+- Mutual exclusion
+
+  - at least one resource must be nonsharable
+
+- Hold and wait
+- No preemption
+- Circular wait
 
 
 7.3 Methods for Handling Deadlocks
@@ -73,6 +76,20 @@ Deadlock prevention
 +++++++++++++++++++
 
 provides a set of methods to ensure that at least one of the necessary conditions
+
+- Mutual Exclusion
+
+  - we cannot prevent deadlocks by denying the mutual-exclusion condition, because some resources are intrinsically nonsharable.
+  
+    - ex. a mutex lock cannot be simultaneously shared by several processes
+
+- Hold and Wait
+
+  - One protocol that we can use requires each process to request and be allocated all its resources before it begins execution.
+  - An alternative protocol allows a process to request resources only when it has none.
+  
+    -  A process may request some resources and use them. Before it can request any additional resources, it must release all the resources that it is currently allocated.
+
 
 Deadlock avoidance
 ++++++++++++++++++
