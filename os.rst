@@ -102,8 +102,8 @@ provides a set of methods to ensure that at least one of the necessary condition
 
 - Hold and Wait
 
-  - One protocol that we can use requires each process to request and be allocated all its resources before it begins execution.
-  - An alternative protocol allows a process to request resources only when it has none.
+  - protocol 1: that we can use requires each process to request and be allocated all its resources before it begins execution.
+  - protocol 2: allows a process to request resources only when it has none.
   
     -  A process may request some resources and use them. Before it can request any additional resources, it must release all the resources that it is currently allocated.
 
