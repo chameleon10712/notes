@@ -92,7 +92,7 @@ provides a set of methods to ensure that at least one of the necessary condition
 
   - disadvantages of these protocols
   
-    - resource utilization may be low
+    - resource utilization may be low, since resources may be allocated but unused for a long period
     - starvation is possible
     
       - A process that needs several popular resources may have to wait indefinitely, because at least one of the resources that it needs is always allocated to some other process
