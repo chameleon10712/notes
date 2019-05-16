@@ -33,6 +33,17 @@ Thread
 ----------------------
 
 4.5.1 Thread Pools
+++++++++++++++++++
+
+benefits
+
+- Servicing a request with an existing thread is faster than waiting to create a thread
+
+- A thread pool limits the number of threads that exist at any one point. This is particularly important on systems that cannot support a large number of concurrent threads.
+
+- Separating the task to be performed from the mechanics of creating the task allows us to use different strategies for running the task. For example, the task could be scheduled to execute after a time delay or to execute periodically
+
+
 
 
 
