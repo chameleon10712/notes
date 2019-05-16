@@ -2,7 +2,6 @@ Thread
 ======
 
 4.1.2 Benefits
---------------
 
 - **Responsiveness**
 
@@ -19,21 +18,21 @@ Thread
 
 
 4.2.2 Types of Parallelism
----------------------------
 
 - Data parallelism
 
-focuses on distributing subsets of the same data
-across multiple computing cores and performing the same operation on each
-core.
+  focuses on distributing subsets of the same data
+  across multiple computing cores and performing the same operation on each
+  core.
 
 
 - Task parallelism
 
-involves distributing not data but tasks (threads) across
-multiple computing cores. Each thread is performing a unique operation.
-Different threads may be operating on the same data, or they may be operating
-on different data.
+  involves distributing not data but tasks (threads) across
+  multiple computing cores. Each thread is performing a unique operation.
+  Different threads may be operating on the same data, or they may be operating
+  on different data.
+
 
 4.5.1 Thread Pools
-------------------
+
