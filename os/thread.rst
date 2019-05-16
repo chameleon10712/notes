@@ -32,8 +32,8 @@ Thread
 4.5 Implicit Threading
 ----------------------
 
-4.5.1 Thread Pools
-++++++++++++++++++
+Thread Pools
+++++++++++++
 
 benefits
 
@@ -42,6 +42,27 @@ benefits
 - A thread pool limits the number of threads that exist at any one point. This is particularly important on systems that cannot support a large number of concurrent threads.
 
 - Separating the task to be performed from the mechanics of creating the task allows us to use different strategies for running the task. For example, the task could be scheduled to execute after a time delay or to execute periodically
+
+
+4.6 Threading Issues
+--------------------
+
+issues
+
+- The fork() and exec() System Calls
+- Signal Handling
+- Thread Cancellation
+
+
+
+
+
+
+
+
+
+
+
 
 
 
