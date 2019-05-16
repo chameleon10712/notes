@@ -29,5 +29,10 @@ Thread
   - involves distributing not data but tasks (threads) across multiple computing cores. Each thread is performing a unique operation. Different threads may be operating on the same data, or they may be operating on different data.
 
 
+4.5 Implicit Threading
+----------------------
+
 4.5.1 Thread Pools
+
+
 
