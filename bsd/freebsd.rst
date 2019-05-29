@@ -772,7 +772,6 @@ repeat last command :
 	Python
 ================
 
-
 >>> for i,line in enumerate(fo):
 ...     print(i," ",line)
 ... 
