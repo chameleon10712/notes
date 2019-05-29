@@ -39,10 +39,42 @@ Install without Network
 ============
     vipw
 ============
-:
+::
 
-    /etc/passwd
-    /etc/master.passwd
+  /etc/passwd
+  /etc/master.passwd
+
+
+When run without options, vipw will work with the password files in /etc.
+Once the information has been verified, vipw uses pwd_mkdb(8) to update the user database.
+
+The passwd file is generated from the master.passwd file by pwd_mkdb(8)
+
+
+
+
+=================
+	關機指令
+=================
+
+- freeBSD  關機指令 ``shutdown -p now``
+- Linux    關機指令 ``shutdown -P now``
+
+
+
+
+
+==================
+	version
+==================
+
+FreeBSD-A.B.C-Type
+
+::
+
+    A: major version Number	(大幅度改變
+    B: minor version Number	(小幅度改變
+    C: slight patch version number	(修 bug
 
 
 
