@@ -359,3 +359,180 @@ initialize the NIS maps::
 
 saduty -> ypcat passwd
 
+
+
+
+=====================
+	NIS Client	
+=====================
+
+vim /etc/rc.conf::
+
+	nisdomainname="test-domain"
+	nis_client_enable="YES"
+
+
+vim /etc/master.passwd::
+
+	+:::::::::
+
+sudo vipw
+
+
+vim /etc/group::
+
+	+:*::
+
+
+
+— restart —
+::
+
+    sudo /etc/netstart
+    sudo service ypbind restart
+
+
+ypwhich
+-------
+
+return hostname of YP server of map master
+
+
+
+
+把 passwd 從原本的 /etc/ 改到 /var/yp
+-----------------------------------
+
+
+::
+
+    touch master.passwd
+    (vipw passwd ?)
+    vipw -d /var/yp 
+
+    ypinit -m +sa.nis
+
+
+    vipw  vi -> vim :
+
+    vim ~/.bashrc:  export EDITOR=vim (一般使用者&root都要設)
+    vim ~/.cshrc:	setenv EDITOR vim
+
+
+
+
+
+add user
+--------
+
+::
+
+    sudo pw useradd newuser -V /var/yp -b /net/home -m -h 0 -Y -u uid -g group
+    make
+    ypinit -m +sa.nis
+
+
+
+delete user
+-----------
+::
+
+    vipw master.passwd
+    make
+
+
+
+
+=================================
+			NFS				
+=================================
+
+
+
+
+mount
+-----
+
+
+Mac mount USB::
+
+    /dev/disk1s1 on /Volumes Transcend
+
+    [ client ]	mount	[ server ]
+    /net/home				/net/home
+    (mount point)
+
+
+
+    /etc/fstab
+    /etc/exports
+
+
+    server : showmount -a  
+    //查詢 NFS Server 分享什麼資源
+    //-a List all mount points in the  form:host:dirpath. 
+    # 誰連我的資料夾
+
+
+    client : showmount -e sahome 
+    # 列出有哪些資料夾是從sahome mount 起來的
+
+
+    ps ax | grep mountd //確認 mountd 是否執行
+
+
+    [Server]
+
+    service nfsd start —> mounts also starts automatically
+    service nfsd status
+
+
+常用指令::
+
+    df
+    df -h
+
+
+
+
+=====================
+	改sudoers
+=====================
+
+``sudo -l``  : 看 sudo 規則
+``su -`` saadmin 換user
+
+visudo 在 ``/usr/local/etc/sudoers``
+
+sudo visudo::
+
+	#include /net/admin/sudoers
+
+/net/admin/sudoers::	
+
+	Cmnd_Alias    SU = /usr/bin/su
+	Cmnd_Alias    REBOOT = /sbin/halt, /sbin/reboot,\
+					   /sbin/poweroff
+	Cmnd_Alias    SHELLS = /bin/*sh
+	%sysadm ALL = ALL, !SU, !SHELLS, !REBOOT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
