@@ -151,10 +151,53 @@ spec:
 
 可以用的 command line tool / utility :
 
-	drive
-	`[link] <https://github.com/odeke-em/drive>`_
+drive
+
+`[link] <https://github.com/odeke-em/drive>`_
 
 
 ZFS
 
 `[link] <http://mutolisp.logdown.com/posts/247630-zfs-file-system-notes>`_
+
+
+
+
+
+
+=======================
+	shell script 
+=======================
+::
+
+    sudo    sh  test.sh      aa     bbb      PPAP
+                $0           $1     $2       $3
+
+
+- $@ : aa bbb PPAP
+- $# : 3
+
+
+
+
+=========================
+	create z pool
+=========================
+
+::
+
+	pool		dataset(zfs)
+	disk		file system
+
+
+``dd if=/dev/zero of=filename(your pool name) bs=1M count=10``
+
+
+Ex. ``dd if=/dev/zero of=backup_pool bs=64M count=10``
+
+
+
+
+
+
+
