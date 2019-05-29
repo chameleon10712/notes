@@ -521,8 +521,55 @@ sudo visudo::
 
 
 
+====================
+	限制連線
+====================
 
 
+vim /etc/hosts.allow		#看哪一個host 可以連這台機器
+
+vim /etc/ssh/sshd_config		#看哪一個user可以連這台機器::
+
+    AllowGroups     sysadm	
+
+
+service sshd restart	 	#重開daemon
+
+
+
+
+
+
+
+
+======================
+	更改檔案權限
+======================
+
+通常
+- file	644
+- dir	755
+
+
+::
+
+    d      rwx         r-x         r-x
+           owner       group       other
+
+
+::
+
+        file            director
+    -------------------------------------
+    r:	read            ls
+    w:	write           create file/dir
+    x:	execute         cd
+
+
+::
+
+    chown -R sauser:nctucs sauser       #change owner
+    chgrp                               #change group
 
 
 
