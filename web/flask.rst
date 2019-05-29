@@ -24,13 +24,13 @@ Redirection Behavior
 
 - 如果用 ``/projects/`` 的寫法
 
-	- 網址輸入 localhost:5000/projects 的話會自動導向 localhost:5000/projects/
-	- 網址輸入 localhost:5000/projects/ 也會正常顯示
+  - 網址輸入 localhost:5000/projects 的話會自動導向 localhost:5000/projects/
+  - 網址輸入 localhost:5000/projects/ 也會正常顯示
 
 - 如果用 ``/about``     的寫法
 
-	- 網址輸入  localhost:5000/about  會正常顯示
-	- 網址輸入  localhost:5000/about/ 會顯示 404 Not Found
+  - 網址輸入  localhost:5000/about  會正常顯示
+  - 網址輸入  localhost:5000/about/ 會顯示 404 Not Found
 
 
 Others
