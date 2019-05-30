@@ -83,18 +83,17 @@ The hardware-based solutions to the critical-section problem presented in Sectio
 Semaphores
 ++++++++++
 
-A more robust tool that can behave similarly to a mutex lock but can also provide more sophisticated ways for processes to synchronize their activities.
+- A more robust tool that can behave similarly to a mutex lock but can also provide more sophisticated ways for processes to synchronize their activities.
 
-- counting semaphore
-- binary semaphore
-
-
-Deadlocks and Starvation
-************************
-
-The implementation of a semaphore with a waiting queue may result in a situation where two or more processes are waiting indefinitely for an event that can be caused only by one of the waiting processes. The event in question is the execution of a signal() operation. When such a state is reached, these processes are said to be deadlocked.
+  - counting semaphore
+  - binary semaphore
 
 
+- Deadlocks and Starvation
 
+  - The implementation of a semaphore with a waiting queue may result in a situation where two or more processes are waiting indefinitely for an event that can be caused only by one of the waiting processes. The event in question is the execution of a signal() operation. When such a state is reached, these processes are said to be deadlocked.
+
+
+- Priority Inversion
 
 
