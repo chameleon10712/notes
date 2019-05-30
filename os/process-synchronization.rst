@@ -89,10 +89,10 @@ A more robust tool that can behave similarly to a mutex lock but can also provid
 - binary semaphore
 
 
+Deadlocks and Starvation
+************************
 
-
-
-
+The implementation of a semaphore with a waiting queue may result in a situation where two or more processes are waiting indefinitely for an event that can be caused only by one of the waiting processes. The event in question is the execution of a signal() operation. When such a state is reached, these processes are said to be deadlocked.
 
 
 
