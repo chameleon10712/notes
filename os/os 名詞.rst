@@ -2,6 +2,7 @@
 
 - Multi-core processor 多核心處理器
 
+  - A multi-core processor is a computer processor integrated circuit with two or more separate processing units (CPU), called cores, which each read and execute program instructions, as if the computer had several processors.
   - 又稱多核微處理器，是在單個計算元件中，加入兩個或以上的獨立實體中央處理單元（簡稱核心，英語：Core），只有兩個核心的處理器，稱為雙核處理器（dual-core processor）。這些核心可以分別獨立地執行程式指令，利用平行計算的能力加快程式的執行速度。「多核心」通常是對於中央處理器（Central Processing Unit，CPU）而論的，但是某些時候它也指代數位訊號處理器（DSP）和系統晶片（SoC）。
 
 
