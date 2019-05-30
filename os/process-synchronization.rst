@@ -97,3 +97,24 @@ Semaphores
 - Priority Inversion
 
 
+
+Classic Problems of Synchronization
+-----------------------------------
+
+
+- The Bounded-Buffer Problem
+
+- The Readers–Writers Problem
+
+- The Dining-Philosophers Problem
+
+
+
+
+
+
+
+
+
+
+
