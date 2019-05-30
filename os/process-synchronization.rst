@@ -37,7 +37,7 @@ The Critical-Section Problem
 
 
 Solution to Critical-Section Problem
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------
 
 A solution to the critical-section problem must satisfy the following three requirements:
 
