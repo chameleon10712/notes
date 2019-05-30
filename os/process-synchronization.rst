@@ -70,4 +70,31 @@ Mutex Locks
 
 The hardware-based solutions to the critical-section problem presented in Section 5.4 are complicated as well as generally inaccessible to application programmers. Instead, operating-systems designers build software tools to solve the critical-section problem. The simplest of these tools is the **mutex lock**.
 
+- busy waiting
+
+  - While a process is in its critical section, any other process that tries to enter its critical section must loop continuously in the call to ``acquire()``.
+
+- spinlock
+
+  - this type of mutex lock is also called a spinlock because the process “spins” while waiting for the lock to become available.
+
+
+
+Semaphores
+++++++++++
+
+A more robust tool that can behave similarly to a mutex lock but can also provide more sophisticated ways for processes to synchronize their activities.
+
+- counting semaphore
+- binary semaphore
+
+
+
+
+
+
+
+
+
+
 
