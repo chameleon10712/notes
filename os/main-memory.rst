@@ -84,6 +84,7 @@ Dynamic loading
 8.1.5 Dynamic Linking and Shared Libraries
 ------------------------------------------
 
+- `[linking] <https://en.wikipedia.org/wiki/Linker_(computing)>`_
 - Dynamic Linking
 - static linking
 
