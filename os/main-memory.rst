@@ -2,6 +2,10 @@ Main Memory
 ===========
 
 
+8.1 Background
+^^^^^^^^^^^^^^
+
+
 8.1.1 Basic Hardware
 --------------------
 
@@ -76,3 +80,20 @@ Dynamic loading
 -  does not require special support from the os
 - OS may help the programmer,however, by providing library routines to implement dynamic loading
 
+
+8.1.5 Dynamic Linking and Shared Libraries
+------------------------------------------
+
+- Dynamic Linking
+- static linking
+
+|
+
+- Dynamically linked libraries
+
+  - system libraries that are linked to user programs when the programs are run (refer back to Figure 8.3)
+
+
+- stub
+
+  - The stub is a small piece of code that indicates how to locate the appropriate memory-resident library routine or how to load the library if the routine is not already present
