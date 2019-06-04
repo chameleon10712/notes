@@ -151,6 +151,8 @@ Algorithm
 
   - Abort all deadlocked processes
   - Abort one process at a time until the deadlock cycle is eliminated
+  
+    - incurs considerable overhead, since after each process is aborted, a deadlock-detection algorithm must be invoked 
 
 - Resource Preemption
 
