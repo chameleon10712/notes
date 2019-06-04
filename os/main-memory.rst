@@ -53,6 +53,9 @@ be done at any step along the way:
 
 - Compile time
 - Load time
+
+  - If it is not known at compile time where the process will reside in memory, then the compiler must generate relocatable code
+
 - Execution time
 
 
