@@ -147,7 +147,7 @@ Algorithm
 7.7 Recovery from Deadlock
 --------------------------
 
-- Recovery from Deadlock
+- Process Termination
 
   - Abort all deadlocked processes
   - Abort one process at a time until the deadlock cycle is eliminated
