@@ -1,6 +1,10 @@
 Main Memory
 ===========
 
+
+8.1.1 Basic Hardware
+--------------------
+
 To make sure that each process has a separate memory space
 
 - base register
@@ -20,4 +24,37 @@ The base and limit registers can be loaded only by the operating system,
 which uses a special privileged instruction. Since privileged instructions can
 be executed only in kernel mode, and since only the operating system executes
 in kernel mode, only the operating system can load the base and limit registers.
+
+
+
+8.1.2 Address Binding
+---------------------
+
+- input queue
+
+  - The processes on the disk that are waiting to be brought into memory for execution form the input queue
+
+
+The normal single-tasking procedure is to select one of the processes
+in the input queue and to load that process into memory. As the process
+is executed, it accesses instructions and data from memory. Eventually, the
+process terminates, and its memory space is declared available
+
+
+Addresses may be represented in different ways during these steps. Addresses in the source
+program are generally symbolic (such as the variable count). A compiler
+typically binds these symbolic addresses to relocatable addresses (such as
+“14 bytes from the beginning of this module”). The linkage editor or loader
+in turn binds the relocatable addresses to absolute addresses (such as 74014).
+Each binding is a mapping from one address space to another.
+
+- Compile time
+- Load time
+- Execution time
+
+
+
+
+
+
 
