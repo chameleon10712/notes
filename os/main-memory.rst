@@ -71,4 +71,6 @@ be done at any step along the way:
   - a routine is not loaded until it is called
   - useful when large amounts of code are needed to handle infrequently occurring cases, such as error routines
   -  does not require special support from the os
+    
+    - OS may help the programmer,however, by providing library routines to implement dynamic loading
 
