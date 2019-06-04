@@ -69,7 +69,6 @@ be done at any step along the way:
 - dynamic loading
 
   - a routine is not loaded until it is called
-  - All routines are kept on disk in a relocatable load format
   - useful when large amounts of code are needed to handle infrequently occurring cases, such as error routines
   -  does not require special support from the os
 
