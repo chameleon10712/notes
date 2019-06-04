@@ -48,6 +48,9 @@ typically binds these symbolic addresses to relocatable addresses (such as
 in turn binds the relocatable addresses to absolute addresses (such as 74014).
 Each binding is a mapping from one address space to another.
 
+Classically, the binding of instructions and data to memory addresses can
+be done at any step along the way:
+
 - Compile time
 - Load time
 - Execution time
