@@ -98,3 +98,8 @@ Dynamic loading
 - stub
 
   - The stub is a small piece of code that indicates how to locate the appropriate memory-resident library routine or how to load the library if the routine is not already present
+  
+  
+  
+ 8.2 Swapping
+^^^^^^^^^^^^^
