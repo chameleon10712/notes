@@ -101,5 +101,5 @@ Dynamic loading
   
   
   
- 8.2 Swapping
+8.2 Swapping
 ^^^^^^^^^^^^^
