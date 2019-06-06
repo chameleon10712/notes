@@ -103,3 +103,35 @@ Dynamic loading
   
 8.2 Swapping
 ^^^^^^^^^^^^^
+
+- Standard Swapping
+- Swapping on Mobile Systems
+
+
+
+8.3 Contiguous Memory Allocation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+8.3.1 Memory Protection
+-----------------------
+
+
+
+8.3.2 Memory Allocation
+-----------------------
+
+- First fit
+
+  - Allocate the first hole that is big enough
+
+- Best fit
+
+  - Allocate the smallest hole that is big enough
+
+- Worst fit
+
+  - Allocate the largest hole
+
+
+
