@@ -135,3 +135,23 @@ Dynamic loading
 
 
 
+8.3.3 Fragmentation
+-------------------
+
+- external fragmentation
+- internal fragmentation
+
+
+
+8.4 Segmentation
+^^^^^^^^^^^^^^^^
+
+
+
+
+
+
+
+
+
+
