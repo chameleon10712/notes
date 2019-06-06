@@ -146,12 +146,19 @@ Dynamic loading
 8.4 Segmentation
 ^^^^^^^^^^^^^^^^
 
+8.4.2 Segmentation Hardware
+---------------------------
+
+- segment table
+
+  - segment base
+  - segment limit
 
 
 
+8.5 Paging
+^^^^^^^^^^
 
-
-
-
+Segmentation permits the physical address space of a process to be noncontiguous. Paging is another memory-management scheme that offers this advantage. However, paging avoids external fragmentation and the need for compaction, whereas segmentation does not. It also solves the considerable problem of fitting memory chunks of varying sizes onto the backing store.
 
 
