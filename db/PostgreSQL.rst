@@ -14,6 +14,8 @@ PostgreSQL
 
   - inner joins
 
+|
+
 - The Outer Limits
 
   - outer joins
