@@ -5,6 +5,7 @@ DATA MODEL
 
   - Relation
 
+|
 
 - NoSQL
 
@@ -13,9 +14,13 @@ DATA MODEL
   - Document 
   - Column-family
 
+|
+
 - Machine Learning
 
   - Array / Matrix
+
+|
 
 - Obsolete / Rare
 
