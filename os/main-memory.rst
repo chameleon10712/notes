@@ -162,3 +162,26 @@ Dynamic loading
 Segmentation permits the physical address space of a process to be noncontiguous. Paging is another memory-management scheme that offers this advantage. However, paging avoids external fragmentation and the need for compaction, whereas segmentation does not. It also solves the considerable problem of fitting memory chunks of varying sizes onto the backing store.
 
 
+8.5.2 Hardware Support
+-----------------------
+
+- page-table base register (PTBR)
+- translation look-aside buffer (TLB)
+- address-space identifiers (ASIDs)
+
+
+
+8.5.3 Protection
+----------------
+
+- page-table length register (PTLR)
+
+
+8.5.4 Shared Pages
+------------------
+
+- reentrant code (or pure code)
+
+
+
+
