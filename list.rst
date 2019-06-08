@@ -14,6 +14,7 @@
 - TypeScript
 - Webpack
 - Heroku
+- Docker
 
 - GraphQL
 - Scala
