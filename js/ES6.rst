@@ -166,7 +166,7 @@ Class Declaration
 Hoisting
 ++++++++
 
-**函數宣告 (function declarations)** 和 **類別宣告 (class declarations)** 的一個重要差別在於函數宣告是 ``hoisted <https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting>``_ ，類別宣告則不是。 你需要先宣告你的類別，然後存取它，否則像是下面的程式碼就會丟出一個 ``ReferenceError``:
+**函數宣告 (function declarations)** 和 **類別宣告 (class declarations)** 的一個重要差別在於函數宣告是 `hoisted <https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting>`_ ，類別宣告則不是。 你需要先宣告你的類別，然後存取它，否則像是下面的程式碼就會丟出一個 ``ReferenceError``:
 
 .. code-block:: javascript
 
