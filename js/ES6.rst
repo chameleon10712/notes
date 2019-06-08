@@ -144,8 +144,30 @@ Template literals (Template strings)
   tag `string text ${expression} string text`
 
 
+Import
+------
 
+**import** 宣告用於引入由另一個模塊所導出的綁定。被引入的模塊，無論是否宣告``strict mode``，都會處於該模式。``import`` 宣告無法用於嵌入式腳本（embedded scripts）。
 
+.. code-block:: javascript
+
+  import defaultExport from "module-name";
+  
+  import * as name from "module-name";
+  
+  import { export } from "module-name";
+  
+  import { export as alias } from "module-name";
+  
+  import { export1 , export2 } from "module-name";
+  
+  import { export1 , export2 as alias2 , [...] } from "module-name";
+  
+  import defaultExport, { export [ , [...] ] } from "module-name";
+  
+  import defaultExport, * as name from "module-name";
+  
+  import "module-name";
 
 
 
