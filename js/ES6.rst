@@ -4,6 +4,8 @@ ES6
 Destructuring Assignment
 ------------------------
 
+解構賦值 (Destructuring Assignment) 是一種 JavaScript 運算式，可以將陣列或物件中的資料取出成獨立變數。
+
 
 .. code-block:: javascript
   
