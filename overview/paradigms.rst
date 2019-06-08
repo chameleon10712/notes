@@ -91,59 +91,9 @@ process & thread
 ...
 
 
-Others
-------
-generic
-
-template
-
-uml
-
-sequence diagram
-
-deadlock prevent
-
-validation & verification
-
-js concurrency
-
-
-- weak type 優缺
-
-  - 優
-  - 缺: may perform implicit type conversion at runtime
-
-|
-|
 
 
 
-Computer Hardware
-=================
-
-- Processor
-
-  - Concepts
-
-    - Clock
-    - Cache
-    - Bus (FSB and BSB): Collection of wires connecting differenet devices
-    - Pipeline: Implementation technique wehre multiple instructions are overlapped
-
-  - Mesure Performance
-
-    - Clock speed
-    - type of microprocessor, the bus architecture, and the nature of the instruction set, all make a difference
-      - examples : P4 3.06 GHz, P4 3.0B GHz, P4 3.0C GHz
-
-- RAM
-- Motherboard
-- HardDisk
-- Cards
-- Ports
-- BIOS
-- Peripherals
-- Cabinet
 
 
 
@@ -151,43 +101,6 @@ Computer Hardware
 |
 |
 
-
-Software Engineer
-=================
-
-- Cohesion v.s. Coupling
-- UML (Unified Modeling Language)
-
-  - sequence diagram
-  - use case diagram
-  - class diagram
-
-- Design Pattern
-- Testing
-  
-  - glass-box testing
-  - black-box testing
-
-
-
-Database
-========
-
-- Schemas
-- Database Management Systems (DBMS)
-- Database Models
-  
-  - Relational Model
-  
-    - relations: data is stored in tables called **relations**
-    - tuple, attribute, column
-    
-      .. image:: https://www.tutorialspoint.com/dbms/images/relational_model_table.png
-
-
-  - Object-oriented Database
-  
-    - based on the object-oriented paradigm. This approach leads to an object-oriented database consisting of objects that are linked to each other to reflect their relationships
 
 
 
