@@ -63,6 +63,8 @@ Default values
 Const
 -----
 
+Constants (常數) 有點像使用 ``let`` 所宣告的變數，具有區塊可視範圍。常數不能重複指定值，也不能重複宣告。
+
 .. code-block:: javascript
 
   const number = 42;
