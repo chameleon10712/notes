@@ -77,29 +77,7 @@ Composite data type
 
 
 
-processor
----------
 
-concurrency
------------
-
-- In computer science, concurrency is the ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order, without affecting the final outcome. 
-
-
-process & thread
-----------------
-...
-
-
-
-
-
-
-
-
-
-|
-|
 
 
 
