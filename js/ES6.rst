@@ -168,9 +168,37 @@ Hoisting
 
 **函數宣告 (function declarations)** 和 **類別宣告 (class declarations)** 的一個重要差別在於函數宣告是 ``hoisted <https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting>``_ ，類別宣告則不是。 你需要先宣告你的類別，然後存取它，否則像是下面的程式碼就會丟出一個 ``ReferenceError``:
 
-var p = new Polygon(); // ReferenceError
+.. code-block:: javascript
 
-class Polygon {}
+  var p = new Polygon(); // ReferenceError
+
+  class Polygon {}
+
+
+
+Class Expression
+^^^^^^^^^^^^^^^^^
+
+.. code-block:: javascript
+
+  // unnamed
+  var Polygon = class {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+  };
+
+  // named
+  var Polygon = class Polygon {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+  };
+
+
+
 
 
 
