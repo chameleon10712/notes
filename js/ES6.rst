@@ -149,6 +149,11 @@ Import
 
 **import** 宣告用於引入由另一個模塊所導出的綁定。被引入的模塊，無論是否宣告``strict mode``，都會處於該模式。``import`` 宣告無法用於嵌入式腳本（embedded scripts）。
 
+
+The static ``import`` statement is used to import bindings which are exported by another module. Imported modules are in ``strict mode`` whether you declare them as such or not. The import statement cannot be used in embedded scripts unless such script has a ``type="module"``.
+
+
+
 .. code-block:: javascript
 
   import defaultExport from "module-name";
