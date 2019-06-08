@@ -6,11 +6,17 @@
 - Python Celery
 - RabbitMQ
 - Distributed Applications
+- Node.js  
 
+  - Express.js framework
 
+- Sass
+- TypeScript
+- Webpack
+- Heroku
 
-
-
+- GraphQL
+- Scala
 
 
 
