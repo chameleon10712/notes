@@ -129,6 +129,9 @@ Default parameters
 Template literals (Template strings)
 -------------------------------------
 
+樣板字面值（Template literals）被反引號（back-tick，重音符號）：` ` 字元封閉，代替了雙或單引號。樣板字面值可以包含由錢字元及花括號所構成（${expression}） 的佔位符（placeholders）。
+
+
 .. code-block:: javascript
 
   `string text`
