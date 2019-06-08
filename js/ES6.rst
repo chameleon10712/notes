@@ -82,4 +82,27 @@ Constants (常數) 有點像使用 ``let`` 所宣告的變數，具有區塊可�
 
 
 
+let
+---
+
+``let`` 用於宣告一個「只作用在當前區塊的變數」，初始值可選擇性的設定。
+
+.. code-block:: javascript
+
+  let x = 1;
+
+  if (x === 1) {
+    let x = 2;
+
+    console.log(x);
+    // expected output: 2
+  }
+
+  console.log(x);
+  // expected output: 1
+
+
+
+
+
 
