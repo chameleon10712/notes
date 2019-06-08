@@ -106,5 +106,47 @@ let
 
 
 
+Default parameters
+------------------
+
+**Default function parameters** allow named parameters to be initialized with default values if no value or ``undefined`` is passed.
+
+
+.. code-block:: javascript
+
+  function multiply(a, b = 1) {
+    return a * b;
+  }
+
+  console.log(multiply(5, 2));
+  // expected output: 10
+
+  console.log(multiply(5));
+  // expected output: 5
+
+
+
+Template literals (Template strings)
+-------------------------------------
+
+.. code-block:: javascript
+
+  `string text`
+
+  `string text line 1
+   string text line 2`
+
+  `string text ${expression} string text`
+
+  tag `string text ${expression} string text`
+
+
+
+
+
+
+
+
+
 
 
