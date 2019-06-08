@@ -3,6 +3,9 @@
 - RESTful API
 - Redux
 - Reverse Proxy
+- Python Celery
+- RabbitMQ
+- Distributed Applications
 
 
 
