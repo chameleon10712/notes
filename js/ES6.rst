@@ -144,6 +144,37 @@ Template literals (Template strings)
   tag `string text ${expression} string text`
 
 
+Class
+-----
+
+ES 6 中引入了類別 (class) 作為 JavaScript 現有原型程式(prototype-based)繼承的語法糖。類別語法並**不是**要引入新的物件導向繼承模型到 JavaScript 中，而是提供一個更簡潔的語法來建立物件和處理繼承。
+
+
+Class Declaration
+^^^^^^^^^^^^^^^^^
+
+.. code-block:: javascript
+
+  class Polygon {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+  }
+
+
+Hoisting
+++++++++
+
+**函數宣告**和**類別宣告**的一個重要差別在於函數宣告是 ``hoisted <https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting>``_ ，類別宣告則不是。 你需要先宣告你的類別，然後存取它，否則像是下面的程式碼就會丟出一個 ``ReferenceError``:
+
+var p = new Polygon(); // ReferenceError
+
+class Polygon {}
+
+
+
+
 Import
 ------
 
