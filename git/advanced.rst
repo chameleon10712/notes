@@ -15,7 +15,8 @@ Stash
 `[git book 中文] <https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E5%84%B2%E8%97%8F-Stashing>`_
 
 
----
+Replace File in Merge Conflict
+------------------------------
 
 In a git merge, how do you just replace your version with the version git says there is a conflict with?
 
