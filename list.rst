@@ -10,6 +10,7 @@
 - Sass
 - TypeScript
 - Webpack
+- Mocha
 
 |
 
