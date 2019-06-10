@@ -11,6 +11,7 @@
 - TypeScript
 - Webpack
 - Mocha
+- React & Async 
 
 |
 
