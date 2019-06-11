@@ -2,7 +2,6 @@
 
 - RESTful API
 - Redux
-- Reverse Proxy
 - Node.js  
 
   - Express.js framework
