@@ -35,7 +35,7 @@
 
 - DNS
 - Load Balancer
-- Proxy
+- Forward Proxy
 - Reverse Proxy
 
 |
