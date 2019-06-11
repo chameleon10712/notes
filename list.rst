@@ -12,6 +12,7 @@
 - Mocha
 - React & Async 
 - React Naming 
+- PWA
 
 |
 
