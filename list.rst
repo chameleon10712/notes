@@ -18,12 +18,18 @@
 
 - JS
 
+  - Hoisting
+  - Event Bubble
+  - Prototype
+  - Strict Mode
   - shadow DOM
 
 |
 
 - Heroku
 - Docker
+- DNS
+- Load Balancer
 
 |
 
