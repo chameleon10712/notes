@@ -27,6 +27,7 @@
 
 |
 
+- Django
 - Python Celery
 - RabbitMQ
 - Distributed Applications
