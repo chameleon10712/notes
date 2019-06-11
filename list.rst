@@ -18,6 +18,7 @@
 
 - JS
 
+  - Object-Oriented
   - Hoisting
   - Event Bubble
   - Prototype
@@ -28,6 +29,10 @@
 
 - Heroku
 - Docker
+
+|
+
+
 - DNS
 - Load Balancer
 - Proxy
