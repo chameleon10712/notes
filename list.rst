@@ -12,7 +12,7 @@
 - Webpack
 - Mocha
 - React & Async 
-- React Naming Style
+- React Naming 
 
 |
 
