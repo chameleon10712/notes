@@ -16,6 +16,11 @@
 
 |
 
+- JS
+  - shadow DOM
+
+|
+
 - Heroku
 - Docker
 
