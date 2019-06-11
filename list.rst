@@ -30,6 +30,8 @@
 - Docker
 - DNS
 - Load Balancer
+- Proxy
+- Reverse Proxy
 
 |
 
