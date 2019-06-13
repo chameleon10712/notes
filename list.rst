@@ -29,6 +29,8 @@
   - Strict Mode
   - shadow DOM
 
+|
+
 - Python
 
   - Object-Oriented
