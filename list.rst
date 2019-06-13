@@ -11,7 +11,7 @@
 - Webpack
 - Mocha
 - React & Async 
-- React Naming 
+- React Naming Convention
 - PWA
 
 |
