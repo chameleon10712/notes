@@ -33,6 +33,7 @@
 
 - Heroku
 - Docker
+- AWS EC2
 
 |
 
