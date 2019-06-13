@@ -58,8 +58,9 @@
 
 |
 
-- Scala
 - Golang
+- Scala
+
 
 
 
