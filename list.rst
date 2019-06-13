@@ -7,6 +7,7 @@
   - Async 
   - Naming Convention
 
+- GraphQL
 - Node.js  
 
   - Express.js framework
@@ -55,7 +56,6 @@
 
 |
 
-- GraphQL
 - Scala
 - Golang
 
