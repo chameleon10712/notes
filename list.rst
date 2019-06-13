@@ -2,6 +2,11 @@
 
 - RESTful API
 - Redux
+- React
+  
+  - Async 
+  - Naming Convention
+
 - Node.js  
 
   - Express.js framework
@@ -10,8 +15,6 @@
 - TypeScript
 - Webpack
 - Mocha
-- React & Async 
-- React Naming Convention
 - PWA
 
 |
