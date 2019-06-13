@@ -34,6 +34,7 @@
 - Heroku
 - Docker
 - AWS EC2
+- Kubernetes
 
 |
 
