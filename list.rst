@@ -33,7 +33,9 @@
 |
 
 - HTTP
-- TCP, handshakes
+- TCP
+
+  - 3 way handshakes
 
 |
 
