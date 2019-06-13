@@ -32,6 +32,10 @@
 
 |
 
+- HTTP
+- TCP, handshakes
+
+|
 
 - DNS
 - Load Balancer
