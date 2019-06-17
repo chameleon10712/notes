@@ -23,6 +23,7 @@
 - JS
 
   - Object-Oriented
+  - Closure
   - Hoisting
   - Event Bubble
   - Prototype
