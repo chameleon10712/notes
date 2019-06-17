@@ -44,3 +44,16 @@ CH 10.5 File Organization
   - variable-length records
 
 
+
+10.5.1 Fixed-Length Records
+---------------------------
+
+- file header
+- free list
+  
+  - 紀錄 deleted records，下一個 insertion 會從 free list 開始找 free space ; free list 沒有空間才 append 到 
+
+
+
+
+
