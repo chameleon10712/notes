@@ -22,9 +22,11 @@ Raw Storage
 - Tuple Layout
 
 
+|
+
 
 CH 10.5 File Organization
--------------------------
+=========================
 
 - Each file is also logically partitioned into fixed-length storage units called blocks
 - A block may contain several records
