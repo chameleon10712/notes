@@ -7,20 +7,25 @@ Database Storage II
 
 |
 
-- Data Representation
+Data Representation
+-------------------
 
-  - Variable Precision Numbers
-  - Fixed Point Precision Numbers
+- Variable Precision Numbers
+- Fixed Point Precision Numbers
 
-- Workloads
 
-  - OLTP: On-line Transaction Processing
-  - OLAP: On-line Analyitical Processing
+Workloads
+---------
 
-- Storage Models
+- OLTP: On-line Transaction Processing
+- OLAP: On-line Analyitical Processing
 
-  - N-Ary Storage Model (NSM)
-  - Decomposition Storage Model (DSM)
+
+Storage Models
+--------------
+
+- N-Ary Storage Model (NSM)
+- Decomposition Storage Model (DSM)
 
 
 
