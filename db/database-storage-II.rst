@@ -1,6 +1,9 @@
 Database Storage II
 ===================
 
+- `[Schedule] <https://15445.courses.cs.cmu.edu/fall2018/schedule.html>`_
+|
+
 - `[Video] <https://www.youtube.com/watch?v=NXRgIsH83xE&list=PLSE8ODhjZXja3hgmuwhf89qboV1kOxMx7&index=4>`_
 - `[Slide] <https://15445.courses.cs.cmu.edu/fall2018/slides/04-storage2.pdf>`_
 - `[Notes] <https://15445.courses.cs.cmu.edu/fall2018/notes/04-storage2.pdf>`_
