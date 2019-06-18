@@ -27,16 +27,16 @@ Data Representation
 Workloads
 ---------
 
-- OLTP: On-line Transaction Processing
+- OLTP
 
+  - On-line Transaction Processing
   - Row store
-|
 
-- OLAP: On-line Analyitical Processing
-  
+
+- OLAP
+
+  - On-line Analyitical Processing
   - Column store
-
-|
 
 
 
