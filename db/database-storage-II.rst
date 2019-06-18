@@ -43,6 +43,7 @@ Workloads
     - Complex queries that read large portions of the database spanning multiple entities.
   - Column store
 
+|
 
 
 Storage Models
