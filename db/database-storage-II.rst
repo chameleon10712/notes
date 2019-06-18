@@ -51,6 +51,8 @@ Storage Models
 
 - N-Ary Storage Model (NSM)
 
+  - row store
+
 - Decomposition Storage Model (DSM)
   
   - column store
