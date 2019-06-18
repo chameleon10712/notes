@@ -13,10 +13,15 @@ Database Storage II
 Data Representation
 -------------------
 
-- floating point  0.1 + 0.2
 
-  - Variable Precision Numbers
-  - Fixed Point Precision Numbers
+
+- Variable Precision Numbers
+  
+  - ``FLOAT``, ``REAL``
+
+- Fixed Point Precision Numbers
+
+  - ``NUMERIC``, ``DECIMAL``
 
 
 Workloads
