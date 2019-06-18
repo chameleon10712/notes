@@ -28,11 +28,15 @@ Workloads
 ---------
 
 - OLTP: On-line Transaction Processing
+
+  - Row store
+|
+
 - OLAP: On-line Analyitical Processing
+  
+  - Column store
 
-OLTP = Row store
-
-OLAP = Column store
+|
 
 
 
