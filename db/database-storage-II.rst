@@ -40,10 +40,10 @@ Storage Models
 
 .. raw:: html
 
-    <img src="https://www.xinjianl.com/wp-content/uploads/2019/01/row_model-700x411.png" width="700px">
+    <img src="https://www.xinjianl.com/wp-content/uploads/2019/01/row_model-700x411.png" width="600px">
 
 
 
 .. raw:: html
 
-    <img src="https://www.xinjianl.com/wp-content/uploads/2019/01/column_model-700x362.png" width="700px">
+    <img src="https://www.xinjianl.com/wp-content/uploads/2019/01/column_model-700x362.png" width="600px">
