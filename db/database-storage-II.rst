@@ -34,6 +34,7 @@ Workloads
     - Simple queries that read/update a small amount of data that is related to a single entity in the database.
   - Row store
 
+|
 
 - OLAP
 
