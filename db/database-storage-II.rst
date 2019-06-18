@@ -38,4 +38,12 @@ Storage Models
 - Decomposition Storage Model (DSM)
 
 
+.. raw:: html
 
+    <img src="https://www.xinjianl.com/wp-content/uploads/2019/01/row_model-700x411.png" width="600px">
+
+
+
+.. raw:: html
+
+    <img src="https://images.slideplayer.com/27/9203904/slides/slide_13.jpg" width="600px">
