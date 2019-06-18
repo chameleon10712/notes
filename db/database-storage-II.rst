@@ -50,7 +50,14 @@ Storage Models
 --------------
 
 - N-Ary Storage Model (NSM)
+
 - Decomposition Storage Model (DSM)
+  
+  - column store
+  - how to combine tuple
+  
+    - Choice #1: Fixed-length Offsets
+    - Choice #2: Embedded Tuple Ids
 
 
 .. raw:: html
