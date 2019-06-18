@@ -30,12 +30,16 @@ Workloads
 - OLTP
 
   - On-line Transaction Processing
+  
+    - Simple queries that read/update a small amount of data that is related to a single entity in the database.
   - Row store
 
 
 - OLAP
 
   - On-line Analyitical Processing
+  
+    - Complex queries that read large portions of the database spanning multiple entities.
   - Column store
 
 
