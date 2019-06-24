@@ -46,13 +46,19 @@ Solution
 
   - 將裝不下的 records 用 ``overflow buckets`` 裝
 
-- overflow chaining
+  - overflow chaining
 
-  - 如果一個 overflow bucket 也裝不下，就用另一個 overflow bucket，並且將所有的 overflow buckets 以 linked-list 的方式串起來。
+    - 如果一個 overflow bucket 也裝不下，就用另一個 overflow bucket，並且將所有的 overflow buckets 以 linked-list 的方式串起來。
+
+  - 上述的方法稱為 ``closed hashing``
 
 
+|
 
+- linear probing
 
+  - 如果 overflow ，則將 records 放置在下一個有空間的 bucket 中
+  - 這種方式稱為 ``open hashing``
 
 
 
