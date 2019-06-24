@@ -71,17 +71,15 @@ Representation
 
 - [an initial part with fixed length attributes] +  [data for variable-length attributes]
 
-|
+  - fixed length attributes
 
-- fixed length attributes
+    - such as numeric values, dates, or fixed- length character strings
 
-  - such as numeric values, dates, or fixed- length character strings
+  - Variable-length attributes
 
-- Variable-length attributes
+    - such as varchar
+    - are represented in the initial part of the record by a pair (offset, length)
 
-  - such as varchar
-  - are represented in the initial part of the record by a pair (offset, length)
- 
 |
 
 
