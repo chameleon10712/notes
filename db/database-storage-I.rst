@@ -55,5 +55,47 @@ CH 10.5 File Organization
 
 
 
+10.5.2 Variable-Length Records
+------------------------------
+
+Questions
++++++++++
+
+- How to represent a single record in such away that individual attributes can be extracted easily.
+- How to store variable-length records within a block, such that records in a block can be extracted easily.
+
+
+
+Representation
+++++++++++++++
+
+- [an initial part with fixed length attributes] +  [data for variable-length attributes]
+
+|
+
+- fixed length attributes
+
+  - such as numeric values, dates, or fixed- length character strings
+
+- Variable-length attributes
+
+  - such as varchar
+  - are represented in the initial part of the record by a pair (offset, length)
+ 
+|
+
+
+null bitmap
++++++++++++
+  
+indicates which attributes of the record have a null value
+
+
+
+slotted-page structure
+++++++++++++++++++++++
+
+organizing records within a block
+
 
 
