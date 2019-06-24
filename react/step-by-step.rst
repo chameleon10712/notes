@@ -43,6 +43,34 @@ Start Coding
 
 
 
+``src/App.js``
+
+.. code:: javascript
+
+  import './App.css'
+
+  class App extends Component {
+
+    state = {
+      todos: [
+        {title: 'first thing', id: 1},
+        {title: 'second thing', id: 2}
+      ]
+    }
+
+    render() {
+      return (
+        <div className="App">
+          ...
+        </div>
+      )
+    }
+  }
+
+  export default App;
+
+
+
 
 
 
