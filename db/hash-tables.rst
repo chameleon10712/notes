@@ -60,6 +60,12 @@ Solution
   - 如果 overflow ，則將 records 放置在下一個有空間的 bucket 中
   - 這種方式稱為 ``open hashing``
 
+|
+
+- ``open hashing`` 常被 compilers 、 assemblers 用來建 symbol tables。 
+- ``closed hashing`` 在 DB 比較常見
+- 因為 open hashing 的做法會難以處理 delete 的狀況，而 compilers 只需要處理 lookup 跟 insert 兩種操作。
+
 
 
 
