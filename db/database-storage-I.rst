@@ -83,9 +83,9 @@ Q1
 |
 
 
-null bitmap
+- null bitmap
 
-- indicates which attributes of the record have a null value
+  - indicates which attributes of the record have a null value
 
 
 
