@@ -31,7 +31,7 @@ Data Dictionary
   - least recently used (LRU)
   - toss-immediate strategy
   
-    - 假設已經處理完某個 query，則那個 block 就可以丟掉了。 用過即丟。
+    - 假設已經處理完某個 query，則那個 block 就可以丟掉了。用過即丟。
 
 |
 
