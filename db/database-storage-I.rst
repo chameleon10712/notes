@@ -73,11 +73,11 @@ Representation
 
   - fixed length attributes
 
-    - such as numeric values, dates, or fixed-length character strings
+    - such as ``numeric`` values, ``dates``, or ``fixed-length character strings``
 
   - Variable-length attributes
 
-    - such as varchar
+    - such as ``varchar``
     - are represented in the initial part of the record by a pair (offset, length)
 
 |
