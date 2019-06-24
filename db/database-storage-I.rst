@@ -66,8 +66,8 @@ Questions
 
 
 
-Representation
-++++++++++++++
+Q1
+++
 
 - [an initial part with fixed length attributes] +  [data for variable-length attributes]
 
@@ -84,16 +84,46 @@ Representation
 
 
 null bitmap
-+++++++++++
-  
-indicates which attributes of the record have a null value
+
+- indicates which attributes of the record have a null value
 
 
+
+Q2
+++
 
 slotted-page structure
-++++++++++++++++++++++
 
-organizing records within a block
+- organizing records within a block
 
 
+
+Organization of Records in Files
+================================
+
+- Heap file organization
+- Sequential file organization
+- Hashing file organization
+
+
+
+10.6.1 Sequential File Organization
+-----------------------------------
+
+- Sequential File
+
+  - A sequential file is designed for efficient processing of records in sorted order based on some search key.
+
+- Search Key
+
+  - A search key is any attribute or set of attributes
+
+
+
+10.6.2 Multitable Clustering File Organization
+----------------------------------------------
+
+- multitable clustering file organization
+
+  - a file organization that stores related records of two or more relations in each block.
 
