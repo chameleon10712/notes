@@ -58,6 +58,14 @@ Start Coding
       ]
     }
 
+    addTodo = (todo) => {
+      todo.id = Math.random();
+      let todos = [...this.state.todos, todo];
+      this.setState({
+        todos: todos
+      });
+    }
+
     render() {
       return (
         <div className="App">
