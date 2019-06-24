@@ -30,12 +30,14 @@ Data Dictionary
 
   - least recently used (LRU)
 
+|
 
 - Pinned blocks
 
   - 當某個 block 正在 update 時，不能讓其他人寫入這個 block。這種 block 稱為 pinned block。
   - 很少 OS 支援 pinned blocks
 
+|
 
 - Forced output of blocks
 
