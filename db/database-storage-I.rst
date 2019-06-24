@@ -73,7 +73,7 @@ Representation
 
   - fixed length attributes
 
-    - such as numeric values, dates, or fixed- length character strings
+    - such as numeric values, dates, or fixed-length character strings
 
   - Variable-length attributes
 
