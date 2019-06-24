@@ -98,8 +98,8 @@ slotted-page structure
 
 
 
-Organization of Records in Files
-================================
+CH 10.6 Organization of Records in Files
+========================================
 
 - Heap file organization
 - Sequential file organization
