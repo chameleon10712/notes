@@ -28,15 +28,15 @@ Data Dictionary
 
 - Buffer Replacement Policies
 
-  - **least recently used (LRU)**
+  - least recently used (LRU)
   
     - OS 常用，但是 DB 可以根據使用情境，預測得更準確。
   
-  - **toss-immediate** strategy
+  - toss-immediate
   
     - 假設已經處理完某個 query，則那個 block 就可以丟掉了。用過即丟。
   
-  - **most recently used (MRU)**
+  - most recently used (MRU)
 
 |
 
