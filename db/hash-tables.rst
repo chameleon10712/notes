@@ -62,8 +62,9 @@ Solution
 
 |
 
-- ``open hashing`` 常被 compilers 、 assemblers 用來建 symbol tables。 
-- ``closed hashing`` 在 DB 比較常見
+Open Hashing & Closed Hashing
+
+- ``open hashing`` 常被 compilers 、 assemblers 用來建 symbol tables。 而 ``closed hashing`` 在 DB 比較常見。
 - 因為 open hashing 的做法會難以處理 delete 的狀況，而 compilers 只需要處理 lookup 跟 insert 兩種操作。
 
 
