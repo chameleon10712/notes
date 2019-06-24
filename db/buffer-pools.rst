@@ -29,6 +29,7 @@ Data Dictionary
 - Buffer Replacement Policies
 
   - least recently used (LRU)
+  
     - OS 常用，但是 DB 可以根據使用情境，預測得更準確。
   
   - toss-immediate strategy
