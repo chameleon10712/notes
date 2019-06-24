@@ -1,5 +1,5 @@
-React
-=====
+Before Coding
+=============
 
 1. Install `Create React App <https://github.com/facebook/create-react-app>`_
 
@@ -25,9 +25,21 @@ React
 
 
 
+Start Coding
+============
 
 
+``src/index.js``
 
+
+.. code:: javascript
+
+  import React from 'react';
+  import ReactDOM from 'react-dom';
+  import './index.css';
+  import App from './App';
+
+  ReactDOM.render(<App />, document.getElementById('root'));
 
 
 
