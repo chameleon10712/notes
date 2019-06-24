@@ -42,9 +42,9 @@ Hash Tables
 
 Solution
 
-- overflow buckets
+- ``overflow buckets``
 
-  - 將裝不下的 records 用 ``overflow buckets`` 裝
+  - 將裝不下的 records 用 overflow buckets 裝
 
   - overflow chaining
 
@@ -55,7 +55,7 @@ Solution
 
 |
 
-- linear probing
+- ``linear probing``
 
   - 如果 overflow ，則將 records 放置在下一個有空間的 bucket 中
   - 這種方式稱為 ``open hashing``
