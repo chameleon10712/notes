@@ -31,6 +31,7 @@ Data Dictionary
   - least recently used (LRU)
   
     - OS 常用，但是 DB 可以根據使用情境，預測得更準確。
+    - 很多 DB 還是用 LRU
   
   - toss-immediate
   
