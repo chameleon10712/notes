@@ -16,6 +16,7 @@ Buffer Pools
 
 page table
 
+
 - The page table keeps track of pages that are currently in memory.
 - Also maintains additional meta-data per page:
 
