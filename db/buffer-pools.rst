@@ -14,8 +14,31 @@ Buffer Pools
 
 |
 
+DATABASE STORAGE
 
-``page table``
+Spatial Control:
+
+- The goal is to keep pages that are used together often as physically close together as possible on disk.
+- 將常互相用到的 pages 位置放置在 Disk 上鄰近區域
+
+
+Temporal Control:
+
+- The goal is minimize the number of stalls from having to read data from disk.
+- 減少從硬碟讀取資料的時間。
+
+|
+
+DISK-ORIENTED DBMS
+
+``Buffer Pool``
+
+- DB 在 Memory 的工作區
+
+
+|
+
+``Page Table``
 
 
 
