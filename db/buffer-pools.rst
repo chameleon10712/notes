@@ -103,6 +103,30 @@ PAGE TABLE VS. PAGE DIRECTORY
 |
 
 
+MULTIPLE BUFFER POOLS
+
+- 為了避免許多 threads 同時讀寫某個 page ，每個 thread 都在拿 latch ，許多 DB 用 ``multiple buffer pools`` 解決這個問題。
+- 當某個 thread 要 access 某個 page 時，首先會先用 hash function 尋找該 page 的 buffer pool 
+
+|
+
+- ex. MySQL, DB2 ...
+
+|
+
+
+PRE-FETCHING
+
+The DBMS can also optimize by pre fetching pages based on the query plan.
+
+- Sequential Scans  (較常見)
+
+- Index Scans
+
+
+
+|
+
 10.7 Data-Dictionary Storage
 =============================
 
