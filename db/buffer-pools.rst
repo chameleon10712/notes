@@ -25,7 +25,7 @@ Buffer Pools
   - ``Pin/Reference Counter``
   
     - Number of threads touching that page. 目前正在 read 這個 page 的 thread 數量
-    - If I want to read it I pin it. 防止這個 page 被修改或被 swap 掉。
+    - If I want to read it I pin it. 防止這個 page 被修改或被 swap out。
   
   - ``Dirty Flag``
   
