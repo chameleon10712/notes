@@ -53,7 +53,7 @@ LOCKS VS. LATCHES
 - Do not need to be able to rollback changes
 
 
-你可以拿一個 lock 但是不能拿一個 latch ，因為 latch 是 DB 用來確保 page 不被污染用的。
+In SQL you can get a lock but you cannot get a latch ，因為 latch 是 DB 用來確保 page 不被污染用的。
 
 |
 
