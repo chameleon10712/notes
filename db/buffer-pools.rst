@@ -29,7 +29,7 @@ Buffer Pools
   
   - ``Dirty Flag``
   
-    - 如果要修改某個 page ，就放一個 latch 在上面 (mutex) ，表示正在修改中。 並且標示 dirty flag 表示這個 page 已被修改。
+    - 如果要修改某個 page ，就放一個 ``latch`` 在上面 (mutex) ，表示正在修改中。 並且標示 dirty flag 表示這個 page 已被修改。
 
 
 
