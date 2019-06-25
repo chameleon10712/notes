@@ -39,7 +39,7 @@ LOCKS VS. LATCHES
 
 - Protect the database logical contents from other transactions
   
-  - transaction 跟 transaction 之間不能互相干擾。不能影響彼此正要讀或寫的 table 。
+  - transaction 跟 transaction 之間不能互相干擾。不能影響彼此正要讀或寫的 records (lock table) 。
 
 - Need to be able to rollback changes
 - Use to protect database entities ex. ``tuples``, ``tables``, ``indexes``
