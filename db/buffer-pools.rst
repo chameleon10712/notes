@@ -119,10 +119,15 @@ PRE-FETCHING
 
 The DBMS can also optimize by pre fetching pages based on the query plan.
 
-- Sequential Scans  (較常見)
+- Sequential Scans  
+
+  - 較常見
+  - 如果認知到某個 query 會 read 接下來幾個連續的 page ，則預先將這些 page 放到 buffer pool ( ``pre-fetch`` )
+|
 
 - Index Scans
 
+  - 假設要 traverse a tree，那麼就可以預測下一個要 fetch 的 page 
 
 
 |
