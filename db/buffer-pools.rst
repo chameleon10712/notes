@@ -38,12 +38,18 @@ LOCKS VS. LATCHES
 ``Locks``:
 
 - Protect the database logical contents from other transactions
+  
+  - transaction 跟 transaction 之間不能互相干擾。不能影響彼此正要讀或寫的 records 。
+
 - Need to be able to rollback changes
 - Use to protect database entities ex. ``tuples``, ``tables``, ``indexes``
 
 ``Latches``:
 
 - Protects the critical sections of the DBMS internal data structure from other threads
+
+  - thread 跟 thread 之間不能互相干擾。不能污染彼此正要讀或寫的 page。
+   
 - Do not need to be able to rollback changes
 
 |
