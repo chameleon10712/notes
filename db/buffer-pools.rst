@@ -12,10 +12,11 @@ Buffer Pools
 - `[Notes] <https://15445.courses.cs.cmu.edu/fall2018/notes/05-bufferpool.pdf>`_
 - Readings: Chapter Chapter 10.5-10.8
 
+|
 
 
 page table
-++++++++++
+
 
 
 - The page table keeps track of pages that are currently in memory.
