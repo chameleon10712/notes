@@ -10,14 +10,17 @@ Before Coding
   npm start
 
 
-2. 
+2. Install Visual Studio extension (optional) - `ES7 React/Redux/GraphQL/React-Native snippets <https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets>`_
+
+
+3. 
 
 .. code:: sh
 
   cd my-app
 
 
-3. Runs the app in development mode
+4. Runs the app in development mode
 
 .. code:: sh
 
