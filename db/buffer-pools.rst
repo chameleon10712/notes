@@ -57,6 +57,28 @@ In SQL you can get a lock but you cannot get a latch ，因為 latch 是 DB 用�
 
 |
 
+PAGE TABLE VS. PAGE DIRECTORY
+
+``page directory``:
+
+- The page directory is the mapping from page ids to page locations in the database files.
+  
+  
+  - All changes must be recorded on disk to allow the DBMS to find on restart. 
+  - 儲存 page id 以及對應的 location。 所有的改動都必須寫回 Disk ，這樣 crash 時資料才不會不見。
+
+ 
+
+
+``page table``:
+
+- The page table is the mapping from page ids to a copy of the page in buffer pool frames.
+
+  - This is an in-memory data structure that does not need to be stored on disk.
+  - 用來記錄 Memory 裡面有哪些 copy 。不見就不見了。
+
+|
+
 
 10.7 Data-Dictionary Storage
 =============================
