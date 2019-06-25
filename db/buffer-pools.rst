@@ -31,6 +31,22 @@ Buffer Pools
   
     - 如果要修改某個 page ，就放一個 ``latch`` 在上面 (can be implemented as mutex) ，表示正在修改中。 並且標示 dirty flag 表示這個 page 已被修改。
 
+|
+
+LOCKS VS. LATCHES
+
+Locks:
+
+- Protect the database logical contents from other transactions
+- Need to be able to rollback changes
+- Use to protect database entities ex. ``tuples``, ``tables``, ``indexes``
+
+Latches:
+
+- Protects the critical sections of the DBMS internal data structure from other threads
+- Do not need to be able to rollback changes
+
+|
 
 
 10.7 Data-Dictionary Storage
