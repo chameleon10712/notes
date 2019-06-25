@@ -35,13 +35,13 @@ Buffer Pools
 
 LOCKS VS. LATCHES
 
-Locks:
+``Locks``:
 
 - Protect the database logical contents from other transactions
 - Need to be able to rollback changes
 - Use to protect database entities ex. ``tuples``, ``tables``, ``indexes``
 
-Latches:
+``Latches``:
 
 - Protects the critical sections of the DBMS internal data structure from other threads
 - Do not need to be able to rollback changes
