@@ -15,19 +15,19 @@ Buffer Pools
 |
 
 
-page table
+``page table``
 
 
 
 - The page table keeps track of pages that are currently in memory.
 - Also maintains additional meta-data per page:
 
-  - Pin/Reference Counter
+  - ``Pin/Reference Counter``
   
     - Number of threads touching that page. 目前正在 read 這個 page 的 thread 數量
     - If I want to read it I pin it. 防止這個 page 被修改或被 swap 掉。
   
-  - Dirty Flag
+  - ``Dirty Flag``
   
     - 如果要修改某個 page ，就放一個 latch 在上面 (mutex) ，表示正在修改中。 並且標示 dirty flag 表示這個 page 已被修改。
 
