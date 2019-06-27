@@ -19,6 +19,9 @@ or
 
 .. code:: javascript
 
-  ReactDOM.render(<div style={{ fontWeight: 'bold' }}>Hello World!</div>, document.getElementById('app'));
+  ReactDOM.render(
+    <div style={{ fontWeight: 'bold' }}>Hello World!</div>,
+    document.getElementById('app')
+  );
 
 
