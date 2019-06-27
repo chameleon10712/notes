@@ -14,3 +14,11 @@ Inline Style
   ReactDOM.render(<div style={divStyle}>Hello World!</div>, document.getElementById('app'));
 
 
+or
+
+
+.. code:: javascript
+
+  ReactDOM.render(<div style={{ fontWeight: 'bold' }}>Hello World!</div>, document.getElementById('app'));
+
+
