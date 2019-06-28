@@ -32,7 +32,7 @@ Replace parts of a string with JSX
 
     let s = 'this is your sentence'
     let w = 'your' // target word
-    let r = new RegExp(`\(${word}\\w*\)`, 'gi')
+    let r = new RegExp(`(${word}\\w*)`, 'gi')
     s = s.split(r)
     s = <div>{s[0]}<span className='target'>{s[1]}</span>{s[2]}</div>
     
