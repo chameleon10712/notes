@@ -25,3 +25,27 @@ or
   );
 
 
+
+How to replace parts of a string with a component?
+
+.. code:: javascript
+
+    let s = 'this is your sentence'
+    let w = 'your' // target word
+    let r = new RegExp(`\(${word}\\w*\)`, 'gi')
+    s = s.split(r)
+    s = <div>{s[0]}<span className='target'>{s[1]}</span>{s[2]}</div>
+    
+    // <div>this is <span className='target'>your</span>sentence</div>
+
+
+
+
+
+
+
+
+
+
+
+
