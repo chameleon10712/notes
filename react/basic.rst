@@ -26,7 +26,7 @@ or
 
 
 
-How to replace parts of a string with a component?
+Replace parts of a string with JSX
 
 .. code:: javascript
 
