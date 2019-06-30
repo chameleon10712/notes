@@ -27,6 +27,7 @@ ES6 shorthand
     return { type: 'Witch', name };
   }
 
+`[ref] <https://ariya.io/2013/02/es6-and-object-literal-property-value-shorthand>`_
 
 
 Destructuring Assignment
