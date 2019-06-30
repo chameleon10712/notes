@@ -1,6 +1,34 @@
 ES6
 ===
 
+Object Literal Property Value Shorthand
+---------------------------------------
+
+ES5 
+
+.. code-block:: javascript
+
+  function createMonster(name, power) {
+    return { type: 'Monster', name: name, power: power };
+  }
+  function createWitch(name) {
+    return { type: 'Witch', name: name };
+  }
+
+
+ES6 shorthand
+
+.. code-block:: javascript
+
+  function createMonster(name, power) {
+    return { type: 'Monster', name, power };
+  }
+  function createWitch(name) {
+    return { type: 'Witch', name };
+  }
+
+
+
 Destructuring Assignment
 ------------------------
 
