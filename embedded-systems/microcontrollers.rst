@@ -1,6 +1,10 @@
 Microcontrollers
 -----------------
 
+常見廠商: Atmel、TI、ST、MicroChip、ARM…
+
+
+|
 
 MSP430 
 =======
