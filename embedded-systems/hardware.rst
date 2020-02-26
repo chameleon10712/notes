@@ -27,6 +27,7 @@ Voltage Regulator
 ===================
 
 - linear regulator
+- waste energy and produce a lot of heats
 
 
 |
