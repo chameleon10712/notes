@@ -16,6 +16,8 @@ Terms
 - cathode 負極
 - AC 交流電
 - DC 直流電
+- soldering 焊接
+- diode 二極管
 
 
 |
