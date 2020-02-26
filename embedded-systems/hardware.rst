@@ -5,6 +5,9 @@ Terms
 - buck converter
 - PWM
 - LDR
+- ADC
+- CNC
+- electronic oscillator
 
 |
 
@@ -18,6 +21,7 @@ Terms
 - DC 直流電
 - soldering 焊接
 - diode 二極管
+- oscillator
 
 
 |
@@ -65,8 +69,37 @@ light dependant resistor
 
 |
 
+Resister
+===================
+
+電阻器
+
+limits flows of electricities
+
+|
 
 
 
+ADC
+======
+
+Analog-to-digital converter
 
 
+|
+
+
+CNC
+========
+
+Computer Numeric Control
+
+
+|
+
+Electronic Oscillator
+========================
+
+電子振盪器
+
+用來產生具有周期性的類比訊號（電子振盪，通常是正弦波或方波）的電子電路
