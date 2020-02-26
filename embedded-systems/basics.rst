@@ -5,8 +5,6 @@ Terms
 - Microprocessor
 - MCU
 - SoC
-- DSC
-- DSP
 
 |
 
