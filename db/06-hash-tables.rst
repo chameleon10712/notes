@@ -1,6 +1,16 @@
 Hash Tables
 ===========
 
+- `[Schedule] <https://15445.courses.cs.cmu.edu/fall2018/schedule.html>`_
+|
+
+- `[Video] <https://www.youtube.com/watch?v=ByG1IMM6Ua8&list=PLSE8ODhjZXja3hgmuwhf89qboV1kOxMx7&index=6>`_
+- `[Slide] <https://15445.courses.cs.cmu.edu/fall2018/slides/06-hashtables.pdf>`_
+- `[Notes] <https://15445.courses.cs.cmu.edu/fall2018/notes/06-hashtables.pdf>`_
+- Readings: Chapter 11.6-11.7
+
+|
+
 
 11.6 Static Hashing
 ===================
