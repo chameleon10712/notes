@@ -26,6 +26,9 @@ Terms
 Voltage Regulator
 ===================
 
+- linear regulator
+
+
 |
 
 Buck Converter
@@ -38,6 +41,13 @@ PWM
 ===================
 pulse width modulation
 
+- control using duty cycle
+
+|
+
+- sound output
+- control of motor
+- LED control
 
 
 |
