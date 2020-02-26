@@ -5,6 +5,8 @@ Terms
 - Microprocessor
 - MCU
 - SoC
+- DSC
+- DSP
 
 |
 
@@ -13,7 +15,19 @@ Microcontroller
 
 - 微控制器
 - CPU + integrated memory + IO
-- single chip microcontroller 單晶片、單片機
+- 一般用來簡易控制 ex. 冷氣, 電梯
+
+|
+
+- ARM 的 MCU 有很多種類
+  - 低端 M0 小家電
+  - 高端 A8, A9 手機、平板
+
+
+
+|
+
+- 又稱 single chip microcontroller 單晶片、單片機
 
   |
   
@@ -56,6 +70,16 @@ SoC
 
 - System on Chip
 
+|
 
+比較
+===
+
+綜合功能的豐富程度/ 複雜度: CPU < MCU < SoC
+
+晶片價格: CPU < MCU < SoC
+
+
+|
 
 
