@@ -13,17 +13,9 @@ Microcontroller
 
 - 微控制器
 - CPU + integrated memory + IO
-- 一般用來簡易控制 ex. 冷氣, 電梯
-
-|
-
-- ARM 的 MCU 有很多種類
-  - 低端 M0 小家電
-  - 高端 A8, A9 手機、平板
 
 
 
-|
 
 - 又稱 single chip microcontroller 單晶片、單片機
 
@@ -40,7 +32,14 @@ Microcontroller
   
   - IO
   - ...
+  
+- 一般用來簡易控制 ex. 冷氣, 電梯
 
+
+- ARM 的 MCU 有很多種類
+
+  - 低端 M0 小家電
+  - 高端 A8, A9 手機、平板
 
 |
 
