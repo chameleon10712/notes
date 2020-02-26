@@ -21,7 +21,7 @@ Terms
 - DC 直流電
 - soldering 焊接
 - diode 二極管
-- oscillator
+- oscillator 振盪器
 
 
 |
