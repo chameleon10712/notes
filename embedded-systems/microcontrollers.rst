@@ -9,6 +9,18 @@ Microcontrollers
 
 |
 
+
+MCS-51
+========
+
+- Intel
+
+  - 8051
+
+
+|
+
+
 MSP430 
 =======
 
