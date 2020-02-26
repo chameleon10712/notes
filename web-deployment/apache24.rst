@@ -10,7 +10,7 @@ google key word ::
 
 http://php.net/manual/en/install.unix.apache2.php
 
-/usr/local/etc/apache24/httpd.conf::
+``/usr/local/etc/apache24/httpd.conf``::
 	
 	<FilesMatch \.php$>
 	    SetHandler application/x-httpd-php
@@ -25,6 +25,6 @@ php index file
  index.html path
 =================
 
-/usr/local/www/apache24/data
+``/usr/local/www/apache24/data``
 
 
