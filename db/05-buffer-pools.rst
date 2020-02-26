@@ -10,7 +10,7 @@ Buffer Pools
 - `[Video] <https://www.youtube.com/watch?v=_vRG1ksPlXs&list=PLSE8ODhjZXja3hgmuwhf89qboV1kOxMx7&index=5>`_
 - `[Slide] <https://15445.courses.cs.cmu.edu/fall2018/slides/05-bufferpool.pdf>`_
 - `[Notes] <https://15445.courses.cs.cmu.edu/fall2018/notes/05-bufferpool.pdf>`_
-- Readings: Chapter Chapter 10.5-10.8
+- Readings: Chapter 10.5-10.8
 
 |
 
