@@ -56,7 +56,7 @@ Solution
 
   - 將裝不下的 records 用 overflow buckets 裝
 
-  - overflow chaining
+  - ``overflow chaining``
 
     - 如果一個 overflow bucket 也裝不下，就用另一個 overflow bucket，並且將所有的 overflow buckets 以 linked-list 的方式串起來，這種方式稱為 ``overflow chaining``。
 
