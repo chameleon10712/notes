@@ -37,8 +37,16 @@ Database 的基本功能其實 ``file-processing system`` (以檔案的方式來
 - Security problems
 
 
+Ch3 Introduction to SQL
+================================
 
+SQL 裡面的兩大部分
 
+1. ``Data-definition language (DDL)``，用來定義 schema
+
+2. ``Data-manipulation language (DML)``，用來操作 table
+
+|
 
 
 
