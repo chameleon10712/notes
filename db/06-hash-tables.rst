@@ -67,8 +67,10 @@ Solution
 
 - ``linear probing``
 
-  - 如果 overflow ，則將 records 放置在下一個有空間的 bucket 中
-  - 這種方式稱為 ``open hashing``
+  - 如果 overflow ，則將 records 放置在下一個有空間的 bucket 中，這種方式稱為 ``open hashing`` 。
+  - ``open hashing``
+  
+    - the set of buckets is fixed, and there are no overflow chains
 
 |
 
