@@ -35,6 +35,7 @@ Database 的基本功能其實 ``file-processing system`` (以檔案的方式來
 - Concurrent-accessanomalies
 |
 - Security problems
+|
 
 
 Ch3 Introduction to SQL
