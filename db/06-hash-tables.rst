@@ -79,6 +79,46 @@ Open Hashing & Closed Hashing
 - ``open hashing`` 常被 compilers 、 assemblers 用來建 symbol tables。 而 ``closed hashing`` 在 DB 比較常見。
 - 因為 open hashing 的做法會難以處理 delete 的狀況，而 compilers 只需要處理 lookup 跟 insert 兩種操作。
 
+|
+
+11.7 Dynamic Hashing
+=====================
+
+多數的 Database 資料會隨著時間越來越多，如果使用 static hashing 的話，會有三種選擇
+
+1. 根據現有的 Database 資料量選擇 hash function，這個做法會導致之後當 DB 資料量增加時，效能因為 overflow 減小。
+2. 根據未來的 Database 資料量選擇 hash function，這個做法可能導致前期空間浪費。
+3. 在適當的時機重新組織(reorganize) hash structure，這個做法費時費力。
+
+而 Dynamic Hashing 可以讓 hash function 根據現有的資料量成長或縮減動態的改變 hash function
+
+
+接下來我們要介紹的是其中一種名為 ``extendable hashing`` 的 dynamic hashing
+
+|
+
+11.7.1 Data Structure
+----------------------
+
+``Extendable Hashing`` 藉由分割與合併 buckets 來動態配合資料量大小
+
+假設我們選擇一個 hash function ``h``，這個 hash function 產生非常大範圍的 b-bit binary integer (typically b=32)。由於 2^32 這個數字實在太大了，在 extendable hashing 裡面，我們只根據需求來 create buckets ，當有新的 record 的時候才去 create。
+
+|
+
+11.7.2 Queries and Updates
+----------------------------
+
+|
+
+11.7.3 Static Hashing versus Dynamic Hashing
+-------------------------------------------------
+
+Extendable Hashing 
+
+- 效能不會隨著 DB 的資料量增加而減少，並且不會浪費空間
+- 缺點是 lookup 的時候不能直接找到 bucket 而須先查看 bucket address table (additional level of indirection)
+
 
 
 
