@@ -11,6 +11,8 @@ Introduction & Relational Model
 - Readings: Chapters 1-2, 6
 
 
+|
+
 1.2 Purpose of Database Systems
 ================================
 
