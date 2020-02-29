@@ -58,7 +58,7 @@ Solution
 
   - overflow chaining
 
-    - 如果一個 overflow bucket 也裝不下，就用另一個 overflow bucket，並且將所有的 overflow buckets 以 linked-list 的方式串起來。
+    - 如果一個 overflow bucket 也裝不下，就用另一個 overflow bucket，並且將所有的 overflow buckets 以 linked-list 的方式串起來，這種方式稱為 ``overflow chaining``。
 
   - 上述的方法稱為 ``closed hashing``
 
