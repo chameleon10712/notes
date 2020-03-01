@@ -103,3 +103,18 @@ Electronic Oscillator
 電子振盪器
 
 用來產生具有周期性的類比訊號（電子振盪，通常是正弦波或方波）的電子電路
+
+
+|
+
+RF Modules
+===========
+
+radio-frequency module
+
+``RF module`` is a (usually) small electronic device used to transmit and/or receive radio signals between two devices. In an embedded system it is often desirable to communicate with another device wirelessly. 
+
+
+
+
+
