@@ -114,7 +114,12 @@ radio-frequency module
 
 ``RF module`` is a (usually) small electronic device used to transmit and/or receive radio signals between two devices. In an embedded system it is often desirable to communicate with another device wirelessly. 
 
+|
 
+PCB
+=====
 
+Printed circuit board 印刷電路板
 
+印刷電路板，又稱印製電路板，印刷線路板，常用英文縮寫PCB或PWB，是電子元件的支撐體，在這其中有金屬導體作為連接電子元器件的線路。 傳統的電路板，採用印刷蝕刻阻劑的工法，做出電路的線路及圖面，因此被稱為印刷電路板或印刷線路板
 
