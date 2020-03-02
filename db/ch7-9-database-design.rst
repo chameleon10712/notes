@@ -29,17 +29,29 @@ Ch 7 Database Design and the E-R Model
 Design Phases
 ++++++++++++++
 
-1. 了解使用者需求，並製作 user requirement spec
-2. 選擇 data model 
+- Step 1
 
-- 最後會產生一個 entity-relationship diagram (provides a graphic representation of the schema)
-- 屬於 conceptual-design phase
+  - 了解使用者需求，並製作 user requirement spec
 |
 
-3. 以 specification of functional requirements 來描述 user 可能的 DB 操作
-4. 根據上階段的 schema 實作
+- Step 2
 
-- logical-design phase => physical-design phase
+  - 選擇 data model 
+
+    - 最後會產生一個 entity-relationship diagram (provides a graphic representation of the schema)
+    - 屬於 conceptual-design phase
+    
+|
+
+- Step 3
+  
+  - 以 specification of functional requirements 來描述 user 可能的 DB 操作
+|
+
+- Step 4
+  
+  - 根據上階段的 schema 實作
+  - logical-design phase => physical-design phase
 
 
 
