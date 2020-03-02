@@ -43,13 +43,37 @@ Design Phases
 
 
 
+Design Alternatives
++++++++++++++++++++++
+
+在設計時需要避免兩大陷阱(pitfalls)
+
+1. Redundancy
+2. Incompleteness (ex. workaround)
 
 
+|
+
+7.2 The Entity-Relationship Model
+===================================
+
+ER Model 使用了三個基本概念:
+
+- entity sets
+- relationship sets
+- attributes
 
 
+Entity Sets
++++++++++++++
 
+- entity 
 
-
+  - ex. person_id
+  
+- entity set
+  
+  - ex. 由多個 person_id 組成的 instructor
 
 
 
