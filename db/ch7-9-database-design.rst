@@ -150,3 +150,25 @@ Attribute Types
 
   - 一個具有 students_advices attribute 的 instructor ，根據 relationship 可以查出他 advice 的學生名單
 
+|
+
+7.3 Constraints
+-----------------
+
+- mapping cardinalities
+- participation constraints
+
+Mapping Cardinalities
++++++++++++++++++++++++
+
+``Mapping Cardinalities`` express the number of entities to which another entity can be associated via a relationship set.
+
+- one-to-one
+- one-to-many
+|
+- many-to-one
+- many-to-many
+
+
+Participation Constraints
++++++++++++++++++++++++++++
