@@ -172,3 +172,29 @@ Mapping Cardinalities
 
 Participation Constraints
 +++++++++++++++++++++++++++
+
+- ``total``
+
+  - The participation of an entity set E in a relationship set R is said to be ``total`` if every entity in E participates in at least one relationship in R.
+
+- ``partial``
+
+  -  If only some entities in E participate in relationships in R, the participation of entity set E in relationship R is said to be ``partial``.
+  
+  
+Keys
+++++++
+
+- superkey
+- candidate key
+- primary key
+
+|
+
+7.4 Removing Redundant Attributes in Entity Sets
+--------------------------------------------------
+
+|
+
+7.5 Entity-Relationship Diagrams
+--------------------------------------------------
