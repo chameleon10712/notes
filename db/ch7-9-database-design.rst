@@ -10,7 +10,7 @@ Chapter 7 ~ 9
 Ch 7 Database Design and the E-R Model
 ========================================
 
-- E-R Model
+- ``E-R Model``
 
   - entity- relationship data model (E-R)
 
@@ -96,25 +96,25 @@ Entity Sets
 Relationship Sets
 -------------------
 
-- relationship
+- ``relationship``
 
   - 描述 entity 之間的關係
 
-- relationship sets
+- ``relationship sets``
 
   - 一組 relationships
 
-- role
+- ``role``
 
   - The function that an entity plays in a relationship is called that entity’s role.
 
-- recursive relationship set
+- ``recursive relationship set``
 
   - when the entity sets of a relationship set are not distinct; that is, the same entity set participates in a relationship set more than once, in different roles. 
   - 需要 explicit role names 來描述關係
 
 
-- descriptive attributes
+- ``descriptive attributes``
 
   - 有些時候 relationship 也會用 descriptive attributes 來描述關係
 
@@ -129,14 +129,14 @@ Attributes
 Attribute Types
 +++++++++++++++++
 
-- Simple and composite attributes
+- ``Simple`` and ``composite`` attributes
 
   - composite attributes
     
     - name 這個 attribute 可以再細分為 first name, middle name, last name
     - address 這個 attribute 可以再細分為 street, city, state, zip code
 
-- Single-valued and multi-valued attributes
+- ``Single-valued`` and ``multi-valued`` attributes
 
   - single valued
   
@@ -146,7 +146,7 @@ Attribute Types
   
     - 一個學生可能有好幾支電話
 
-- Derived attribute
+- ``Derived attribute``
 
   - 一個具有 students_advices attribute 的 instructor ，根據 relationship 可以查出他 advice 的學生名單
 
