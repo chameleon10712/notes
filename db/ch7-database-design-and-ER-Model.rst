@@ -1,5 +1,5 @@
-Database Design
-=================
+Ch 7 Database Design and the E-R Model
+=========================================
 
 Database System Concept
 
@@ -7,8 +7,6 @@ Chapter 7 ~ 9
 
 |
 
-Ch 7 Database Design and the E-R Model
-========================================
 
 - ``E-R Model``
 
@@ -28,7 +26,7 @@ Ch 7 Database Design and the E-R Model
 |
 
 Design Phases
-++++++++++++++
+--------------
 
 - Step 1
 
@@ -57,7 +55,7 @@ Design Phases
 
 
 Design Alternatives
-+++++++++++++++++++++
+---------------------
 
 - 在設計時需要避免兩大陷阱(pitfalls)
 
@@ -161,7 +159,7 @@ Attribute Types
 - participation constraints
 
 Mapping Cardinalities
-+++++++++++++++++++++++
+-------------------------
 
 ``Mapping Cardinalities`` express the number of entities to which another entity can be associated via a relationship set.
 
@@ -173,7 +171,7 @@ Mapping Cardinalities
 
 
 Participation Constraints
-+++++++++++++++++++++++++++
+--------------------------
 
 - ``total``
 
@@ -185,7 +183,7 @@ Participation Constraints
   
   
 Keys
-++++++
+------
 
 - superkey
 - candidate key
