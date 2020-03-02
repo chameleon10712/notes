@@ -17,7 +17,8 @@ Ch 7 Database Design and the E-R Model
 |
 
 7.1 Overview of the Design Process
-------------------------------------
+========================================
+
 
 
 - design of the database schema
@@ -153,7 +154,8 @@ Attribute Types
 |
 
 7.3 Constraints
------------------
+========================================
+
 
 - mapping cardinalities
 - participation constraints
@@ -192,9 +194,12 @@ Keys
 |
 
 7.4 Removing Redundant Attributes in Entity Sets
---------------------------------------------------
+=====================================================
+
+
 
 |
 
 7.5 Entity-Relationship Diagrams
---------------------------------------------------
+======================================================
+
