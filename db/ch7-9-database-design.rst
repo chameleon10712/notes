@@ -62,3 +62,19 @@ ER Model 使用了三個基本概念:
 - relationship sets
 - attributes
 
+
+Entity Sets
+-------------
+entity 
+
+- ex. person_id
+  
+entity set  
+
+- ex. 由多個 person_id 組成的 instructor
+
+Attributes
+------------
+
+多個 attributes 組成一個 entity
+
