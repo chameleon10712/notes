@@ -1,0 +1,7 @@
+面試經典考題
+===========
+
+- Process v.s. Thread v.s. Coroutine
+- Inter-Process Communication
+- 調度策略（Scheduler）
+- 死鎖（Deadlock）條件，以及如何解死鎖
