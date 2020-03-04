@@ -54,15 +54,15 @@ OS
 
 - 工具箱類型
 
-  - `[極客時間 - 從 0 開始學架構] <https://time.geekbang.org/column/intro/81>`_
+  - `極客時間 - 從 0 開始學架構 <https://time.geekbang.org/column/intro/81>`_
 
 - 實戰練習
 
-  - `[Grokking the System Design Interview] <https://www.educative.io/courses/grokking-the-system-design-interview>`_
+  - `Grokking the System Design Interview <https://www.educative.io/courses/grokking-the-system-design-interview>`_
 
 - 面試技巧、一般性問題
 
-  - `[Tech Interview Handbook] <https://yangshun.github.io/tech-interview-handbook/questions-to-ask/>`_
+  - `Tech Interview Handbook <https://yangshun.github.io/tech-interview-handbook/questions-to-ask/>`_
 
 
 |
@@ -93,9 +93,9 @@ OS
 面試資源
 --------
   
-- `[LeetCode Discuss] <https://leetcode.com/discuss/interview-question>`_
-- `[一畝三分地] <https://www.1point3acres.com/bbs/forum-145-1.html>`_
-- `[掘金] <https://juejin.im/>`_
+- `LeetCode Discuss <https://leetcode.com/discuss/interview-question>`_
+- `一畝三分地 <https://www.1point3acres.com/bbs/forum-145-1.html>`_
+- `掘金 <https://juejin.im/>`_
 
   - 試著搜尋「Python 面经」、用簡體搜尋
     
