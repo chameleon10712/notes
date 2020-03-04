@@ -60,9 +60,6 @@ OS
 
   - `Grokking the System Design Interview <https://www.educative.io/courses/grokking-the-system-design-interview>`_
 
-- 面試技巧、一般性問題
-
-  - `Tech Interview Handbook <https://yangshun.github.io/tech-interview-handbook/questions-to-ask/>`_
 
 
 |
@@ -99,4 +96,7 @@ OS
 
   - 試著搜尋「Python 面经」、用簡體搜尋
     
+- 面試技巧、一般性問題
+
+  - `Tech Interview Handbook <https://yangshun.github.io/tech-interview-handbook/questions-to-ask/>`_
 
