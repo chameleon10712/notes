@@ -1,7 +1,8 @@
-https://gist.github.com/MohamedAlaa/2961058
+`[cheatsheet] <https://gist.github.com/MohamedAlaa/2961058>`_
 
-+ tmux 設定檔
-	- vim  .tmux.conf
+tmux 設定檔 ``vim  .tmux.conf``
+
+|
 
 ===================
 	tmux 指令
