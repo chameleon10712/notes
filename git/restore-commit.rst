@@ -5,6 +5,7 @@ Restore Commit
 
 2. ``git push origin +7f6d03:master`` while 7f6d03 is the commit before the wrongly pushed commit. + was for force push
 
+|
 
 This repo still exists because of this.
 
