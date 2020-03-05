@@ -100,3 +100,49 @@ OS
 
   - `Tech Interview Handbook <https://yangshun.github.io/tech-interview-handbook/questions-to-ask/>`_
 
+
+
+Podcast List
+--------------
+
+`[ref] <https://www.ptt.cc/bbs/Soft_Job/M.1581283531.A.B75.html>`_
+
+
+軟體工程或前端或 web 開發類的:
+
+- Soft Skills Engineering
+- The Complete Developer Podcast
+- Software Defined Talk
+- egghead.io developer chats
+- IT Career Engergizer
+- Syntax.fm
+- Developer Tea
+- The Bike Shed
+- Changelog 出的全部 (直接搜 Changelog Master Feed)
+- ShopTalk
+- React Podcast
+- User Error
+- Merge Conflict
+
+|
+
+求職或職場類的 (有些聽聽就好):
+
+- 7 Minute Job Interview Podcast
+- The Ken Coleman Show
+- How to be Awesome at Your Job
+- Find Your Dream Job
+- Safe For Work
+- Dear HBR
+
+|
+
+雜談或其他類的:
+
+- 4 Seas 1 Family
+- The College Info Geek Podcast
+- Abroard in Japan
+- Negotiate Anything
+
+
+
