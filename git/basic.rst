@@ -10,7 +10,7 @@
 |
 
 =============
-    local
+    Local
 =============
 
 Initialization(初始化 把當前目錄變成git 的repository) ::
@@ -98,9 +98,22 @@ Remote ::
 `fatal: refusing to merge unrelated histories <https://github.com/doggy8088/Learn-Git-in-30-days/issues/31>`_
 
 
+|
 
+=============
+    Setting
+=============
 
+``git config --list`` 檢查設定值::
 
+	$ git config --list
+	user.name=John Doe
+	user.email=johndoe@example.com
+	color.status=auto
+	color.branch=auto
+	color.interactive=auto
+	color.diff=auto
+	...
 
 
 
