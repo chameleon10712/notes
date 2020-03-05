@@ -67,31 +67,31 @@ Remote ::
 
 2. 在local 端 cd 進target 目錄 ex. cd <directory name>
 
-4. $ git remote add origin <URL> (新增一個remote)
+4. ``$ git remote add origin <URL>`` 新增一個remote
 
-5. $ git remote -v (# 把remote 列表詳細顯示) 
+5. ``$ git remote -v``  把remote 列表詳細顯示
 
-6. $ git log (列出歷史紀錄)
+6. ``$ git log`` 列出歷史紀錄
 
-7. $ git add . (把當前目錄加進staging area)(不建議)
-   $ git add -A (把當前目錄下的所有檔案加進stagin area)
+7. ``$ git add .`` 把當前目錄加進staging area(不建議)
+   ``$ git add -A`` 把當前目錄下的所有檔案加進stagin area
 
-8. $ git status (檢查加入staging area 的檔案列表)
+8. ``$ git status`` 檢查加入staging area 的檔案列表
 
-9. $ git reset {filename} (取消追蹤, 從staging area 中拿掉)
+9. ``$ git reset {filename}`` 取消追蹤, 從staging area 中拿掉
 
 =======================
     修改檔案後上傳
 =======================
-1. $ git add -A
+1. ``$ git add -A``
 
-2. $ git status (檢查加入staging area 的檔案列表)
+2. ``$ git status`` 檢查加入staging area 的檔案列表
 
-3. $ git reset {filename} (取消追蹤, 從staging area 中拿掉)
+3. ``$ git reset {filename}`` 取消追蹤, 從staging area 中拿掉
 
-4. $ git commit
+4. ``$ git commit``
 
-5. $ git push origin master
+5. ``$ git push origin master``
 
 
 
