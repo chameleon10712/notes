@@ -95,8 +95,7 @@ Remote ::
 
 
 
-fatal: refusing to merge unrelated histories
-	https://github.com/doggy8088/Learn-Git-in-30-days/issues/31
+`fatal: refusing to merge unrelated histories <https://github.com/doggy8088/Learn-Git-in-30-days/issues/31>`_
 
 
 
