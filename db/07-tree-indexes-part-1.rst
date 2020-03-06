@@ -51,11 +51,16 @@ Ordered Indices
 
   - an index whose search key also defines the sequential order of the file
   - also called ``primary indices``
+  - The search key of a clustering index is often the primary key
 
 
+- ``nonclustering indices``
 
+  - Indices whose search key specifies an order different from the sequential order of the file are called ``nonclustering indices``
+  - ``secondary indices``
 
+--
 
-
+- ``index-sequential files``
 
 
