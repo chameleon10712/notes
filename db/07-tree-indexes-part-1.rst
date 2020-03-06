@@ -63,4 +63,34 @@ Ordered Indices
 
 - ``index-sequential files``
 
+|
+
+Dense and Sparse Indices
+++++++++++++++++++++++++++
+
+- ``index entry``
+- ``index record``
+
+
+--
+
+- ``Dense index``
+
+- ``Sparse index``
+
+|
+
+B+-Tree Index Files
+--------------------------
+
+
+
+|
+
+B+-Tree Extensions
+--------------------------
+
+
+
+
 
