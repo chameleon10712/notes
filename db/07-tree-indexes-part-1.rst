@@ -13,6 +13,48 @@ Tree Indexes Part I
 |
 
 
+Indexing and Hashing
+=======================
+
+由於查詢的資料通常都只占 database 資料裡面的一小部分，每一個 record 慢慢比對實在太沒效率，所以一般 DB 都會設計特別的結構去滿足快速查詢的需求。
+
+Basic Concepts
+----------------
+
+兩種基本的 indices:
+
+- ``Orderedindices`` : 指標即代表順序
+
+- ``Hash indices`` : 代表一個 hash 值
+
+
+上述兩種 indices 並沒有誰比較好，兩種 indices 都有個別適合的使用情境
+
+--
+
+
+搜尋:
+
+- ``search key`` 
+
+  - An attribute or set of attributes used to look up records in a file is called a ``search key``
+  - 與 ``primary key``, ``candidate key``, ``superkey`` 意義上不ㄧ樣
+
+
+
+
+Ordered Indices
+-----------------
+
+
+- ``clustering index``
+
+  - an index whose search key also defines the sequential order of the file
+  - also called ``primary indices``
+
+
+
+
 
 
 
