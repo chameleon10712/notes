@@ -101,6 +101,33 @@ Part B - Scenario Based Questions
 
 25. Explain the free command.
 
+|
+
+中文面試問題
+------------
+
+中文術語讓我非常困擾 orz
+
+
+
+- 關鍵字static的作用是什麼？
+
+- 協處理器主要控制：______、______、______
+
+- 當一個異常出現以後，ARM微處理器會執行哪幾步操作？
+
+- ARM微處理器在較新的體系結構中支持兩種指令集：______、______
+
+- 多線程如何同步?
+
+- 我們常常會需要和TCP和UDP打交到，可否敘述一下，TCP與UDP的區別是什麼?
+
+- 請解釋大小端 (Big-Endian/Little-Endian)
+
+- 請簡單描述一下，Process/thread的區別是什麼。
+
+
+
 
 
 
