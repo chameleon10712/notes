@@ -16,7 +16,7 @@ ex. 4-way st  => 3 keys
 B Trees
 ---------
 
-- sparse index 
+- sparse index (?
 
 
 
@@ -24,6 +24,6 @@ B Trees
 B+ Trees
 -----------
 
-- dense index
+- dense index (?
 
 
