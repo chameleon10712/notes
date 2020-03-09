@@ -22,7 +22,7 @@ linker 會標示哪個是 entry point （程式從哪一個檔案進度、最先
 Linker 主要的工作
 ------------------
 
-Step1: ``symbol resolution``
+Step 1: ``symbol resolution``
 
   
 - Programs ``define`` and ``reference`` symbol (global variables and functions)
@@ -39,4 +39,12 @@ Step1: ``symbol resolution``
 - ``symbol definition`` 會在 assembly 階段就被寫在 ``symbol table`` 裡面
 
 - 在 linking process 階段， linker 會將 ``symbol reference`` 與 ``symbol definition`` 關聯(associate)起來
+
+- 在多個 module 的時候，可能會有 function name 重複的問題，這個時候 linker 會將正確的 reference associate 到對應的 symbol definition
+
+
+|
+
+Step 2: ``Relocation``
+
 
