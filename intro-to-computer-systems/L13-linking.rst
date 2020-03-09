@@ -43,6 +43,12 @@ Step 1: symbol resolution
 
 - 在多個 module 的時候，可能會有 function name 重複的問題，這個時候 linker 會將正確的 reference associate 到對應的 symbol definition
 
+- Linker Symbols
+
+  - linker 只會管 global variable 以及 function，並不會處理 local variable
+  
+    - C functons and global variables defined with the ``static`` attribute.	
+    - local variable 由 compiler 處理
 
 |
 
