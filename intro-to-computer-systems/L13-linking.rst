@@ -26,16 +26,17 @@ Step1: ``symbol resolution``
 
   
 - Programs ``define`` and ``reference`` symbol (global variables and functions)
-  
-  |
 
-  - ``void swap(){ ... }`` 這個動作叫做 define symbol
+::
+
+  void swap(){...}    // define symbol swap
+  swap();             // reference symbol swap
+  int *p = &x;        // define symbol p, reference symbol x
   
-  - ``swap()`` 這個叫做 reference symbol
-  
-  - ``int *p = &x`` 定義 symbol p, reference x
 
 |
+
+- symbol definition 會在 assembling 階段就被寫在 symbol table 裡面
 
 - symbol resolution 主要是將 ``symbol reference`` 與 ``symbol definition`` 關聯(associate)起來
 
