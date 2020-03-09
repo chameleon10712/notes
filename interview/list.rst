@@ -29,6 +29,8 @@ Books:
   
   - cmu入門神書
 
+- `The Google Resume: How to Prepare for a Career and Land a Job at Apple, Microsoft, Google, or any Top Tech Company <https://www.1point3acres.com/bbs/thread-17514-1-1.html>`_
+
 
 其他連結:
 
@@ -37,5 +39,10 @@ Books:
 - `System Design 相關 <http://www.mitbbs.com/article_t/JobHunting/32777529.html>`_
 
 - `一畝三分地 - 美國CS軟件求職精華匯總 <https://www.1point3acres.com/bbs/thread-303319-1-1.html>`_
+
+
+
+
+
 
 
