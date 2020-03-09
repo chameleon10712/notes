@@ -51,6 +51,7 @@ Part A - Theoretical Questions
 22. What is a Latch?
 
 - db/05-buffer-pools
+- `Lock, mutex, semaphore… what's the difference? <https://stackoverflow.com/a/2332868>`_
 
 23. What is a Microprocessor?
 
