@@ -38,5 +38,5 @@ Step1: ``symbol resolution``
 
 - symbol definition 會在 assembling 階段就被寫在 symbol table 裡面
 
-- symbol resolution 主要是將 ``symbol reference`` 與 ``symbol definition`` 關聯(associate)起來
+- 在 linking process 階段， linker 會將 ``symbol reference`` 與 ``symbol definition`` 關聯(associate)起來
 
