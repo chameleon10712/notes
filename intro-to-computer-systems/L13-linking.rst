@@ -22,7 +22,8 @@ linker 會標示哪個是 entry point （程式從哪一個檔案進度、最先
 Linker 主要的工作
 ------------------
 
-Step 1: ``symbol resolution``
+Step 1: symbol resolution
++++++++++++++++++++++++++++
 
   
 - Programs ``define`` and ``reference`` symbol (global variables and functions)
@@ -45,6 +46,7 @@ Step 1: ``symbol resolution``
 
 |
 
-Step 2: ``Relocation``
+Step 2: Relocation
+++++++++++++++++++++
 
 
