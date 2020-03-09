@@ -49,4 +49,14 @@ Step 1: symbol resolution
 Step 2: Relocation
 ++++++++++++++++++++
 
+- 將多個 code & data section merge 成單一的 section
+- relocate symbol，將 symbol 與實際的記憶體位置 bind 在一起，然後查看該 symbol 的 references 、將這些 references 指到實際的記憶體位置 (update the reference so that it point to the right spot)
+
+
+
+
+
+
+
+
 
