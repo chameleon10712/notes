@@ -16,13 +16,13 @@ Buffer Pools
 
 DATABASE STORAGE
 
-Spatial Control:
+``Spatial Control``:
 
 - The goal is to keep pages that are used together often as physically close together as possible on disk.
 - 將常互相用到的 pages 位置放置在 Disk 上鄰近區域
 
 
-Temporal Control:
+``Temporal Control``:
 
 - The goal is minimize the number of stalls from having to read data from disk.
 - 減少從硬碟讀取資料的時間。
@@ -119,13 +119,13 @@ PRE-FETCHING
 
 The DBMS can also optimize by pre fetching pages based on the query plan.
 
-- Sequential Scans  
+- ``Sequential Scans``  
 
   - 較常見
   - 如果認知到某個 query 會 read 接下來幾個連續的 page ，則預先將這些 page 放到 buffer pool ( ``pre-fetch`` )
 |
 
-- Index Scans
+- ``Index Scans``
 
   - 假設要 traverse a tree，那麼就可以預測下一個要 fetch 的 page 
 
@@ -154,20 +154,20 @@ Data Dictionary
 
 - Buffer Replacement Policies
 
-  - least recently used (LRU)
+  - ``least recently used (LRU)``
   
     - OS 常用，但是 DB 可以根據使用情境，預測得更準確。
     - 很多 DB 還是用 LRU
   
-  - toss-immediate
+  - ``toss-immediate``
   
     - 假設已經處理完某個 query，則那個 block 就可以丟掉了。用過即丟。
   
-  - most recently used (MRU)
+  - ``most recently used (MRU)``
 
 |
 
-- Pinned blocks
+- ``Pinned blocks``
 
   - 當某個 block 正在 update 時，不能讓其他人寫入這個 block。這種 block 稱為 pinned block。
   - 很少 OS 支援 pinned blocks
