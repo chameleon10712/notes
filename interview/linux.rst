@@ -50,6 +50,8 @@ Part A - Theoretical Questions
 
 22. What is a Latch?
 
+- db/05-buffer-pools
+
 23. What is a Microprocessor?
 
 24. Explain Regular Expressions and Grep
