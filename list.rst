@@ -1,6 +1,7 @@
 好用連結
 
 - `CMU GPI <https://www.cs.cmu.edu/~15131/f15/topics/bash/>`_
+- `Bash Scripting <https://www.cs.cmu.edu/~15131/f15/topics/bash/bash-scripting/>`_
 - `BASH Programming - Introduction HOW-TO <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html>`_
 - `Sed - An Introduction and Tutorial <https://www.grymoire.com/Unix/Sed.html>`_
 
