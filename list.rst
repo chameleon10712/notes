@@ -1,3 +1,9 @@
+好用連結
+
+- `BASH Programming - Introduction HOW-TO <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html>`_
+
+|
+
 清單
 
 - RESTful API
