@@ -6,6 +6,8 @@
 - `開始 Git 基礎要點 <https://git-scm.com/book/zh-tw/v1/開始-Git-基礎要點>`_
 - `About Version Control <https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control>`_
 - `檔案還原 <https://zlargon.gitbooks.io/git-tutorial/content/file/recover.html>`_
+- `cmucc <http://club.cc.cmu.edu/talks/fall15/power-git.html>`_
+
 
 |
 
