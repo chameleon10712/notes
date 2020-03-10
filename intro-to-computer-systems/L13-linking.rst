@@ -19,8 +19,8 @@ linker 會標示哪個是 entry point （程式從哪一個檔案進度、最先
 
 |
 
-Linker 主要的工作
-------------------
+What do linkers do? 
+-----------------------------
 
 Step 1: symbol resolution
 +++++++++++++++++++++++++++
@@ -43,12 +43,6 @@ Step 1: symbol resolution
 
 - 在多個 module 的時候，可能會有 function name 重複的問題，這個時候 linker 會將正確的 reference associate 到對應的 symbol definition
 
-- Linker Symbols
-
-  - linker 只會管 global variable 以及 function，並不會處理 local variable
-  
-    - C functons and global variables defined with the ``static`` attribute.	
-    - local variable 由 compiler 處理
 
 |
 
@@ -59,10 +53,50 @@ Step 2: Relocation
 - relocate symbol，將 symbol 與實際的記憶體位置 bind 在一起，然後查看該 symbol 的 references 、將這些 references 指到實際的記憶體位置 (update the reference so that it point to the right spot)
 
 
+|
+
+Symbol Resolution
+====================
+
+
+Linker Symbols
+----------------
+
+- linker 只會管 global variable 以及 function，並不會處理 local variable
+
+  - C functons and global variables defined with the ``static`` attribute.	
+  - local variable 由 compiler 處理
+
+|
+
+Local Symbols
+-----------------
+
+::
+
+  int f()
+  {
+    static int x = 0;  // local static C variable, 這裡的 x 只會被 f() 看到
+    return x;
+  }
+
+  int g()
+  {
+    static int x = 1; // local static C variable
+    return x;
+  }
+
+
+- 在這個例子裡面兩個 x 都不是存在 ``stack`` 而是存在 ``.data``
+- compiler 對這兩個 x 會給予不同的 symbol 、並且分配不同的空間給他們（並不會混在一起)
+
+- local static C variable: stored in either ``.bss`` or ``.data``
 
 
 
 
 
 
+Relocation
+================
 
