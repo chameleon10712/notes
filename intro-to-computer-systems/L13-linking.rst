@@ -55,12 +55,14 @@ Step 2: Relocation
 
 |
 
-Symbol Resolution
+More
 ====================
 
+Symbol Resolution
+-------------------
 
 Linker Symbols
-----------------
++++++++++++++++++
 
 - linker 只會管 global variable 以及 function，並不會處理 local variable
 
@@ -70,7 +72,7 @@ Linker Symbols
 |
 
 Local Symbols
------------------
++++++++++++++++++
 
 ::
 
@@ -97,5 +99,5 @@ Local Symbols
 |
 
 Relocation
-================
+------------
 
