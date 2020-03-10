@@ -2,6 +2,12 @@
 	Vim
 ============
 
+連結
+
+- `cmu cc <http://club.cc.cmu.edu/talks/fall15/power-vim.html>`_
+
+
+
 inset '#' at the beginning visualized text::
 	
 	<C-v> I # <esc> 
@@ -63,7 +69,8 @@ Highlight  ``:set hls``
 	
 	按下 10@a, 就會播放剛才紀錄的巨集 10 次
 
-http://hackerandgeek.blogspot.tw/2013/08/vim.html
+- `link <http://hackerandgeek.blogspot.tw/2013/08/vim.html>`_
+
 
 mapping example::
 	
