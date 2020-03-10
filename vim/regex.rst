@@ -1,10 +1,13 @@
 ================================
     regular expression - vim	
 ================================
-google keyword:
-	vim regular expression
+
+google keyword
+
+- vim regular expression
 	
-	`link <http://vimregex.com/>`_
+- `link <http://vimregex.com/>`_
+
 
 **exact match**:  ``/\<exact_word\>``
 
@@ -60,6 +63,7 @@ Where <Ctrl-V><Ctrl-M> means type Ctrl+V then Ctrl+M
 Instead of ``.*`` use ``.\{-}``
 ``:help non-greedy``
 
-http://stackoverflow.com/questions/1305853/how-can-i-make-my-match-non-greedy-in-vim
+
+`match non greedy in vim <http://stackoverflow.com/questions/1305853/how-can-i-make-my-match-non-greedy-in-vim>`_
 
 
