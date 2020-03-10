@@ -82,20 +82,19 @@ Local Symbols
 
   int g()
   {
-    static int x = 1; // local static C variable
+    static int x = 1; // local static C variable, 這裡的 x 只會被 g() 看到
     return x;
   }
-
-
-- 在這個例子裡面兩個 x 都不是存在 ``stack`` 而是存在 ``.data``
-- compiler 對這兩個 x 會給予不同的 symbol 、並且分配不同的空間給他們（並不會混在一起)
+  
+  // 在這個例子裡面兩個 x 都不是存在 ``stack`` 而是存在 ``.data``
+  // compiler 對這兩個 x 會給予不同的 symbol 、並且分配不同的空間給他們（並不會混在一起)
 
 - local static C variable: stored in either ``.bss`` or ``.data``
 
 
 
 
-
+|
 
 Relocation
 ================
