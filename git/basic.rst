@@ -1,3 +1,10 @@
+好用連結
+
+- `cmu cc <http://club.cc.cmu.edu/talks/fall15/power-git.html>`_
+- `A Hacker's Guide to Git <https://wildlyinaccurate.com/a-hackers-guide-to-git/>`_
+
+|
+
 ==========
 參考 Link
 ==========
@@ -6,7 +13,6 @@
 - `開始 Git 基礎要點 <https://git-scm.com/book/zh-tw/v1/開始-Git-基礎要點>`_
 - `About Version Control <https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control>`_
 - `檔案還原 <https://zlargon.gitbooks.io/git-tutorial/content/file/recover.html>`_
-- `cmu cc <http://club.cc.cmu.edu/talks/fall15/power-git.html>`_
 
 
 |
