@@ -2,7 +2,7 @@
 	Vim
 ============
 
-連結
+好用連結
 
 - `cmu cc <http://club.cc.cmu.edu/talks/fall15/power-vim.html>`_
 
