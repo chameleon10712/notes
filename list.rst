@@ -1,6 +1,8 @@
 好用連結
 
 - `BASH Programming - Introduction HOW-TO <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html>`_
+- `Sed - An Introduction and Tutorial <https://www.grymoire.com/Unix/Sed.html>`_
+
 
 |
 
