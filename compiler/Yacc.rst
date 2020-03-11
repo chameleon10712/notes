@@ -17,9 +17,11 @@ programs
    Grammar
 ==============
 ::
+
 	A :	body;
 
 ::
+
 	A :	B C D ;
 	A :	E F ;
 	A :	G ;
@@ -68,11 +70,12 @@ action : an arbitray C statement ::
 	{ $$ = 1; }
 
 
-pseudo-variable 
+pseudo-variable ::
 		
 		$1  $2   $3
 	A :  B   C    D ;
 
+|
 
 Note                               
 	prevent names beginning in "yy";
