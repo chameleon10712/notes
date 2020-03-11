@@ -16,7 +16,7 @@ Virtual Host
  version
 =========
 
-curl -v chameleon.idv.tw
+curl -v domainname.idv.tw
 
 apache24/httpd.conf::
 	
