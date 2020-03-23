@@ -45,8 +45,8 @@ Approaches for Writing Concurrent Servers
 
   
 
-Process-based
-----------------
+Process-based Servers
+------------------------
 
 - spawn (fork) separate process for each client
 - server process 一定要主動砍掉 zombie children 
@@ -67,8 +67,8 @@ Process-based
 |
 
 
-Event-based
--------------
+Event-based Servers
+-----------------------
 
 - pros
 
@@ -91,5 +91,5 @@ Event-based
 |
 
 
-Thread-based
----------------
+Thread-based Servers
+----------------------
