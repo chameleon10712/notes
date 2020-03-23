@@ -14,7 +14,7 @@ CMU - Intro to Computer Systems, Fall 2016
 Concurrent Programming is Hard
 ---------------------------------
 
-concurrent programming 可能造成的經典問題
+Classical problem classes of concurrent	programs
 
 - Race
 - Deadlock
@@ -47,14 +47,14 @@ Approaches for Writing Concurrent Servers
       - additional overhead process control
       - process 之間的溝通需要 interprocess communication (IPC)
   
-|
+
 
 - Event-based
 
   - Programmer 手動切換
   - 所有 flow 共享 address space
   - I/O multiplexing
-|
+
 
 - Thread-based
 
