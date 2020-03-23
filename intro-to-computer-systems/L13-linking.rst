@@ -44,7 +44,7 @@ Step 1: symbol resolution
 +++++++++++++++++++++++++++
 
   
-- Programs ``define`` and ``reference`` symbol (global variables and functions)
+- Programs ``define`` and ``reference`` symbol (``global variables`` and ``functions``)
 
 ::
 
