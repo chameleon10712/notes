@@ -12,8 +12,13 @@ CMU - Intro to Computer Systems, Fall 2016
 |
 
 
+concurrent programming 可能造成的經典問題
 
+- race
+- deadlock
+- livelock / starvation / fairness
 
+|
 
 
 
