@@ -28,51 +28,12 @@ Approaches for Writing Concurrent Servers
 
   - Kernel 自動切換
   - each flow 有自己的 address space (每個 flow 獨立)
-  - Detail
-  
-    - spawn (fork) separate process for each client
-    - server process 一定要主動砍掉 zombie children 
-      
-      - to avoid fatal memory leak
-    |
-    - pros
-    
-      - 同時處理多個 connection
-      - clean sharing model
-      - simple code
-    
-    - cons
-    
-      - additional overhead for process control
-      - process 之間的溝通需要 interprocess communication (IPC)
-  
-
 
 - Event-based
 
   - Programmer 手動切換
   - 所有 flow 共享 address space
   - I/O multiplexing
-  - Detail
-  
-    - pros
-      
-      - One process with one address space
-        
-        - simpler to debug, only single-step with a debugger
-      - No process or thread control overhead
-      
-        - 所以是 high performance web server / search engine 的設計首選 e.g. Node.js, nginx, Tornado
-    
-    - cons
-    
-      - complex code
-      - hard to provide fine-grained concurrency
-      
-        - how to deal with partial HTTP request headers
-        
-      - single thread of control, 不會享有 multi-core 的好處
-
 
 - Thread-based
 
@@ -84,12 +45,51 @@ Approaches for Writing Concurrent Servers
 
   
 
+Process-based
+----------------
+
+- spawn (fork) separate process for each client
+- server process 一定要主動砍掉 zombie children 
+
+  - to avoid fatal memory leak
+|
+- pros
+
+  - 同時處理多個 connection
+  - clean sharing model
+  - simple code
+
+- cons
+
+  - additional overhead for process control
+  - process 之間的溝通需要 interprocess communication (IPC)
+
+|
 
 
+Event-based
+-------------
+
+- pros
+
+  - One process with one address space
+
+    - simpler to debug, only single-step with a debugger
+  - No process or thread control overhead
+
+    - 所以是 high performance web server / search engine 的設計首選 e.g. Node.js, nginx, Tornado
+
+- cons
+
+  - complex code
+  - hard to provide fine-grained concurrency
+
+    - how to deal with partial HTTP request headers
+
+  - single thread of control, 不會享有 multi-core 的好處
+
+|
 
 
-
-
-
-
-
+Thread-based
+---------------
