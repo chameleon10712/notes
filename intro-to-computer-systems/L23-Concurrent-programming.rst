@@ -16,9 +16,9 @@ Concurrent Programming is Hard
 
 concurrent programming 可能造成的經典問題
 
-- race
-- deadlock
-- livelock / starvation / fairness
+- Race
+- Deadlock
+- Livelock / Starvation / Fairness
 
 |
 
