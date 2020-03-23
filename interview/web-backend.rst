@@ -81,7 +81,7 @@ OS
   
 - Nginx
   
-  - Nginx 的實現原理是什麼？為什麼一台 Nginx Server 就可能撐上萬的 QPS？
+  - Nginx 的實現原理是什麼？為什麼一台 Nginx Server 就可能撐上萬的 QPS (Queries-per-second)？
 
 
 |
