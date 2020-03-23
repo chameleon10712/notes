@@ -52,7 +52,7 @@ Exceptional Control Flow
   - Exceptions
   
     - change in ``system state``
-    - 實作上需要 hardware & OS 
+    - 實作上需要 hardware & OS software
 
 - high level
 
