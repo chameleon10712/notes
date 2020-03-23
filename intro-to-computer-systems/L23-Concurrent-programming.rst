@@ -11,6 +11,8 @@ CMU - Intro to Computer Systems, Fall 2016
 
 |
 
+Concurrent Programming is Hard
+---------------------------------
 
 concurrent programming 可能造成的經典問題
 
@@ -19,6 +21,41 @@ concurrent programming 可能造成的經典問題
 - livelock / starvation / fairness
 
 |
+
+Approaches for Writing Concurrent Servers
+--------------------------------------------
+
+- Process-based
+
+  - Kernel 自動切換
+  - each flow 有自己的 address space (每個 flow 獨立)
+  - spawn (fork) separate process for each client
+  
+|
+
+- Event-based
+
+  - Programmer 手動切換
+  - 所有 flow 共享 address space
+  - I/O multiplexing
+|
+
+- Thread-based
+
+  - Kernel 自動切換
+  - each flow shared address space
+  - Process-based 與 Event-based 的混合體 (Hybrid) 
+  
+|
+
+  
+
+
+
+
+
+
+
 
 
 
