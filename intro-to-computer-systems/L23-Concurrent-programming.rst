@@ -29,7 +29,23 @@ Approaches for Writing Concurrent Servers
 
   - Kernel 自動切換
   - each flow 有自己的 address space (每個 flow 獨立)
-  - spawn (fork) separate process for each client
+  - Detail
+  
+    - spawn (fork) separate process for each client
+    - server process 一定要主動砍掉 zombie children 
+      
+      - to avoid fatal memory leak
+    |
+    - pros
+    
+      - 同時處理多個 connection
+      - clean sharing model
+      - simple
+    
+    - cons
+    
+      - additional overhead process control
+      - process 之間的溝通需要 interprocess communication (IPC)
   
 |
 
