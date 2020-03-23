@@ -71,7 +71,7 @@ Approaches for Writing Concurrent Servers
       
         - how to deal with partial HTTP request headers
         
-      - single thread of control, 不會得到 multi-core 的好處
+      - single thread of control, 不會享有 multi-core 的好處
 
 
 - Thread-based
