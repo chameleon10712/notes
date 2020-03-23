@@ -29,6 +29,7 @@ Static Linking
 
 ``*.c`` ---[ Translator (cpp, cc1, as) ]-->  ``*.o``  ----[ Linker (ld) ]--->  ``executable file``
 
+- ``gcc`` 會呼叫一系列 translator, 首先會先呼叫 c preprocessor ``cpp``, 然後再呼叫 c 的 compiler ``cc1``, compiler 會產生 assembly code 後傳給 assembler, assembler 會將 assembly code 再 translate 成 ``.o`` file
 
 |
 
