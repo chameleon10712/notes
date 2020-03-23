@@ -98,10 +98,11 @@ concurrent thread execution
 
 - single core processor
 
-  - simulate parallelism by time slicing
+  - simulate parallelism by time slicing 
+
 
 - multi-core processor
 
-  - can have true parallelism
+  - can have true parallelism 可以做到真正的平行
 
 
