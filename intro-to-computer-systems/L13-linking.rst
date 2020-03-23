@@ -37,6 +37,33 @@ Static Linking
 
 |
 
+三種 Object Files
+----------------------
+
+- relocatable object file (.o file)
+
+  - 也是 binary file, 但格式是給 linker 用的
+
+- executable object file (a.out)
+
+
+- shared object file (.so file)
+
+|
+- 這三種 object files 都用同一種 format - Executable and Linkable Format (ELF)
+
+
+Executable and Linkable Format (ELF)
+---------------------------------------
+
+- object files 的 standard format
+- generic name: ``ELF binaries``
+
+
+
+|
+
+
 What do linkers do? 
 -----------------------------
 
