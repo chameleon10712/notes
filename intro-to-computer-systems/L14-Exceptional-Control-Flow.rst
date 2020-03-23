@@ -39,5 +39,20 @@ react to change of ``program state``
   - e.g. ``Ctrl-C``, 除以 0, system timer expires, data arrives from a disk or a network adapter
 
 
--> system 需要 ``exceptional control flow``
+-> system 需要 ``exceptional control flow`` (ECF)
 
+|
+
+Exceptional Control Flow
+----------------------------
+
+
+- low level
+  
+  - Exceptions
+
+- high level
+
+  - Process Context Switch
+  - Signals
+  - Nonlocal jumps: ``setjmp()`` and ``longjmp()``
