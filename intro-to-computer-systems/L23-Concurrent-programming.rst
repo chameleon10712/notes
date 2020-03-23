@@ -39,11 +39,11 @@ Approaches for Writing Concurrent Servers
     
       - 同時處理多個 connection
       - clean sharing model
-      - simple
+      - simple code
     
     - cons
     
-      - additional overhead process control
+      - additional overhead for process control
       - process 之間的溝通需要 interprocess communication (IPC)
   
 
@@ -53,6 +53,25 @@ Approaches for Writing Concurrent Servers
   - Programmer 手動切換
   - 所有 flow 共享 address space
   - I/O multiplexing
+  - Detail
+  
+    - pros
+      
+      - One process with one address space
+        
+        - simpler to debug, only single-step with a debugger
+      - No process or thread control overhead
+      
+        - 所以是 high performance web server / search engine 的設計首選 e.g. Node.js, nginx, Tornado
+    
+    - cons
+    
+      - complex code
+      - hard to provide fine-grained concurrency
+      
+        - how to deal with partial HTTP request headers
+        
+      - single thread of control, 不會得到 multi-core 的好處
 
 
 - Thread-based
