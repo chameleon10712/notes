@@ -36,7 +36,7 @@ react to change of ``program state``
 
 - system state
 
-  - e.g. ``Ctrl-C``, 除以 0, system timer expires, data arrives from a disk or a network adapter
+  - e.g. ``Ctrl-C``, 除以零, system timer expires, data arrives from a disk or a network adapter
 
 
 -> system 需要 ``exceptional control flow`` (ECF)
