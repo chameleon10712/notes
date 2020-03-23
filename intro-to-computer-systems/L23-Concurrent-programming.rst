@@ -11,10 +11,9 @@ CMU - Intro to Computer Systems, Fall 2016
 
 |
 
-Concurrent Programming is Hard
----------------------------------
+Classical problem classes of concurrent programs
+--------------------------------------------------
 
-Classical problem classes of concurrent	programs
 
 - Race
 - Deadlock
