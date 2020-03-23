@@ -59,6 +59,21 @@ Executable and Linkable Format (ELF)
 - object files 的 standard format
 - generic name: ``ELF binaries``
 
+|
+
+- ``.data`` : code section
+- ``.bss``
+
+|
+
+
+Linker Symbols
+----------------
+
+- Global symbols
+- External symbols
+- Local symbols
+
 
 
 |
