@@ -50,6 +50,9 @@ Exceptional Control Flow
 - low level
   
   - Exceptions
+  
+    - change in ``system state``
+    - 實作上需要 hardware & OS 
 
 - high level
 
