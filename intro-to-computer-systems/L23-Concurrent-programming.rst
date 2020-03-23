@@ -93,3 +93,15 @@ Event-based Servers
 
 Thread-based Servers
 ----------------------
+
+concurrent thread execution
+
+- single core processor
+
+  - simulate parallelism by time slicing
+
+- multi-core processor
+
+  - can have true parallelism
+
+
