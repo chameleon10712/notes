@@ -27,7 +27,7 @@ linker 會標示哪個是 entry point （程式從哪一個檔案進度、最先
 Static Linking
 ------------------
 
-``*.c`` ---[ Translator (cpp, cc1, as) ]-->  ``*.o``  ----[ Linker (ld) ]--->  ``program``
+``*.c`` ---[ Translator (cpp, cc1, as) ]-->  ``*.o``  ----[ Linker (ld) ]--->  ``executable file``
 
 
 |
