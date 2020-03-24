@@ -25,6 +25,14 @@ Course Outline
   - How to read / write data
   - What that data looks like on disk. 實際在硬碟中 DB 如何儲存資料
   - Storage Scheme / Disk Manager
+  |
+  - Problem 1: How the DBMS represenst the database in fiels on disk.
+  
+    - 03 database storage I
+  |
+  - Problem 2: How the DBMS manages its memory and move data back-and-forth from disk.
+  
+    - 04 database storage II
 
 |
 
