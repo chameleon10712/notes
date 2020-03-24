@@ -44,9 +44,9 @@ Storage Hierarchy
 
 faster, slower ----------------------------------------> slower, larger
 
-|CPU Register, CPU cache, DRAM | SSD, HDD, Network Storage|
+CPU Register, CPU cache, DRAM | SSD, HDD, Network Storage
 
-|---------- Volatile ---------------|--------Non-Volatile---------|
+---------- Volatile ---------------|--------Non-Volatile---------
 
 |
 - Volatile
