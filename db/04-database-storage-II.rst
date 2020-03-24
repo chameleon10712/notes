@@ -84,12 +84,14 @@ Storage Models
     
     - 這樣的話假設要列出某個 column 裡面的所有值就非常迅速
     - e.g. 列出 user table 裡面的所有使用者的名稱
+  |
   
   - how to combine tuple
   
     - Choice #1: Fixed-length Offsets
     - Choice #2: Embedded Tuple Ids
-
+  
+  |
   - 優: 對於 OLAP query 來說非常迅速好用; Better query processing and data compression.
 
   - 缺: Slow for point queries, inserts, updates, and deletes because of tuple splitting/stitching.
