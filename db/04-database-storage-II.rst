@@ -34,6 +34,8 @@ Data Representation
   - ``NUMERIC``, ``DECIMAL``
 
 
+|
+
 Storage Model
 ----------------
 
