@@ -72,6 +72,47 @@ CPU Register, CPU cache, DRAM | SSD, HDD, Network Storage
 
 |
 
+Sequential vs. Random Access
+------------------------------
+
+- HDD 用 Random Access 會比 Squential Access 慢
+
+  - 機械手臂跳著移不會比較快
+
+|
+- 傳統的 DBMS 設計著重在 maximize sequential access
+
+|
+
+Why not use the OS
+--------------------
+
+- 因為有 ``mmap``
+
+- OS 在 page swap 的時候會 stall, 我們不想要這種狀況發生
+
+- 針對這個問題的解法
+
+  |
+
+  - ``madvise``
+  
+    - Tell the OS how you expect to read certain pages.
+    
+  - ``mlock``
+  
+    - Tell the OS that memory range cannot be paged out.
+    
+  - ``msync``
+  
+    - Tell the OS to flush memory ranges out to the disk.
+
+  |
+
+- DBMS 傾向於自己處理 data access 的問題，而不是依賴 OS。 因為 OS 太難用了。
+
+|
+
 Raw Storage
 -----------
 
