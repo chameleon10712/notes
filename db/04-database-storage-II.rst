@@ -34,8 +34,8 @@ Data Representation
   - ``NUMERIC``, ``DECIMAL``
 
 
-Workloads
----------
+Storage Model
+----------------
 
 - OLTP
 
