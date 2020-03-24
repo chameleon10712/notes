@@ -10,6 +10,16 @@ Database Storage II
 
 |
 
+Disk-Oriented DBMS
+--------------------
+
+.. raw:: html
+
+    <img src="https://i.imgur.com/7zZzJLQ.png">
+
+
+|
+
 Data Representation
 -------------------
 
