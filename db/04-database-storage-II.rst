@@ -72,15 +72,25 @@ Storage Models
 - N-Ary Storage Model (NSM)
 
   - row store
+  - 優: faster inserts, updates, deletes; 特定方式查詢很迅速
+  - 缺: 假設我要列出所有使用者的名稱的話，就需要幾乎把 user table 裡的所有 record 掃一遍
+
+|
 
 - Decomposition Storage Model (DSM)
   
   - column store
+  - 將一個 column 存在同一個 page
+    
+    - 這樣的話假設要列出某個 column 裡面的所有值就非常迅速
+    - e.g. 列出 user table 裡面的所有使用者的名稱
+  
   - how to combine tuple
   
     - Choice #1: Fixed-length Offsets
     - Choice #2: Embedded Tuple Ids
 
+|
 
 .. raw:: html
 
