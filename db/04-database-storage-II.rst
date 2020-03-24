@@ -41,7 +41,7 @@ Workloads
 
 根據不同的 query 需求, 可以分為 OLTP 與 OLAP 兩類
 
-- ``OLTP``
+- OLTP
 
   - On-line Transaction Processing
   
@@ -53,7 +53,7 @@ Workloads
 
 |
 
-- ``OLAP``
+- OLAP
 
   - On-line Analyitical Processing
   
@@ -69,17 +69,19 @@ Workloads
 Storage Models
 ---------------
 
-- ``N-Ary Storage Model (NSM)``
+- N-Ary Storage Model (NSM)
 
-  - ``row store``
+  - row store
+  |
   - 優: faster inserts, updates, deletes; 特定方式查詢很迅速
   - 缺: 假設我要列出所有使用者的名稱的話，就需要幾乎把 user table 裡的所有 record 掃一遍
 
 |
 
-- ``Decomposition Storage Model (DSM)``
+- Decomposition Storage Model (DSM)
   
-  - ``column store``
+  - column store
+  |
   - 將一個 column 存在同一個 page
     
     - 這樣的話假設要列出某個 column 裡面的所有值就非常迅速
