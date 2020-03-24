@@ -90,6 +90,12 @@ Storage Models
     - Choice #1: Fixed-length Offsets
     - Choice #2: Embedded Tuple Ids
 
+  - 優: 對於 OLAP query 來說非常迅速好用; Better query processing and data compression.
+
+  - 缺: Slow for point queries, inserts, updates, and deletes because of tuple splitting/stitching.
+  
+    
+
 |
 
 .. raw:: html
