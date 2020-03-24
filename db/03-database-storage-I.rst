@@ -20,7 +20,8 @@ Course Outline
 - Relational Databases
 
 - Database Storage
-  
+
+  |
   - How to read / write data
   - What that data looks like on disk. 實際在硬碟中 DB 如何儲存資料
   - Storage Scheme / Disk Manager
