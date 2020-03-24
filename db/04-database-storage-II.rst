@@ -36,10 +36,10 @@ Data Representation
 
 |
 
-Storage Model
+Workloads
 ----------------
 
-WORKLOADS
+根據不同的 query 需求, 可以分為 OLTP 與 OLAP 兩類
 
 - OLTP
 
@@ -57,7 +57,7 @@ WORKLOADS
   - On-line Analyitical Processing
   
     - Complex queries that read large portions of the database spanning multiple entities.
-    - e.g. Amazon 計算 top 5 暢銷商品
+    - e.g. Amazon 計算 top 5 暢銷商品, 需要掃很大部分 DB 內容並計算的 query
     
   - Column store
 
