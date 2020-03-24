@@ -39,11 +39,15 @@ Data Representation
 Storage Model
 ----------------
 
+WORKLOADS
+
 - OLTP
 
   - On-line Transaction Processing
   
     - Simple queries that read/update a small amount of data that is related to a single entity in the database.
+    - e.g. wiki 新增帳號, 新增文章; 新增商品到購物車, simple operation
+    
   - Row store
 
 |
@@ -53,13 +57,15 @@ Storage Model
   - On-line Analyitical Processing
   
     - Complex queries that read large portions of the database spanning multiple entities.
+    - e.g. Amazon 計算 top 5 暢銷商品
+    
   - Column store
 
 |
 
 
 Storage Models
---------------
+---------------
 
 - N-Ary Storage Model (NSM)
 
