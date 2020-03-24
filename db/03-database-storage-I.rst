@@ -12,6 +12,35 @@ Database Storage I
 - `[Notes] <https://15445.courses.cs.cmu.edu/fall2018/notes/03-storage1.pdf>`_
 - Readings: Chapter 10.1-10.2, 10.5-10.6
 
+|
+
+Course Outline
+--------------------
+
+- Relational Databases
+
+- Database Storage
+  
+  - How to read / write data
+  - What that data looks like on disk. 實際在硬碟中 DB 如何儲存資料
+  - Storage Scheme / Disk Manager
+
+|
+
+- Execution
+
+- Concurrency Controy
+
+- Recovery
+
+- Distributed Databases
+
+- Potpourri
+
+
+
+|
+
 
 Raw Storage
 -----------
