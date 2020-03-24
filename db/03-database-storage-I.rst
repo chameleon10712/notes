@@ -37,10 +37,29 @@ Course Outline
 
 - Potpourri
 
-
-
 |
 
+Storage Hierarchy
+-------------------
+
+faster, slower ----------------------------------------> slower, larger
+
+|CPU Register, CPU cache, DRAM | SSD, HDD, Network Storage|
+
+|---------- Volatile ---------------|--------Non-Volatile---------|
+
+|
+- Volatile
+
+  - Random Access
+  - Byte-Addressable
+|
+- Non-Volatile
+
+  - Sequtial Access
+  - Block-Addressable
+
+|
 
 Raw Storage
 -----------
