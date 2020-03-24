@@ -46,6 +46,7 @@ Workloads
   - On-line Transaction Processing
   
     - Simple queries that read/update a small amount of data that is related to a single entity in the database.
+    - 較簡單的一般 query
     - e.g. wiki 新增帳號, 新增文章; 新增商品到購物車, simple operation
     
   - Row store
@@ -57,7 +58,8 @@ Workloads
   - On-line Analyitical Processing
   
     - Complex queries that read large portions of the database spanning multiple entities.
-    - e.g. Amazon 計算 top 5 暢銷商品, 需要掃很大部分 DB 內容並計算的 query
+    - 需要掃很大部分 DB 內容並計算的 query
+    - e.g. Amazon 計算 top 5 暢銷商品
     
   - Column store
 
