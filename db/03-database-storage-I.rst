@@ -61,6 +61,16 @@ CPU Register, CPU cache, DRAM | SSD, HDD, Network Storage
 
 |
 
+- Memory
+
+  - DRAM
+  
+- Disk
+
+  - SSD, HDD, Network Storage
+
+|
+
 Raw Storage
 -----------
 
