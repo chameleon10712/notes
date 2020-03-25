@@ -78,7 +78,7 @@ Entity Sets
 -------------
 - entity 
 
-  - ex. person_id
+  - For example, each person in a university is an entity.
   
 - entity set  
 
