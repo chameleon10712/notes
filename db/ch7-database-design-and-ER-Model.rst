@@ -177,6 +177,12 @@ Mapping Cardinalities
 
 |
 
+E-R diagram
+
+.. image:: https://i.imgur.com/cwsTrz5.png?1
+
+|
+
 Participation Constraints
 --------------------------
 
