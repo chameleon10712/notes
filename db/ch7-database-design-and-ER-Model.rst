@@ -169,6 +169,13 @@ Mapping Cardinalities
 - many-to-one
 - many-to-many
 
+|
+
+一個學生如果只能被一個老師諮詢，而一個老師可以諮詢多個學生，則老師對學生的關係就是 "一對多" (one-to-many)
+
+如果一個學生可以被多個老師諮詢，則老師對學生的關係就是 "多對多" (many-to-many)
+
+|
 
 Participation Constraints
 --------------------------
