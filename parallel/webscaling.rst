@@ -68,7 +68,40 @@ Exploit locality and reuse
     - Reduces database load (fewer queries)
     - Reduces web server load
 
-  - CDNs (content distribution networks)
+- CDNs (content distribution networks)
+
+
+|
+
+Summary
+---------
+
+- Use parallelism
+
+  - Scale-out parallelism: leverage many web servers to meet throughput demand 
+  - Elastic scale-out: cost-effectively adapt to bursty load 
+  - Scaling databases can be tricky (replicate, shard, partition by access pattern) 
+    
+    - Consistency issues on writes
+
+|
+- Exploit locality and reuse 
+
+  - Cache everything (key-value stores) 
+  
+    - Cache the results of database access (reduce DB load)
+    - Cache computation results (reduce web server load)
+    - Cache the results of processing requests (reduce web server load) 
+
+  - Localize cached data near users, especially for large media content (CDNs) 
+
+|
+- Specialize implementations for performance
+
+  - Different forms of requests, different workload patterns
+  - Good example: different databases for different types of requests
+
+
 
 
 |
