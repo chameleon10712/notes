@@ -136,7 +136,21 @@ Summary: scaling modern web sites
 |
 
 - Throughput vs. latency
-
+  
+  |
+  
   - Throughput
   
+    - The rate at which work gets done. 
+    
+      - Operations per second
+      - Bytes per second (bandwidth)
+      - Tasks per hour
+  
   - Latency
+  
+    - The amount of time for an operation to complete
+    
+      - An instruction takes 4 clocks
+      - A cache miss takes 200 clocks to complete
+      - It takes 20 seconds for a program to complete 
