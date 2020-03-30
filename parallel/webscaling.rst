@@ -10,8 +10,8 @@ CMU Parallel Computer Architecture and Programming
 |
 
 
-Performance Issue
-------------------
+Performance Issues
+--------------------
 
 - Parallelism
 - Locality 
@@ -25,6 +25,33 @@ Performance Issue
   - 空間局部性指的是，最近參照過的記憶體位置以及其周邊的記憶體位置容易再次被使用
 
     - ex. loop
+
+|
+
+A Simple Parallel Web Server
+------------------------------
+
+What ``factors`` would you consider in setting
+the value of ``N`` for a multi-core web server?
+
+
+- Parallelism
+
+- Latency hiding
+
+  - hide long-latency disk read operations (by context switching between worker processes) 
+
+- Concurrency
+
+- Footprint
+
+  - don’t want too many threads so that aggregate working set of all threads causes ``thrashing``
+    
+    |
+    - ``thrashing`` occurs when a computer's virtual memory resources are overused, leading to a constant state of paging and page faults, inhibiting most application-level processing.
+
+
+
 
 
 
