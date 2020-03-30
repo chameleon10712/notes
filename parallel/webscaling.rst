@@ -59,13 +59,16 @@ Parallelism Scale Out
 
 由於很多 work 是重複的，在者種情況下利用 locality 的特性去做優化就很棒
 
-- Cache commonly accessed objects 將常用的物件 cache 起來
 
-  - ex. ``memcached``, in memory key-value store (e.g., a big hash table) 
-  - Reduces database load (fewer queries)
-  - Reduces web server load
+- 利用 Cache!
 
+  - Cache commonly accessed objects 將常用的物件 cache 起來
 
+    - ex. ``memcached``, in memory key-value store (e.g., a big hash table) 
+    - Reduces database load (fewer queries)
+    - Reduces web server load
+
+  - CDNs (content distribution networks)
 
 
 |
