@@ -3,7 +3,7 @@ Web Scaling
 
 CMU Parallel Computer Architecture and Programming
 
-- `[schedue] <http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15418-f19/www/schedule.html>`_
+- `[schedule] <http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15418-f19/www/schedule.html>`_
 - `[slide] <http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15418-f19/www/lectures/16_webscaling.pdf>`_
 
 
