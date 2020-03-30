@@ -73,8 +73,8 @@ Exploit locality and reuse
 
 |
 
-Summary
----------
+Summary: scaling modern web sites
+------------------------------------
 
 - Use parallelism
 
