@@ -55,7 +55,14 @@ the value of ``N`` for a multi-core web server?
 
 
 
+名詞
+---------
 
+- Session Affinity (Sticky Session)
+
+- Consistency v.s. Coherence
+
+- Over-provisioning
 
 
 
