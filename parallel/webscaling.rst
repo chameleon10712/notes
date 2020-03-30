@@ -138,7 +138,6 @@ Summary: scaling modern web sites
 - Throughput vs. latency
   
   |
-  
   - Throughput
   
     - The rate at which work gets done. 
@@ -146,7 +145,7 @@ Summary: scaling modern web sites
       - Operations per second
       - Bytes per second (bandwidth)
       - Tasks per hour
-  
+  |
   - Latency
   
     - The amount of time for an operation to complete
