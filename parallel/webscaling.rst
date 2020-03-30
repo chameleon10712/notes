@@ -54,8 +54,8 @@ the value of ``N`` for a multi-core web server?
 
 |
 
-Parallelism Scale Out
------------------------
+Exploit locality and reuse 
+----------------------------
 
 由於很多 work 是重複的，在者種情況下利用 locality 的特性去做優化就很棒
 
