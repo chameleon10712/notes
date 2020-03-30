@@ -7,6 +7,8 @@ CMU Parallel Computer Architecture and Programming
 - `[slide] <http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15418-f19/www/lectures/16_webscaling.pdf>`_
 
 
+因為投影片內容含有大量圖示，所以這篇筆記偏向補充名詞解釋
+
 |
 
 
