@@ -75,4 +75,11 @@ the value of ``N`` for a multi-core web server?
   - Scale Out又稱為水平擴展（scale horizontally），意為在分布式環境下，通過添加節點計算或存儲資源，在橫向上滿足更多的計算存儲需求；隨著計算和存儲單位價格的降低和效率的提升，使用低端的商用（commodity）系統，利用分布式技術可以搭建起「超級計算」中心，以及後來衍生出來的私有或公有雲平台解決方案。 `[ref] <https://kknews.cc/zh-tw/tech/8q52k6e.html>`_
 
 
+|
+
+- Memcached
+
+  - 是一套分散式的高速緩衝記憶體系統，由LiveJournal的Brad Fitzpatrick開發，但目前被許多網站使用。這是一套開放原始碼軟體，以BSD license授權釋出。
+  - `[MemCache 基礎介紹與工作原理] <https://segmentfault.com/a/1190000012950110>`_
+
 
