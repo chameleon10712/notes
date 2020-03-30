@@ -64,6 +64,8 @@ the value of ``N`` for a multi-core web server?
 
 - Over-provisioning
 
+  - Amazon EC2 的 over-provisioning 問題
+
 
 
 
