@@ -52,8 +52,23 @@ the value of ``N`` for a multi-core web server?
     |
     - ``thrashing`` occurs when a computer's virtual memory resources are overused, leading to a constant state of paging and page faults, inhibiting most application-level processing.
 
+|
+
+Parallelism Scale Out
+-----------------------
+
+由於很多 work 是重複的，在者種情況下利用 locality 的特性去做優化就很棒
+
+- Cache commonly accessed objects 將常用的物件 cache 起來
+
+  - ex. ``memcached``, in memory key-value store (e.g., a big hash table) 
+  - Reduces database load (fewer queries)
+  - Reduces web server load
 
 
+
+
+|
 
 名詞
 ---------
