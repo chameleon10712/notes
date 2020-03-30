@@ -65,9 +65,11 @@ the value of ``N`` for a multi-core web server?
 - Over-provisioning
 
   - Amazon EC2 的 over-provisioning 問題
+|
 
 - Scale out v.s. Scale up 
 
+  |
   - Scale Up又稱為垂直擴展（scale vertically），意為在單節點上添加資源，如CPU，內存和存儲，在縱向上擴展從而獲得更多計算或存儲能力；Scale Up初期能夠快速達到升級目的，操作起來相對比較簡單，但隨著計算或存儲的要求越來越高，硬體資源的添加可能已經達到極限，不僅單節點的造價非常昂貴，維護成本很高，而且更容易留下單點故障的隱患。傳統的RAID（Redundant Array of Inexpensive Disks）存儲就是此種模式。
 
   - Scale Out又稱為水平擴展（scale horizontally），意為在分布式環境下，通過添加節點計算或存儲資源，在橫向上滿足更多的計算存儲需求；隨著計算和存儲單位價格的降低和效率的提升，使用低端的商用（commodity）系統，利用分布式技術可以搭建起「超級計算」中心，以及後來衍生出來的私有或公有雲平台解決方案。 `[ref] <https://kknews.cc/zh-tw/tech/8q52k6e.html>`_
