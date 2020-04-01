@@ -5,9 +5,6 @@ CMU - Intro to Computer Systems, Fall 2016
 
 這門課...真的很進擊 orz
 
-不知道修這門課的是不是他們大一，如果是的話，那訓練出來的學生肯定很強
-
-
 - `[schedule] <http://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html>`_
 
 - `[video] <https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0aef84fc-a53b-49c6-bb43-14cb2b175249>`_
