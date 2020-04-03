@@ -66,18 +66,38 @@ Exceptional Control Flow
 Exceptions
 -------------
 
+Exception: user code -> kernel code
+
+|
+
 - ECF (Exceptional Control Flow)
 
   - Asynchronous
-
-    - Interrupts	
+    
+    - 由 processor 之外的 event 所造成
+    - Interrupts
+      
+      - Timer Interrupt, IO Interrupt (Ctrl+C)
+      
   |
   - Synchronous
+  
+    - 執行指令後造成的
 
-    - Traps	
-    - Faults	
+    - Traps
+      
+      - intentional
+      - ``system call``, breakpoint trap, special instructions
+       
+    - Faults
+    
+      - unintentional
+      - page faults, protection faults, floating point exceptions
+      
     - Aborts
 
+      - unintentional and unrecoverable
+      - illegal instruction, parity error, machine check
 
 
   
