@@ -59,3 +59,25 @@ Exceptional Control Flow
   - Process Context Switch
   - Signals
   - Nonlocal jumps: ``setjmp()`` and ``longjmp()``
+  
+  
+|
+  
+Exceptions
+-------------
+
+- ECF (Exceptional Control Flow)
+
+  - Asynchronous
+
+    - Interrupts	
+  |
+  - Synchronous
+
+    - Traps	
+    - Faults	
+    - Aborts
+
+
+
+  
