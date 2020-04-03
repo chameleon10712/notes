@@ -82,7 +82,7 @@ Exception: user code -> kernel code
   |
   - Synchronous
   
-    - 執行指令後造成的
+    - 執行指令後造成的 event
 
     - Traps
       
