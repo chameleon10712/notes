@@ -91,7 +91,7 @@ Exception: user code -> kernel code
        
     - Faults
     
-      - unintentional
+      - unintentional but possibly recoverable
       - page faults, protection faults, floating point exceptions
       
     - Aborts
