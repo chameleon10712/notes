@@ -17,6 +17,7 @@ CMU - Intro to Computer Systems, Fall 2016
 List
 
 - L11 The Memory Hierarchy
+- L12 Cache Memories
 - L14 Exceptional Control Flow: Exceptions and Processes
 - L16 System Level I/O
 
