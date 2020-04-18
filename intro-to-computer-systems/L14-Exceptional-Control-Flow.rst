@@ -92,7 +92,7 @@ Exception: user code -> kernel code
     - Faults
     
       - unintentional but possibly recoverable
-      - page faults, protection faults, floating point exceptions
+      - page faults (memory), protection faults, floating point exceptions
       
     - Aborts
 
