@@ -15,7 +15,7 @@ Hub & Switch
 
 Hub 是無論接收到什麼封包都 broadcast
 
-Switch , Router 則是會根據封包內容選擇要傳給誰
+Switch , Router 則是會根據封包 metadata 選擇要傳給誰
 
 |
 
