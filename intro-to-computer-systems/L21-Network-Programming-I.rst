@@ -68,7 +68,7 @@ Sockets
 Server Side
 -------------
 
-bind -> listen -> accept
+connection -> bind -> listen -> accept
 
 listenfd (file descriptor): 對於 server 來說，每一個 client 都有一個自己的 file descriptor，藉由這樣的方式保持與不同 client 之間的連線 
 
