@@ -43,7 +43,8 @@ Internet Connections
   - Socket address is an ``IPaddress:port`` pair
   - 對於 kernel 來說, socket 是溝通的端點
   - 對於 application 來說, socket 是一個 file descriptor, 用來讓 application 對網路進行讀寫
-  
+    
+    |
     - **All Unix I/O devices, including Networks, are modeled as files**
   
 |
