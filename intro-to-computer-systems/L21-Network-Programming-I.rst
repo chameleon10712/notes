@@ -19,6 +19,41 @@ Switch , Router 則是會根據封包 metadata 選擇要傳給誰
 
 |
 
+Dotted Decimal Notation
+--------------------------
+
+Dotted Decimal Notation: IP address 的表示法
+
+IP address: 0x8002C2F2 = 128.2.194.242  (80 對應到 128, 02 對應到 2, ...)
+
+
+
+DNS
+-----
+
+``linux> nslookup www.twitter.com``
+
+
+
+Internet Connections
+-----------------------
+
+- Socket: an endpoint of a connection
+
+  - Socket address is an ``IPaddress:port`` pair
+  - 對於 kernel 來說, socket 是溝通的端點
+  - 對於 application 來說, socket 是一個 file descriptor, 用來讓 application 對網路進行讀寫
+  
+    - **All Unix I/O devices, including Networks, are modeled as files**
+  
+|
+
+- Port: a 16-bit integer that identifies a process
+
+
+
+|
+
 Server Side
 -------------
 
