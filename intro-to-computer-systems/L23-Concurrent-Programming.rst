@@ -7,7 +7,7 @@ CMU - Intro to Computer Systems, Fall 2017
 - `[schedule] <http://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html>`_
 
 - `[video] <https://www.bilibili.com/video/BV1g4411L7TB?p=28>`_
-- `[slide] <http://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/lectures/23-concprog.pdf>`_
+- `[slide] <http://www.cs.cmu.edu/afs/cs/academic/class/15213-f17/www/lectures/23-concprog.pdf>`_
 
 |
 
