@@ -4,7 +4,7 @@ CMU - Intro to Computer Systems, Fall 2016
 
 
 
-- Text Book: Computer Systems: A Programmer's Perspective, 3/E
+- Text Book: `Computer Systems: A Programmer's Perspective, 3/E <https://github.com/Halbmond/Introduction-to-Computer-Systems/blob/master/textbook/CSAPP2e.pdf>`_
 
 |
 
