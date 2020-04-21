@@ -12,7 +12,7 @@ CMU - Intro to Computer Systems, Fall 2016
 - `Lab Assignments <http://csapp.cs.cmu.edu/3e/labs.html>`_
 - `Code Style Guideline <http://www.cs.cmu.edu/~213/codeStyle.html>`_
 - `Text Book 2/E Version <https://github.com/Halbmond/Introduction-to-Computer-Systems/blob/master/textbook/CSAPP2e.pdf>`_
-- `GitHub - 課堂資源整理 <https://github.com/Halbmond/Introduction-to-Computer-Systems>`_
+- `GitHub - 課堂資源總整理 <https://github.com/Halbmond/Introduction-to-Computer-Systems>`_
 
 |
 
