@@ -2,7 +2,7 @@ Concurrent Programming
 =========================
 
 
-CMU - Intro to Computer Systems, Fall 2016
+CMU - Intro to Computer Systems, Fall 2017
 
 - `[schedule] <http://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html>`_
 
