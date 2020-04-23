@@ -8,9 +8,9 @@ B Trees and B+ Trees
 M - Way ST
 -----------
 
-``M-way`` ST have ``m-1`` keys
+``M-way`` search tree have ``m-1`` keys
 
-ex. 4-way st  => 3 keys 
+ex. 4-way search tree  => 3 keys, 4 children
 
 
 B Trees
