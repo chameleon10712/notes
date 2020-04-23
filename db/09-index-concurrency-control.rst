@@ -12,6 +12,30 @@ Index Concurrency Control
 |
 
 
+LOCKS VS. LATCHES
+---------------------
+
+- Locks
+
+  - protect logical contents of a database
+  - need to be able to rollback changes
+  - separate user transactions
+
+|
+
+- Latches
+
+  - protect physical contents of a database
+  - separate threads
+
+
+
+
+
+
+
+
+
 
 
 
