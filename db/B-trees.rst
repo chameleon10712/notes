@@ -5,8 +5,8 @@ B Trees and B+ Trees
 
 |
 
-M - Way ST
------------
+M - Way Search Tree
+-----------------------
 
 ``M-way`` search tree have ``m-1`` keys
 
