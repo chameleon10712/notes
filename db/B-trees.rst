@@ -5,6 +5,10 @@ B Trees and B+ Trees
 
 |
 
+為了減少需要 access 的 blocks 數量、加速搜尋速度 => 使用 index table 
+
+|
+
 M - Way Search Tree
 -----------------------
 
