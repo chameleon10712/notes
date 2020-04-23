@@ -16,7 +16,7 @@ M - Way Search Tree
 
 ex. 4-way search tree  => 3 keys, 4 children
 
-.. image:: https://i.imgur.com/tDdVCnJ.png
+.. image:: https://i.imgur.com/MVb2ywM.png
 
 
 B Trees
