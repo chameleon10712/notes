@@ -19,21 +19,18 @@ Introduction & Relational Model
 Database 的基本功能其實 ``file-processing system`` (以檔案的方式來儲存資料)也可以做到，但是 ``file-processing system`` 有以下缺點:
 
 - Data redundancy and inconsistency
-|
-
 - Difficulty in accessing data
-|
 
 - Data isolation
 
   - 不同檔案間的格式可能不ㄧ樣，增加 coding 難度
-|
+
 - Integrity problems
-|
+
 - Atomicity problems
-|
+
 - Concurrent-accessanomalies
-|
+
 - Security problems
 |
 
