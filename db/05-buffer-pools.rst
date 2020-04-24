@@ -159,9 +159,6 @@ The DBMS can also optimize by pre fetching pages based on the query plan.
 
 - fixed-length records
 
-  - 比較好實作
-|
-
 - variable-length records
 
 
