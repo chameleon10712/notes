@@ -14,8 +14,8 @@ Buffer Pools
 
 |
 
-TERM
-======
+TERMS
+=======
 
 - ``buffer`` 
 
