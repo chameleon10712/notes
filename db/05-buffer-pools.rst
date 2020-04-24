@@ -55,6 +55,7 @@ DISK-ORIENTED DBMS
 ``Buffer Pool``
 
 - DB 在 Memory 的工作區
+- an in-memory cache of pages read from disk
 
 
 |
