@@ -132,6 +132,20 @@ The DBMS can also optimize by pre fetching pages based on the query plan.
 
 |
 
+10.5 File Organization
+=========================
+
+- fixed-length records
+
+  - 比較好實作
+|
+
+- variable-length records
+
+
+
+|
+
 10.7 Data-Dictionary Storage
 =============================
 
