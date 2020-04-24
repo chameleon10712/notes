@@ -10,15 +10,4 @@ CMU - Database Systems, Fall 2018
 
 |
 
-TOPICS
-
-- data models (relational, document, key/value)
-- storage models (n-ary, decomposition)
-- query languages (SQL, stored procedures)
-- storage architectures (heaps, log-structured)
-- indexing (order preserving trees, hash tables)
-- transaction processing (ACID, concurrency control)
-- recovery (logging, checkpoints)
-- query processing (joins, sorting, aggregation, optimization)
-- parallel architectures (multi-core, distributed)
 
