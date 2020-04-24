@@ -14,7 +14,28 @@ Buffer Pools
 
 |
 
+TERM
+======
+
+- ``buffer`` 
+
+  - main memory 裡面放置 DB disk blocks copies 的地方
+
+- ``buffer manager`` 
+
+  - 用來管理 buffer 的 subsystem
+
+- ``data dictionary`` 
+
+  - DB 的 metadata, 又稱為 ``system catalog``
+
+
+|
+
+
+
 DATABASE STORAGE
+===================
 
 ``Spatial Control``:
 
