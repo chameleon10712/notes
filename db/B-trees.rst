@@ -1,7 +1,16 @@
 B Trees and B+ Trees
 =======================
 
-`[Video] <https://www.youtube.com/watch?v=aZjYr87r1b8>`_
+Video
+
+- `B Trees and B+ Trees. How they are useful in Databases <https://www.youtube.com/watch?v=aZjYr87r1b8>`_
+- `B-Tree Definition and Insertion <https://www.youtube.com/watch?v=s3bCdZGrgpA&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=7>`_
+
+
+
+Tutorial
+
+- `B - Tree Datastructure <http://btechsmartclass.com/data_structures/b-trees.html>`_
 
 |
 
