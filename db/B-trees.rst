@@ -8,17 +8,21 @@ B Trees and B+ Trees
 Disk Structure
 ================
 
-.. image :: https://i.imgur.com/hU68AQK.png
+.. image:: https://i.imgur.com/hU68AQK.png
 
 
 |
 
 
-.. image :: https://i.imgur.com/Fm1CB4D.png
+.. image:: https://i.imgur.com/Fm1CB4D.png
 
 |
 
 為了減少需要 access 的 blocks 數量、加速搜尋速度 => 使用 index table 
+
+.. image:: https://i.imgur.com/FG1xm3V.png
+
+|
 
 |
 
