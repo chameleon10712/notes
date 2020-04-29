@@ -58,4 +58,13 @@ B+ Trees
 
 - dense index (?
 
+|
+
+B Trees v.s. B+ Trees
+========================
+
+B Trees: store records in the nodes 
+
+B+ Trees: store records only in leaves
+
 
