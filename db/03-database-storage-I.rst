@@ -51,7 +51,7 @@ Course Outline
 Storage Hierarchy
 -------------------
 
-faster, slower ----------------------------------------> slower, larger
+faster, smaller ----------------------------------------> slower, larger
 
 CPU Register, CPU cache, DRAM | SSD, HDD, Network Storage
 
