@@ -5,12 +5,18 @@ Database System Concept
 
 Chapter 7 ~ 9
 
-|
 
 
-- ``E-R Model``
+Tools
+-------
 
-  - entity- relationship data model (E-R)
+- SmartDraw
+
+
+E-R Model
+-----------
+
+- entity- relationship data model (E-R)
 
 |
 
