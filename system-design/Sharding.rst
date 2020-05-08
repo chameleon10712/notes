@@ -1,6 +1,8 @@
 Sharding
 ============
 
+`[ref] <https://github.com/donnemartin/system-design-primer#sharding>`_
+
 
 .. image:: https://camo.githubusercontent.com/1df78be67b749171569a0e11a51aa76b3b678d4f/687474703a2f2f692e696d6775722e636f6d2f775538783549642e706e67
 
@@ -29,7 +31,6 @@ Source(s) and further reading: sharding
 
 
 
-`[ref] <https://github.com/donnemartin/system-design-primer#sharding>`_
 
 
 |
