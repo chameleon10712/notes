@@ -1,9 +1,6 @@
 Sharding
 ============
 
-`[ref] <https://github.com/donnemartin/system-design-primer#sharding>`_
-
-
 .. image:: https://camo.githubusercontent.com/1df78be67b749171569a0e11a51aa76b3b678d4f/687474703a2f2f692e696d6775722e636f6d2f775538783549642e706e67
 
 Sharding distributes data across different databases such that each database can only manage a subset of the data.  Taking a users database as an example, as the number of users increases, more shards are added to the cluster.
@@ -29,7 +26,9 @@ Source(s) and further reading: sharding
 - `Shard database architecture <https://en.wikipedia.org/wiki/Shard_(database_architecture)>`_
 - `Consistent hashing <http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html>`_
 
+|
 
+`[ref] <https://github.com/donnemartin/system-design-primer#sharding>`_
 
 
 
