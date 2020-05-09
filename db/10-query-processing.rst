@@ -29,5 +29,9 @@ Term
   - `What is a predicate in SQL? <https://www.quora.com/What-is-a-predicate-in-SQL>`_
 
 
+- aggregation
 
+  - Aggregation can take many forms; for example, raw data can be aggregated over a given time period to provide statistics such as average, minimum, maximum, sum, and count.
+  - Aggregated data is useful because you can analyze it to gain insights about particular resources or even groups of resources.
+  - `What is an aggregation in database? <https://www.quora.com/What-is-an-aggregation-in-database>`_
 
