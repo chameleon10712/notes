@@ -17,6 +17,8 @@ Linker
 
 linker 會標示哪個是 entry point （程式從哪一個檔案進度、最先執行)
 
+.. image:: https://i.imgur.com/bNwJeeT.png
+
 |
 
 Static Linking
