@@ -20,6 +20,13 @@ Pre-computed aggregates for the attribute values in a page.
 .. image:: https://i.imgur.com/xf3nor9.png
 
 
+
+Late Materialization
+----------------------
+
+- for column store
+
+
 |
 
 Terms
