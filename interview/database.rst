@@ -3,7 +3,7 @@ Database
 
 - `Top 50+ Database Interview Questions And Answers <https://www.softwaretestinghelp.com/database-interview-questions/>`_
   
-  - 這個答案好像有點奇怪(?
+  - 有些題目的答案好像有點奇怪(?
 
 |
 
