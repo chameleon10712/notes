@@ -9,8 +9,15 @@ Query Processing
 - `[Slide] <https://15445.courses.cs.cmu.edu/fall2018/slides/10-queryprocessing.pdf>`_
 - `[Notes] <https://15445.courses.cs.cmu.edu/fall2018/notes/10-queryprocessing.pdf>`_
 - Readings: Chapter 12.1-12.3, 12.7
+|
 
 
+Zone Map
+------------
+
+Pre-computed aggregates for the attribute values in a page.
+
+.. image:: https://i.imgur.com/xf3nor9.png
 
 
 |
