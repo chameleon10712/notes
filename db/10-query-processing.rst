@@ -25,6 +25,9 @@ Term
   
     - ``JOIN Country ON Customer.countryCode = Country.countryCode``
     - ``WHERE Country.nickName IN ('USA', 'UK', 'Japan')``
+    
+  - `What is a predicate in SQL? <https://www.quora.com/What-is-a-predicate-in-SQL>`_
+
 
 
 
