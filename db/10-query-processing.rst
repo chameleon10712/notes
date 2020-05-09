@@ -22,8 +22,8 @@ Pre-computed aggregates for the attribute values in a page.
 
 |
 
-Term
-------
+Terms
+-------
 
 - predicate
 
