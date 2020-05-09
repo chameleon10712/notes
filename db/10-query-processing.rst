@@ -20,7 +20,7 @@ Term
 
 - predicate
 
-  - A predicate is simply the formal name for when an expression is used to evaluate a TRUE or FALSE condition (or sometimes UNKNOWN if a TRUE/FALSE value can't be determined)
+  - A predicate is the formal name for when an expression is used to evaluate a TRUE or FALSE condition (or sometimes UNKNOWN if a TRUE/FALSE value can't be determined)
   - ex. 
   
     - ``JOIN Country ON Customer.countryCode = Country.countryCode``
