@@ -19,9 +19,10 @@ Direct-Mapped Cache
 
 - `Example <https://www.youtube.com/watch?v=RqKeEIbcnS8>`_
 
+E-way Set Associate Cache, E=1 時就是 Dirct-Mapped Cache
+
 .. image:: https://i.imgur.com/0vuNfre.png
 
-E-way Set Associate Cache, E=1 時就是 Dirct-Mapped Cache
 
 |
 
