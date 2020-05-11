@@ -67,6 +67,7 @@ Writes
 
   - ``write-back`` + ``write-allocate``
 
+|
 
 Memory Mountain
 -------------------
