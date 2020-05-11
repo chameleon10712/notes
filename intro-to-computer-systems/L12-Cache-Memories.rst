@@ -11,7 +11,7 @@ CMU - Intro to Computer Systems, Fall 2016
 
 |
 
-- Direct Mapped
+- Direct-Mapped Cache
 
   - `Example <https://www.youtube.com/watch?v=RqKeEIbcnS8>`_
 
