@@ -9,5 +9,12 @@ Sorting & Aggregation Algorithms
 - `[Notes] <https://15445.courses.cs.cmu.edu/fall2018/notes/11-sorting.pdf>`_
 - Readings: Chapter 12.4-12.5
 
+|
+
+Terms
+--------
+
+- bulk loading
+
 
 
