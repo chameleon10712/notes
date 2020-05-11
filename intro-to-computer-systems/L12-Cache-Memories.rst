@@ -13,6 +13,7 @@ CMU - Intro to Computer Systems, Fall 2016
 .. image:: https://i.imgur.com/srLI15Q.png
 
 |
+|
 
 Direct-Mapped Cache
 ---------------------
@@ -24,6 +25,7 @@ E-way Set Associate Cache, E=1 時就是 Dirct-Mapped Cache
 .. image:: https://i.imgur.com/0vuNfre.png
 
 
+|
 |
 
 E-way Set Associate Cache
