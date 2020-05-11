@@ -21,6 +21,8 @@ Direct-Mapped Cache
 
 .. image:: https://i.imgur.com/0vuNfre.png
 
+E-way Set Associate Cache, E=1 時就是 Dirct-Mapped Cache
+
 |
 
 E-way Set Associate Cache
