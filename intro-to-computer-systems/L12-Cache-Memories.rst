@@ -43,11 +43,11 @@ Writes
 
 - write-hit
 
-  - ``write through``
+  - ``write-through``
 
     - write immediately to memory
 
-  - ``write back``
+  - ``write-back``
 
     - defer write to memory until replacement of line 當要替換時才寫回 memory
   
@@ -55,10 +55,14 @@ Writes
 
 - write-miss
 
-  - ``write allocate``
+  - ``write-allocate``
   
     - load into cache, update line in cache
     
-  - ``no-write allocate``
+  - ``no-write-allocate``
   
     - write straight to memory, does not load into cache 直接寫入記憶體, 不寫入 cache
+
+- typical
+
+  - ``write-back`` + ``write-allocate``
