@@ -18,5 +18,8 @@ Direct-Mapped Cache
 
 
 
+E-way Set Associate Cache
+---------------------------
 
+.. image:: https://i.imgur.com/IuW2mEY.png
 
