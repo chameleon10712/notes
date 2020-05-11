@@ -19,7 +19,9 @@ Direct-Mapped Cache
 
 - `Example <https://www.youtube.com/watch?v=RqKeEIbcnS8>`_
 
+.. image:: https://i.imgur.com/0vuNfre.png
 
+|
 
 E-way Set Associate Cache
 ---------------------------
