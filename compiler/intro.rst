@@ -25,6 +25,15 @@ Lexical Analysis
   - token
 
     - <Id, "foo">, <Op, "=">, <Int, "42">
+|
+
+- An implementation must do two things:
+
+  - Recognize substrings corresponding to tokens
   
+    - The ``lexemes``
+  |
+  
+  - Identify the token class of each lexeme
   
   
