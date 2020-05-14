@@ -26,7 +26,7 @@ Lexical Analysis
 
   - In programming lanuage:
 
-    - ``Identifier``, ``Keywords``, ``(``, ``)``, ``Numbers``, ...
+    - ``Identifier``, ``Keywords``, ``(``, ``)``, ``Numbers``, ``White Space``, ...
 
 |
 
