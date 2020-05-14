@@ -18,7 +18,7 @@ Lexical Analysis
 ------------------
 
 
-- Token class
+- ``Token class``
 
   - In English:
 
