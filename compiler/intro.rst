@@ -12,4 +12,19 @@ Compilers
 
 5. Code Generation
 
+|
 
+Lexical Analysis
+------------------
+
+- Classify substrings according to role (token class)
+- Communicate tokens to the parser
+
+  - String -> ``Lexical Analysis`` -> token <class, string> -> ``Parsing``
+
+  - token
+
+    - <Id, "foo">, <Op, "=">, <Int, "42">
+  
+  
+  
