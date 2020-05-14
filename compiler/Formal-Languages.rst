@@ -20,8 +20,4 @@ Meaning function ``L`` maps syntax to semantics
 - e: regular expression
 - m: set of strings
 
-|
-|
-
-.. image:: https://i.imgur.com/VOAQ4dJ.png
 
