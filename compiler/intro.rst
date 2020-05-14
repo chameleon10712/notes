@@ -51,8 +51,23 @@ Lexical Analysis
   - Identify the token class of each ``lexeme``
   
     - token: ``<token class, lexeme>``
+--
 
+- LA Examples
 
+  
+  .. code::
+    
+    if(i==j)
+      z = 0;
+    else
+      z = 1;
+
+  - ``lookahead``
+  
+    - minimize the amount of ``lookahead`` will simplify the implementation of LA
+
+|
 
 Parsing
 --------
