@@ -17,17 +17,20 @@ Compilers
 Lexical Analysis
 ------------------
 
-- Classify substrings according to role (``token class``)
 
-  - Token class
-  
-    - In English:
-      
-      - Noun, verb, adjective, ...
-      
-    - In programming lanuage:
-    
-      - Identifier, Keywords, '(', ')', Numbers, ...
+- Token class
+
+  - In English:
+
+    - Noun, verb, adjective, ...
+
+  - In programming lanuage:
+
+    - ``Identifier``, ``Keywords``, ``(``, ``)``, ``Numbers``, ...
+
+|
+
+- Classify substrings according to role (``token class``)
 
 - Communicate tokens to the parser
 
