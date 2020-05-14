@@ -18,6 +18,17 @@ Lexical Analysis
 ------------------
 
 - Classify substrings according to role (``token class``)
+
+  - Token class
+  
+    - In English:
+      
+      - Noun, verb, adjective, ...
+      
+    - In programming lanuage:
+    
+      - Identifier, Keywords, '(', ')', Numbers, ...
+
 - Communicate tokens to the parser
 
   - String -> ``Lexical Analysis`` -> token <class, string> -> ``Parsing``
