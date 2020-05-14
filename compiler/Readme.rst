@@ -1,4 +1,4 @@
-課程資訊
+課程相關資訊
 
 Stanford - CS 143 Compilers
 
