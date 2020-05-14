@@ -45,10 +45,12 @@ Lexical Analysis
 
   - Recognize substrings corresponding to tokens
   
-    - The ``lexemes``
+    - The ``lexemes`` (the words of the program)
   |
   
   - Identify the token class of each ``lexeme``
+  
+    - token: ``<token class, lexeme>``
 
 
 
