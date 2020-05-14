@@ -67,6 +67,8 @@ Lexical Analysis
   
     - 在 parsing 到 ``else`` 的 ``e`` 的時候，需要先看下一個 character 才能決定 ``e`` 是單獨的字還是屬於其他 token 的一部分 (``else`` 的一部分)，這個動作叫做 ``lookahead``
     - minimize the amount of ``lookahead`` will simplify the implementation of LA
+    
+    |
     - Maximal Munch (or longest match)
     
       - 例如在 ``==`` 的 case 裡面， ``=`` 跟 ``==`` 都符合定義，這時候選 longest match ``==``
