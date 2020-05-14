@@ -34,6 +34,6 @@ Lexical Analysis
     - The ``lexemes``
   |
   
-  - Identify the token class of each lexeme
+  - Identify the token class of each ``lexeme``
   
   
