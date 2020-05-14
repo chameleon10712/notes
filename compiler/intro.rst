@@ -35,5 +35,23 @@ Lexical Analysis
   |
   
   - Identify the token class of each ``lexeme``
+
+
+
+Parsing
+=========
   
-  
+
+======  ====================  =================
+Phase   Input                 Output
+======  ====================  =================
+Lexer   String of characters  String of tokens
+
+Parser  String of tokens      Parse tree
+======  ====================  =================
+
+
+
+
+
+
