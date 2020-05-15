@@ -116,7 +116,7 @@ Reference
 
 35) What are the different types of CPU registers in a typical operating system design?
 
-36) ****What is the purpose of an I/O status information**?
+36) **What is the purpose of an I/O status information**?
 
 37) What is multitasking?
 
