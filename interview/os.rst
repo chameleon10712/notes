@@ -1,7 +1,49 @@
 Operating Systems
 ==================
 
-`ref <https://career.guru99.com/top-50-operating-system-interview-questions/>`_
+Reference
+
+`Commonly Asked Operating Systems Interview Questions <https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/>`_
+
+
+- What is a process and process table? What are different states of process
+
+
+- What is a Thread? What are the differences between process and thread?
+
+
+- What are the benefits of multithreaded programming?
+
+
+- What are the different scheduling algorithms
+
+
+- What is deadlock? 
+
+
+- What are the necessary conditions for deadlock?
+
+
+- What is Virtual Memory? How is it implemented?
+
+
+- What is Thrashing?
+
+
+- What is Belady’s Anomaly?
+
+
+- Differences between mutex and semphore?
+
+
+
+
+|
+
+
+Reference
+
+`Top 50 Operating System Interview Questions & Answers <https://career.guru99.com/top-50-operating-system-interview-questions/>`_
 
 
 1) Explain the main purpose of an operating system?
