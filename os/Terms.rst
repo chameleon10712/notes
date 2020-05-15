@@ -1,7 +1,3 @@
-Terms
-=======
-
-
 Real Time Systems
 ------------------
 
@@ -27,6 +23,10 @@ Real Time Systems
       
       - 高優先權的process必定先於低優先權process完成
       - 優先權值不會有任何改變，直到完成
+
+|
+
+- `Reference <http://www.csie.ntnu.edu.tw/~swanky/os/chap1.htm#RealTimeSystem>`_
 
 |
 
