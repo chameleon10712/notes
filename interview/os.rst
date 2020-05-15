@@ -54,17 +54,17 @@ Reference
 
 4) What is kernel?
 
-5) What are **real-time systems?**
+5) What are **real-time systems**?
 
 6) What is a virtual memory?
 
 7) Describe the objective of multiprogramming.
 
-8) What is **time-sharing system?**
+8) What is **time-sharing system**?
 
 9) What is **SMP**?
 
-10) **How are server systems classified?**
+10) **How are server systems classified**?
 
 11) What is **asymmetric clustering**?
 
