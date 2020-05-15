@@ -54,19 +54,19 @@ Reference
 
 4) What is kernel?
 
-5) What are real-time systems?
+5) What are **real-time systems?**
 
 6) What is a virtual memory?
 
 7) Describe the objective of multiprogramming.
 
-8) What is time- sharing system?
+8) What is **time-sharing system?**
 
-9) What is SMP?
+9) What is **SMP**?
 
-10) How are server systems classified?
+10) **How are server systems classified?**
 
-11) What is asymmetric clustering?
+11) What is **asymmetric clustering**?
 
 12) What is a thread?
 
@@ -78,17 +78,17 @@ Reference
 
 16) What are necessary conditions which can lead to a deadlock situation in a system?
 
-17) Enumerate the different RAID levels.
+17) **Enumerate the different RAID levels**.
 
-18) Describe Banker’s algorithm
+18) Describe **Banker’s algorithm**
 
 19) What factors determine whether a detection-algorithm must be utilized in a deadlock avoidance system?
 
 20) State the main difference between logical from physical address space.
 
-21) How does dynamic loading aid in better memory space utilization?
+21) **How does dynamic loading aid in better memory space utilization?**
 
-22) What are overlays?
+22) What are **overlays**?
 
 23) What is the basic function of paging?
 
@@ -100,45 +100,45 @@ Reference
 
 27) What is a socket?
 
-28) What is Direct Access Method?
+28) What is **Direct Access Method**?
 
-29) When does thrashing occur?
+29) **When does thrashing occur**?
 
 30) What is the best page size when designing an operating system?
 
 31) When designing the file structure for an operating system, what attributes are considered?
 
-32) What is root partition?
+32) What is **root partition**?
 
-33) What are device drivers?
+33) What are **device drivers**?
 
-34) What are the primary functions of VFS?
+34) What are the primary functions of **VFS**?
 
 35) What are the different types of CPU registers in a typical operating system design?
 
-36) What is the purpose of an I/O status information?
+36) ****What is the purpose of an I/O status information**?
 
 37) What is multitasking?
 
-38) Explain pros and cons of a command line interface?
+38) **Explain pros and cons of a command line interface**?
 
 39) What is caching?
 
-40) What is spooling?
+40) What is **spooling**?
 
 41) What is an Assembler?
 
-42) What are interrupts?
+42) What are **interrupts**?
 
-43) What is GUI?
+43) What is **GUI**?
 
 44) What is preemptive multitasking?
 
-45) Why partitioning and formatting is a prerequisite to installing an operating system?
+45) **Why partitioning and formatting is a prerequisite to installing an operating system**?
 
-46) What is plumbing/piping?
+46) What is **plumbing/piping**?
 
-47) What is NOS?
+47) What is **NOS**?
 
 48) Differentiate internal commands from external commands.
 
