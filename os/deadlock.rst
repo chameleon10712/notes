@@ -127,7 +127,7 @@ Algorithm
 
   - claim edge
 
-- Banker’s Algorithm
+- ``Banker’s Algorithm``
 
   - When a user requests a set of resources, the system must determine whether the allocation of these resources will leave the system in a safe state. If it will, the resources are allocated; otherwise, the process must wait until some other process releases enough resources
   
