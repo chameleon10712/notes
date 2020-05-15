@@ -1,3 +1,23 @@
+Virtual Machine
+=================
+
+
+- virtualization
+
+  - 虛擬化是透過軟體以虛擬形式呈現物件的過程，例如虛擬的應用程式、伺服器、儲存裝置和網路。無論企業屬於何種規模，虛擬化都是降低 IT 開銷、提高效率和靈活性的最有效方式
+
+|
+
+- virtual machine
+
+  - VM 是一種嚴密隔離且內含作業系統和應用程式的軟體容器。各個虛擬機都具備完整功能，而且能完全獨立。將數個虛擬機放入同一部電腦後，只要使用一部實體伺服器 (或稱「主機」)，就能執行數個作業系統和應用程式。
+  
+
+
+
+|
+
+
 Hypervisor
 =============
 
@@ -20,8 +40,10 @@ Kernel-Based Virtual Machine 基於核心的虛擬機器，是Linux核心的一�
 
 --
 
+Reference
 
-- `ref <https://www.itread01.com/content/1542697143.html>`_
+- `IT Read <https://www.itread01.com/content/1542697143.html>`_
+- `VMware <https://www.vmware.com/tw/solutions/virtualization.html>`_
 
 
 
