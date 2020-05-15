@@ -1,6 +1,14 @@
 Virtual Machine
 =================
 
+- purpose and types of virtualization
+- virtual file systems
+- Hypervisors
+
+
+
+Terms
+------
 
 - virtualization
 
