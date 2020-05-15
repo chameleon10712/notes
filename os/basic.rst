@@ -2,7 +2,9 @@ Operating System
 ===================
 
 
-- Introduction to Operating Systems (OS) - Role, purpose and design issues
+- Introduction to Operating Systems (OS)
+
+  - Role, purpose and design issues
 
 - Processes and Threads
 
