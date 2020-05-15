@@ -1,6 +1,9 @@
 Real Time Systems
 ------------------
 
+`Reference <http://www.csie.ntnu.edu.tw/~swanky/os/chap1.htm#RealTimeSystem>`_
+
+
 - Def：
 
   對於工作(job)的完成時間有極為嚴格的要求，若工作未能在規定時間內完成，即算失敗(失效)
@@ -26,9 +29,6 @@ Real Time Systems
 
 |
 
-- `Reference <http://www.csie.ntnu.edu.tw/~swanky/os/chap1.htm#RealTimeSystem>`_
-
-|
 
 Time Sharing Systems
 ---------------------
