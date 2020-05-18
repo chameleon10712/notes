@@ -4,6 +4,21 @@ MapReduce
 `[paper] <https://pdos.csail.mit.edu/6.824/papers/mapreduce.pdf>`_
 
 
+Distributed systems
+----------------------
+
+challenges
+
+- concurrency
+- partial failure
+- performance
+
+
+
+
+MapReduce
+-----------
+
 - for big data computation
 
   - parallelism
@@ -15,7 +30,8 @@ MapReduce
   - security / isolated
 
 
-|
+
+
 
 - 在處理大量資料運算時，通常可以將 computation 拆解為 ``map``, ``reduce`` 兩種 operation, 以利於進行平行運算、容錯。
 
