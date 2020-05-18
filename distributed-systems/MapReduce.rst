@@ -58,7 +58,7 @@ Fault Tolerance
   - Non-volatile Storage
   - Replication
   
-    - 通常不會將 replicas 放在同一個供電或地區、或城市(in same power cable in rack or machine room)，以防止 replicas 一起損壞， replicas 彼此的距離通常越遠越好。
+    - 通常不會將 replicas 放在同一個供電或地區、或城市(in same power cable in rack or machine room)，以防止 replicas 一起損壞， replicas 彼此的距離越遠越好。
 
 |
 
