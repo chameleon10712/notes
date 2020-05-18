@@ -127,7 +127,7 @@ key   value
 
 - weak consistency
 
-  - 不保證 get 最近一次 put 的值
+  - 在一定時間內，不保證 get 到最近一次 put 的新值
 
 
 |
