@@ -8,17 +8,25 @@ Distributed systems
 ----------------------
 
 Challenges
+^^^^^^^^^^^
 
 - Concurrency
 - Partial failure
 - Performance
 
 
+|
+
 Infrastructure
+^^^^^^^^^^^^^^^
 
 - Storage
+
 - Communication
+
 - Computation
+  
+  - MapReduce
 
 
 
