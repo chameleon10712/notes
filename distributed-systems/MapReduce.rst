@@ -5,7 +5,7 @@ MapReduce
 
 |
 
-在處理大量資料運算時，通常可以將 computation 拆解為 map, reduce 兩種 operation, 以利於進行平行運算、容錯。
+在處理大量資料運算時，通常可以將 computation 拆解為 ``map``, ``reduce`` 兩種 operation, 以利於進行平行運算、容錯。
 
 Pros
 
