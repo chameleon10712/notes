@@ -69,11 +69,11 @@ ex.
 
 假設你有一個系統支援
 
-- 儲存 key, value pair 的 table
-- put 跟 get 兩種 operation
+- 儲存 ``<key, value>`` pair 的 table
+- ``Put`` 跟 ``Get`` 兩種 operation
 - data replication
 
-  - 你的 table 有兩個 (table1, table2)， table2 是 table1 的 copy
+  - 你的 table 有兩個: table1, table2; table2 是 table1 的 copy
 
 
 .. code:: 
