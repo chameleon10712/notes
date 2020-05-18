@@ -7,8 +7,7 @@ MapReduce
 Distributed systems
 ----------------------
 
-CHALLENGES
-
+Challenges
 
 - Concurrency
 - Partial failure
@@ -17,7 +16,7 @@ CHALLENGES
 
 |
 
-INFRASTRUCTURE - Abstractions
+Infrastructure - Abstractions
 
 
 - Storage
@@ -30,13 +29,13 @@ INFRASTRUCTURE - Abstractions
 
 |
 
-IMPLEMENTATION
+Implementation
 
 - RPC, threads, concurrency control
 
 |
 
-PERFORMANCE
+Performance
 
 - Scalability
 
@@ -46,7 +45,8 @@ PERFORMANCE
 
 |
 
-FAULT TOLERANCE
+Fault Tolerance
+
 
 
 |
