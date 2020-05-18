@@ -172,7 +172,7 @@ ex. word count
       emit(w, "1")
 
 
-從 row store 變成 column store 在 paper 裡面稱之為 ``shuffle``
+從 row store 變成 column store 在 paper 裡面稱之為 ``shuffle`` (video 1:13:45)
 
 
 .. code::
