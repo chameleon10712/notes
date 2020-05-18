@@ -29,10 +29,20 @@ Users specify a ``map`` function that processes a ``key/value pair`` to generate
 
 - 提供給 reduce function 最為參數的 itermediate values 可以用 iterator，這樣一來就可以應付 list 數量過大超過 memory 容量的狀況
 
+
+|
+
+Example
+--------
+
+- `知乎 - 深入淺出MapReduce <https://zhuanlan.zhihu.com/p/32172999>`_
+
+
+
 |
 
 Terms
-
+-------
 
 - ``iterator``
 
@@ -42,6 +52,8 @@ Terms
 
 
 |
+Related
+----------
 
 關於 MapReduce 的討論
 
