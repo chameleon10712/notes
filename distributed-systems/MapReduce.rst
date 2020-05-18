@@ -123,7 +123,7 @@ key   value
 
 - strong consistency
     
-  - 保證 get 最近一次 put 的值是正確的
+  - 保證 get 最近一次 put 的值是正確的 (?
   - All accesses are seen by all parallel processes (or nodes, processors, etc.) in the same order (sequentially)
 
 
