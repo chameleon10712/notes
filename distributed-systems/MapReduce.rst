@@ -1,8 +1,13 @@
 MapReduce
 ===========
 
-`[paper] <https://pdos.csail.mit.edu/6.824/papers/mapreduce.pdf>`_
+MIT - 6.824 Distributed Systems, Spring 2020
 
+- `[Schedule] <https://pdos.csail.mit.edu/6.824/schedule.html>`_
+- `[Video] <https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB>`_
+- `[Paper] <https://pdos.csail.mit.edu/6.824/papers/mapreduce.pdf>`_
+
+|
 
 Distributed systems
 ----------------------
