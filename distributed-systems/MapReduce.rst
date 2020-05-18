@@ -5,12 +5,20 @@ MapReduce
 
 |
 
-在處理大量資料運算時，通常可以將 computation 拆解為 ``map``, ``reduce`` 兩種 operation, 以利於進行平行運算、容錯。
+- for big data computation
 
-Pros
+  - parallelism
+  - fail tolerance
+  
+  |
+  
+  - physical
+  - security / isolated
 
-- parallelize large computation easily
-- use re-execution as the primary mechanism for fault tolerance
+
+|
+
+- 在處理大量資料運算時，通常可以將 computation 拆解為 ``map``, ``reduce`` 兩種 operation, 以利於進行平行運算、容錯。
 
 |
 
