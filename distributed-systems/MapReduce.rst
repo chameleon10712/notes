@@ -30,6 +30,24 @@ Infrastructure - Abstractions
 
 |
 
+Implementation
+
+- RPC, threads, concurrency control
+
+|
+
+Performance
+
+- Scalability
+
+  - 2x computers  ->  2x throughput
+  - scalable speedup
+
+
+
+
+|
+
 MapReduce
 -----------
 
