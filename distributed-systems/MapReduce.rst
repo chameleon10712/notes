@@ -9,10 +9,16 @@ Distributed systems
 
 Challenges
 
-- concurrency
-- partial failure
-- performance
+- Concurrency
+- Partial failure
+- Performance
 
+
+Infrastructure
+
+- Storage
+- Communication
+- Computation
 
 
 
