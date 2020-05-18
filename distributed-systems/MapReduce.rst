@@ -21,3 +21,28 @@ Users specify a ``map`` function that processes a ``key/value pair`` to generate
 
   map (k1,v1)           →   list(k2,v2)
   reduce (k2,list(v2))  →   list(v2)
+
+|
+
+
+- The ``intermediate values`` are supplied to the user’s reduce function via an ``iterator``. This allows us to handle lists of values that are too large to fit in memory.
+
+- 提供給 reduce function 最為參數的 itermediate values 可以用 iterator，這樣一來就可以應付 list 數量過大超過 memory 容量的狀況
+
+
+
+Terms
+-------
+
+- ``iterator``
+
+  - 不會把所有的 ``list`` 一次 load 到 memory 裡面，而是用 ``lazy evaluation`` 的方式載入 memory (Python)
+  
+  - `如何更好地理解Python迭代器和生成器？ <https://www.zhihu.com/question/20829330>`_
+
+
+
+
+
+
+
