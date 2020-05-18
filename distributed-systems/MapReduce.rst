@@ -132,7 +132,7 @@ key   value
 - weak consistency
 
   - 在一定時間內，不保證 get 到最近一次 put 的新值 (allow stale read)
-  - 實作比較簡單
+  - 大家比較喜歡，因為實作簡單
 
 
 |
