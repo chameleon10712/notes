@@ -122,14 +122,15 @@ key   value
 這個時候就需要 consistency 的規則
 
 - strong consistency
-    
-  - 保證 get 最近一次 put 的值是正確的 (?
-  - All accesses are seen by all parallel processes (or nodes, processors, etc.) in the same order (sequentially)
+  
+  - 保證 get 最近一次 put 的值是正確的
+  - 實作比較困難
 
 
 - weak consistency
 
   - 在一定時間內，不保證 get 到最近一次 put 的新值
+  - 實作比較簡單
 
 
 |
