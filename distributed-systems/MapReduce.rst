@@ -7,7 +7,7 @@ MapReduce
 Distributed systems
 ----------------------
 
-Challenges
+CHALLENGES
 
 
 - Concurrency
@@ -17,7 +17,7 @@ Challenges
 
 |
 
-Infrastructure - Abstractions
+INFRASTRUCTURE - Abstractions
 
 
 - Storage
@@ -30,20 +30,23 @@ Infrastructure - Abstractions
 
 |
 
-Implementation
+IMPLEMENTATION
 
 - RPC, threads, concurrency control
 
 |
 
-Performance
+PERFORMANCE
 
 - Scalability
 
   - 2x computers  ->  2x throughput
   - scalable speedup
+  - 假設你有一個 web service, 當 user 爆炸多時, 你會想增加你的 server 數量, 但是通常你增加的 server 數量並不會正比於你的 service 服務速度。 當你從一台 server 增加為兩台 server 時，速度通常很難變成兩倍。
 
+|
 
+FAULT TOLERANCE
 
 
 |
