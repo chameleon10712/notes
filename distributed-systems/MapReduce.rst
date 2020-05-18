@@ -123,11 +123,11 @@ key   value
 
 - strong consistency
     
-  - get 放棄最近一次的 put (?
+  - 保證 get 最近一次 put 的值是正確的
 
 - weak consistency
 
-  - 不保證 get 最近一次 put 的值 (?
+  - 不保證 get 最近一次 put 的值
 
 
 |
