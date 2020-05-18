@@ -172,6 +172,9 @@ ex. word count
       emit(w, "1")
 
 
+從 row store 變成 column store 在 paper 裡面稱之為 ``shuffle``
+
+
 .. code::
   
   Reduce(k,v)
