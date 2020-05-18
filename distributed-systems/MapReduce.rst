@@ -62,13 +62,61 @@ Fault Tolerance
 
 Topic - Consistency
 
-- ex. 
+ex. 
 
-  .. code:: 
 
-    Put(K,V)
-    Get(K) -> V
+假設你有一個系統支援
 
+- 儲存 key, value pair 的 table
+- put 跟 get 兩種 operation
+- data replication
+
+  - 你的 table 有兩個 (table1, table2)， table2 是 table1 的 copy
+
+
+.. code:: 
+
+  Put(K,V)
+  Get(K) -> V
+
+
+===  =======
+  table1
+------------
+key   value
+===  =======
+1    20
+===  =======
+
+===  =======
+  table2
+------------
+key   value
+===  =======
+1    20
+===  =======
+
+
+今天有一個 user 將其中一組 <key, value> 從原本的 <1, 20> 改為 <1, 21>。
+你的 server 在改完 table1 之後 crash 了， 這時就會變成
+
+
+
+===  =======
+  table1
+------------
+key   value
+===  =======
+1    21
+===  =======
+
+===  =======
+  table2
+------------
+key   value
+===  =======
+1    20
+===  =======
 
 |
 
