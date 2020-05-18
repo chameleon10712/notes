@@ -8,7 +8,7 @@ Distributed systems
 ----------------------
 
 Challenges
-^^^^^^^^^^^
+
 
 - Concurrency
 - Partial failure
@@ -17,8 +17,8 @@ Challenges
 
 |
 
-Infrastructure
-^^^^^^^^^^^^^^^
+Infrastructure - Abstractions
+
 
 - Storage
 
@@ -28,7 +28,7 @@ Infrastructure
   
   - MapReduce
 
-
+|
 
 MapReduce
 -----------
