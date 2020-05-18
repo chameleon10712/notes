@@ -1,7 +1,10 @@
 Real Time Systems
 ------------------
 
-`Reference <http://www.csie.ntnu.edu.tw/~swanky/os/chap1.htm#RealTimeSystem>`_
+
+Reference
+
+`Operating System Study Guide <http://www.csie.ntnu.edu.tw/~swanky/os/chap1.htm#RealTimeSystem>`_
 
 
 - Def：
