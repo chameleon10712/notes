@@ -97,8 +97,8 @@ key   value
 ===  =======
 
 
-今天有一個 user 將其中一組 <key, value> 從原本的 <1, 20> 改為 <1, 21>。
-你的 server 在改完 table1 之後 crash 了， 這時就會變成
+今天有一個 user 將其中一組 <key, value> 從原本的 ``<1, 20>`` 改為 ``<1, 21>``。
+你的 server 在改完 table1 之後 crash 了， 這時就會發生 inconsistency 的狀況。
 
 
 
@@ -110,13 +110,25 @@ key   value
 1    21
 ===  =======
 
-===  =======
+===  ====================
   table2
-------------
+-------------------------
 key   value
-===  =======
-1    20
-===  =======
+===  ====================
+1    20   -> stale copy
+===  ====================
+
+
+這個時候就需要 consistency 的規則
+
+- strong consistency
+    
+  - get 放棄最近一次的 put (?
+
+- weak consistency
+
+  - 不保證 get 最近一次 put 的值 (?
+
 
 |
 
