@@ -42,7 +42,10 @@ Terms
 
 
 
+關於 MapReduce 的討論
+--------------------
 
+- `知乎 <https://www.zhihu.com/question/24280664>`_
 
 
 
