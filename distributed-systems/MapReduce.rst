@@ -7,7 +7,7 @@ MapReduce
 Distributed systems
 ----------------------
 
-challenges
+Challenges
 
 - concurrency
 - partial failure
