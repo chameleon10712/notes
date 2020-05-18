@@ -150,13 +150,38 @@ MapReduce
   - physical
   - security / isolated
 
-
-
-
+|
 
 - 在處理大量資料運算時，通常可以將 computation 拆解為 ``map``, ``reduce`` 兩種 operation, 以利於進行平行運算、容錯。
 
+
 |
+
+ex. word count
+
+.. code::
+
+  Map(k,v)
+
+  k - filename
+  v - maps input file, which contains all this text
+
+  split v into words
+
+  for each word w
+      emit(w, "1")
+
+
+.. code::
+  
+  Reduce(k,v)
+    emit(len(v))
+
+
+
+|
+
+Def. 
 
 Users specify a ``map`` function that processes a ``key/value pair`` to generate a set of ``intermediate key/value pairs``, and a ``reduce`` function that merges all intermediate values associated with the same intermediate key.
 
