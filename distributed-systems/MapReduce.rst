@@ -19,7 +19,7 @@ Challenges
 MapReduce
 -----------
 
-- for big data computation
+- For big data computation
 
   - parallelism
   - fail tolerance
