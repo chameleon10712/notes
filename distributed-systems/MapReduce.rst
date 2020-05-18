@@ -29,10 +29,10 @@ Users specify a ``map`` function that processes a ``key/value pair`` to generate
 
 - 提供給 reduce function 最為參數的 itermediate values 可以用 iterator，這樣一來就可以應付 list 數量過大超過 memory 容量的狀況
 
-
+|
 
 Terms
--------
+
 
 - ``iterator``
 
@@ -41,9 +41,10 @@ Terms
   - `如何更好地理解Python迭代器和生成器？ <https://www.zhihu.com/question/20829330>`_
 
 
+|
 
 關於 MapReduce 的討論
---------------------
+
 
 - `知乎 <https://www.zhihu.com/question/24280664>`_
 
