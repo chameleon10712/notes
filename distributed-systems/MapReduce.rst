@@ -48,6 +48,27 @@ Performance
 Fault Tolerance
 
 
+- Availability - 即使在有錯誤發生的情況下，仍然可以正常地進行服務
+
+- Recoverability - 在有錯誤的情況下、也許 server 停止服務，在修理完後(after repair)可以繼續進行服務
+
+|
+- 可以使用下列方法達成 Fault Tolerance
+
+  - Non-volatile Storage
+  - Replication
+
+|
+
+Topic - Consistency
+
+- ex. 
+
+  .. code:: 
+
+    Put(K,V)
+    Get(K) -> V
+
 
 |
 
