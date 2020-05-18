@@ -129,6 +129,8 @@ Algorithm
 
 - ``Banker’s Algorithm``
 
+  - 當一個 user 要求一組 resources 時, 系統會先看分配了這組 resource 之後、系統會不會進入 safe state ,再決定是否分配。如果不會則等待其他 process 釋放足夠多的 resource 再分配。
+  
   - When a user requests a set of resources, the system must determine whether the allocation of these resources will leave the system in a safe state. If it will, the resources are allocated; otherwise, the process must wait until some other process releases enough resources
   
   
