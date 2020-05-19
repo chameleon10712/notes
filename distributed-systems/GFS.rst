@@ -29,7 +29,7 @@ MIT - 6.824 Distributed Systems, Spring 2020
 Operation Log
 ---------------
 
-- Operation log
+- ``operation log``
 
   - The operation log contains a historical record of critical metadata changes.
 
@@ -43,7 +43,7 @@ Operation Log
 
 - Recovery
 
-  - replaying the operation log
+  - replaying the ``operation log``
   - ``checkpoint``
   
     - 當 log 超過某個量級的時候，就會被 system 做成一個 checkpoint
