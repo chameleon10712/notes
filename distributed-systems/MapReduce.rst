@@ -187,6 +187,10 @@ ex. word count
 
 
 
+.. image:: https://i.imgur.com/P68qkM6.png
+
+
+
 |
 
 Def. 
