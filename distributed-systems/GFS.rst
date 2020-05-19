@@ -21,3 +21,6 @@ MIT - 6.824 Distributed Systems, Spring 2020
 
 
 
+
+`Reference <https://pdos.csail.mit.edu/6.824/papers/gfs.pdf>`_
+
