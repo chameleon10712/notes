@@ -65,10 +65,13 @@ Operation Log
 
 
 
+Terms
+------
 
 
+- relaxed consistency model
 
-
+|
 
 
 
