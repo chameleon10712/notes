@@ -29,9 +29,11 @@ MIT - 6.824 Distributed Systems, Spring 2020
 Operation Log
 ---------------
 
-- The operation log contains a historical record of critical metadata changes.
+- Operation log
 
-- Serves as a logical time line that defines the order of concurrent operations.
+  - The operation log contains a historical record of critical metadata changes.
+
+  - Serves as a logical time line that defines the order of concurrent operations.
 
 |
 - Reliable Store
