@@ -40,7 +40,7 @@ Operation Log
 
   - GFS replicate it on multiple remote machines and respond to a client operation only after flushing the corresponding log record to disk both locally and remotely.
   
-
+|
 - Recovery
 
   - replaying the ``operation log``
@@ -51,7 +51,7 @@ Operation Log
     - checkpoint 以類似 ``B-tree`` 的結構儲存，以加速 recovery、 improves availability
     
       - directly mapped into memory
-      - used for namespace lookup without ex- tra parsing
+      - used for namespace lookup without extra parsing
 
 
 
