@@ -53,7 +53,15 @@ Operation Log
       - directly mapped into memory
       - used for namespace lookup without extra parsing
 
+|
 
+- Failure
+
+  - A failure during checkpointing does not affect correctness because the recovery code detects and skips incomplete checkpoints.
+
+
+
+|
 
 
 
