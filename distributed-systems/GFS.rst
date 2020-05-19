@@ -17,8 +17,7 @@ MIT - 6.824 Distributed Systems, Spring 2020
 - record
 
 
-
-
+.. image:: https://i.imgur.com/a267Lof.jpg
 
 
 
