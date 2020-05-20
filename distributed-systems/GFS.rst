@@ -9,7 +9,34 @@ MIT - 6.824 Distributed Systems, Spring 2020
 
 |
 
---
+
+
+Big Storage System
+---------------------
+
+WHY HARD?
+
+- Performance -> Sharding
+
+- Faults -> Tolerance
+
+- Tolerance -> Replication
+
+- Replication -> Inconsistency
+
+- Consistency -> Low Performance
+
+
+
+Strong Consistency
+
+
+
+
+|
+
+GFS
+-----
 
 
 - snapshot
