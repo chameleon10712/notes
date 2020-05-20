@@ -88,8 +88,13 @@ Operation
 
 READ
 
-1. name, offset -> Master
-2. Master send H list of S
+1. Client send name, offset -> Master
+
+2. Master send Chunck Handle, list of Chunck Servers -> Client cached
+   
+3. Client -> Chunck Server
+   
+   Chunck Server return data -> Client
 
 
 
