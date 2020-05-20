@@ -1,5 +1,5 @@
-GFS
-=====
+Lecture 3: GFS
+=================
 
 MIT - 6.824 Distributed Systems, Spring 2020
 
@@ -38,7 +38,7 @@ Bad Replication Design
 |
 
 GFS
------
+=======
 
 Goal
 
@@ -58,14 +58,14 @@ Feature
 
 
 Single Master
-^^^^^^^^^^^^^^^
+----------------
 
 (v): volatile  (nv): nonvolatile
 
 
 Master Data
-++++++++++++
-  
++++++++++++++
+
 - filename
 
   - array of chunck handles (nv)
@@ -82,13 +82,24 @@ Master Data
 - ``log``, ``checkpoint`` -> Disk
 
 
+Operation
++++++++++++
+
+
+READ
+
+1. name, offset -> Master
+2. Master send H list of S
+
+
+
 
 
 
 |
 
 Paper Notes
---------------
+=============
 
 - snapshot
 - record
