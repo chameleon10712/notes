@@ -54,6 +54,35 @@ Feature
 - Internal use
 - Big sequential (not random) access
 
+|
+
+
+Single Master
+^^^^^^^^^^^^^^^
+
+(v): volatile  (nv): nonvolatile
+
+
+- Master Data
+  
+  - filename
+
+    - array of chunck handles (nv)
+  |
+  
+  - chunck handle
+
+    - list of chunck servers (v)
+    - version # (nv)
+    - primary (v)
+    - lease expiration (v)
+
+  |
+  - ``log``, ``checkpoint`` -> Disk
+
+
+
+
 
 |
 
