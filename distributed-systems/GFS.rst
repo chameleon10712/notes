@@ -86,7 +86,8 @@ Single Master
 
 |
 
-Operation
+Paper Notes
+--------------
 
 - snapshot
 - record
