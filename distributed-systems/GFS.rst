@@ -40,11 +40,29 @@ Bad Replication Design
 GFS
 -----
 
+Goal
+
+- Big, fast
+- Global
+- Sharding
+- Automatic recovery
+
+
+Feature
+
+- Single data center
+- Internal use
+- Big sequential (not random) access
+
+
+|
+
+Operation
 
 - snapshot
-
 - record
 
+|
 
 .. image:: https://i.imgur.com/a267Lof.jpg
 
