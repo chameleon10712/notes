@@ -63,22 +63,23 @@ Single Master
 (v): volatile  (nv): nonvolatile
 
 
-- Master Data
+Master Data
+++++++++++++
   
-  - filename
+- filename
 
-    - array of chunck handles (nv)
-  |
-  
-  - chunck handle
+  - array of chunck handles (nv)
+|
 
-    - list of chunck servers (v)
-    - version # (nv)
-    - primary (v)
-    - lease expiration (v)
+- chunck handle
 
-  |
-  - ``log``, ``checkpoint`` -> Disk
+  - list of chunck servers (v)
+  - version # (nv)
+  - primary (v)
+  - lease expiration (v)
+
+|
+- ``log``, ``checkpoint`` -> Disk
 
 
 
