@@ -26,10 +26,12 @@ WHY HARD?
 
 - Consistency -> Low Performance
 
-
+--
 
 Strong Consistency
 
+
+Bad Replication Design
 
 
 
