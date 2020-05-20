@@ -94,7 +94,7 @@ READ
    
 3. Client -> Chunck Server
    
-   Chunck Server return data -> Client
+4. Chunck Server return data -> Client
 
 
 
