@@ -69,7 +69,7 @@ Master Data
 - filename
 
   - array of chunck handles (nv)
-|
+
 
 - chunck handle
 
@@ -78,7 +78,7 @@ Master Data
   - primary (v)
   - lease expiration (v)
 
-|
+
 - ``log``, ``checkpoint`` -> Disk
 
 
