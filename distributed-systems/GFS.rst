@@ -97,6 +97,18 @@ READ
 4. Chunck Server return data -> Client
 
 
+WRITES
+
+- Cases
+
+  - No Primary - on Master
+
+    - Find up to date replicas
+    - Pick Primary, Seconday
+    - Increments the Version #
+    - Tells Primary, Secondaries the Version #
+    - Master writes Version # to disk
+
 
 
 
