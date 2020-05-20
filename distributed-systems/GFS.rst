@@ -106,7 +106,7 @@ WRITES
     - Find up to date replicas
     - Pick Primary, Seconday
     - Increments the Version #
-    - Tells Primary, Secondaries the Version #
+    - Tells Primary, Secondaries the Version # --- Lease
     - Master writes Version # to disk
 
 
