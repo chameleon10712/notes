@@ -16,7 +16,7 @@ Terms
 
 - bulk loading
 
-  - loading a large volume of data into a database
+  - loading a large volume of data into DB
   - `What does “bulk load” mean? <https://stackoverflow.com/a/4462149>`_
 
 
