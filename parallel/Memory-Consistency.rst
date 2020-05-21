@@ -12,7 +12,6 @@ CMU - Parallel Computer Architecture and Programming, Fall 2018
 Memory Consistency
 ----------------------
 
-- `YouTube - Memory Consistency Model <https://www.youtube.com/watch?v=EWTNNm_s8MM>`_
 
 
 |
@@ -62,7 +61,6 @@ Example
 Relaxed Consistency Model
 -----------------------------
 
-- `YouTube - Relaxed Consistency <https://www.youtube.com/watch?v=1EmifogvkYg>`_
 
 
 
@@ -72,6 +70,8 @@ Related
 --------
 
 - `知乎 - 內存一致性模型Memory Consistency Model <https://zhuanlan.zhihu.com/p/65984694>`_
+- `YouTube - Relaxed Consistency <https://www.youtube.com/watch?v=1EmifogvkYg>`_
+- `YouTube - Memory Consistency Model <https://www.youtube.com/watch?v=EWTNNm_s8MM>`_
 
 
 
