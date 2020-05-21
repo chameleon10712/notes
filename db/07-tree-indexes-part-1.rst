@@ -47,10 +47,10 @@ Ordered Indices
 -----------------
 
 
-- ``clustering index``
+- ``clustering index`` (``primary index``)
 
   - an index whose search key also defines the sequential order of the file
-  - also called ``primary indices``
+  - an index that allows the records of a file to be read in an order that corresponds to the physical order in the file
   - The search key of a clustering index is often the primary key
 |
 
