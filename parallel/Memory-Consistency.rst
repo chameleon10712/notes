@@ -26,8 +26,7 @@ Possible outcome for (x,y):
 
 - (0,0), (0,1), (1,1)
 
-
-不會出現 (1,0) 的理由: 因為 (1,0) 不符合 Process 1 的 program order 
+- 不會出現 (1,0) 的理由: 因為 (1,0) 不符合 Process 1 的 program order 
 
 
 
