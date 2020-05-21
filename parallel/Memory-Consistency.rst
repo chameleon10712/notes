@@ -65,7 +65,7 @@ Related
 
 - `知乎 - 內存一致性模型Memory Consistency Model <https://zhuanlan.zhihu.com/p/65984694>`_
 - `Youtube - Memory Consistency Model <https://www.youtube.com/watch?v=EWTNNm_s8MM>`_
-
+- `Youtube - Relaxed Consistency <https://www.youtube.com/watch?v=1EmifogvkYg>`_
 
 
 
