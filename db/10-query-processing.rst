@@ -55,6 +55,10 @@ Terms
 Reading
 ----------
 
+.. image:: https://i.imgur.com/2U6n6fV.png
+
+|
+
 - ``query optimization``
 
   - 不能期待 user 寫出最有效率的 evaluation plan, 所以 DB 本身要對此做優化, 這個動作叫做 query optimization
