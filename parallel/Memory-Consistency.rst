@@ -1,7 +1,7 @@
 Memory Consistency
 =====================
 
-CMU 15-418/15-618 - Parallel Computer Architecture and Programming
+CMU - Parallel Computer Architecture and Programming, Fall 2018
 
 - `[Schedule] <http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15418-f18/www/schedule.html>`_
 - `[Video] <https://mediaservices.cmu.edu/media/Lecture+18+-+2-26-18/1_ja3vk16j/84714321>`_
