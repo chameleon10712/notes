@@ -41,7 +41,10 @@ Process 1
 
 
 
+Related
+--------
 
+- `知乎 - 內存一致性模型Memory Consistency Model <https://zhuanlan.zhihu.com/p/65984694>`_
 
 
 
