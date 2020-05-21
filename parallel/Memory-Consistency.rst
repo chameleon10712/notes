@@ -11,8 +11,8 @@ CMU - Parallel Computer Architecture and Programming, Fall 2018
 |
 
 
-Sequential Consistency
-------------------------
+Sequential Consistency (SC)
+------------------------------
 
 Process 0
 
@@ -40,6 +40,15 @@ Process 1
   - 不會出現 (1,0) 的理由: 因為 (1,0) 不符合 Process 0 的 program order , 以 Process 0 的角度來看, Ready = 1 的時候(b), (a) 必然已經執行, 所以不可能
 
 
+
+|
+
+Relaxed Consistency Model
+-----------------------------
+
+
+
+|
 
 Related
 --------
