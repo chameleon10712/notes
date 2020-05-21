@@ -14,30 +14,40 @@ CMU - Parallel Computer Architecture and Programming, Fall 2018
 Sequential Consistency (SC)
 ------------------------------
 
-Process 0
+Def
 
-.. code::
-  
-  A = 1          (a)
-  Ready = 1      (b)
+- accesses of each processor in ``program order``
+- all accesses appear in ``sequential order``
 
 
-Process 1
 
-.. code::
+Example
 
-  x = Ready     (c)
-  y = A         (d)
+- 
+  Process 0
+
+  .. code::
+
+    A = 1          (a)
+    Ready = 1      (b)
 
 
-- All locations are initialized to 0
+  Process 1
 
-- Possible outcome for (x,y):
+  .. code::
 
-  - (0,0), (0,1), (1,1)
-  |
+    x = Ready     (c)
+    y = A         (d)
 
-  - 不會出現 (1,0) 的理由: 因為 (1,0) 不符合 Process 0 的 program order , 以 Process 0 的角度來看, Ready = 1 的時候(b), (a) 必然已經執行, 所以不可能
+
+  - All locations are initialized to 0
+
+  - Possible outcome for (x,y):
+
+    - (0,0), (0,1), (1,1)
+    |
+
+    - 不會出現 (1,0) 的理由: 因為 (1,0) 不符合 Process 0 的 program order , 以 Process 0 的角度來看, Ready = 1 的時候(b), (a) 必然已經執行, 所以不可能
 
 
 
