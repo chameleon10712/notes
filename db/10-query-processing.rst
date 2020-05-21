@@ -49,3 +49,23 @@ Terms
   - Aggregated data is useful because you can analyze it to gain insights about particular resources or even groups of resources.
   - `What is an aggregation in database? <https://www.quora.com/What-is-an-aggregation-in-database>`_
 
+
+|
+
+Reading
+----------
+
+- ``query optimization``
+
+  - 不能期待 user 寫出最有效率的 evaluation plan, 所以 DB 本身要對此做優化, 這個動作叫做 query optimization
+  
+
+- ``pipeline``
+
+
+
+
+
+
+
+
