@@ -16,5 +16,7 @@ Terms
 
 - bulk loading
 
+  - `What does “bulk load” mean? <https://stackoverflow.com/a/4462149>`_
+
 
 
