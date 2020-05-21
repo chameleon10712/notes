@@ -7,9 +7,15 @@ CMU - Parallel Computer Architecture and Programming, Fall 2018
 - `[Video] <https://mediaservices.cmu.edu/media/Lecture+18+-+2-26-18/1_ja3vk16j/84714321>`_
 - `[Slide] <http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15418-f18/www/lectures/14_consistency.pdf>`_
 
-
 |
 
+Memory Consistency
+----------------------
+
+- `YouTube - Memory Consistency Model <https://www.youtube.com/watch?v=EWTNNm_s8MM>`_
+
+
+|
 
 Sequential Consistency (SC)
 ------------------------------
@@ -56,6 +62,8 @@ Example
 Relaxed Consistency Model
 -----------------------------
 
+- `YouTube - Relaxed Consistency <https://www.youtube.com/watch?v=1EmifogvkYg>`_
+
 
 
 |
@@ -64,8 +72,6 @@ Related
 --------
 
 - `知乎 - 內存一致性模型Memory Consistency Model <https://zhuanlan.zhihu.com/p/65984694>`_
-- `Youtube - Memory Consistency Model <https://www.youtube.com/watch?v=EWTNNm_s8MM>`_
-- `Youtube - Relaxed Consistency <https://www.youtube.com/watch?v=1EmifogvkYg>`_
 
 
 
