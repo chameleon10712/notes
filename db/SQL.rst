@@ -35,9 +35,9 @@ Aggregate functions
 |
 
 
-- group by
+- ``group by``
 
-- having
+- ``having``
 
 
 
