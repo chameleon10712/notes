@@ -112,7 +112,9 @@ WRITES
     - Master writes Version # to disk
 
 
+|
 
+.. image:: https://i.imgur.com/TEAFzlL.png
 
 
 |
