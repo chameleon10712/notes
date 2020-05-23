@@ -55,16 +55,20 @@ Cloud Services
 - `雲端服務(Cloud Services)介紹 <https://scitechvista.nat.gov.tw/c/sBwv.htm>`_
 - `公有雲、私有雲、以及混合雲的差異與優勢 <https://oosga.com/thinking/public-private-and-hybrid-cloud/>`_
 
-
 |
 
---
+OpenStack
+============
 
-Reference
+OpenStack 組合開放原始碼工具（又稱專案），採用集中式虛擬資源來建構和管理私有雲 和 公共雲。其中的六個專案負責處理運算、網路、儲存、身份識別和映像服務等核心雲端運算服務，而其它的十幾個選擇性專案則可結合在一起，以建構獨特且可供部署的雲端服務。
 
-- `IT Read <https://www.itread01.com/content/1542697143.html>`_
-- `VMware <https://www.vmware.com/tw/solutions/virtualization.html>`_
+中，儲存、CPU 和 RAM 等資源是擷取自各種特定供應商方案，並由虛擬器管理器拆解後，再視需求來分配。OpenStack 則利用一套一致性的應用程式介面（API）將這些虛擬資源進一步擷取出來，再放進分離的資源池中，以驅動與管理人員和使用者直接互動的標準雲端運算工具。
 
+
+
+`[ref] <https://www.redhat.com/zh-tw/topics/openstack>`_
+
+|
 
 
 
