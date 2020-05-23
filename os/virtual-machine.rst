@@ -34,6 +34,10 @@ Hypervisor
 
 - A hypervisor, also known as a virtual machine monitor, is a process that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, like memory and processing. 
 
+- ex.
+
+  - Xen
+  - VMware
 
 
 |
