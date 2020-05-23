@@ -37,7 +37,7 @@ Hypervisor
 - ex.
 
   - Xen
-  - VMware
+  - VMware ESXi
 
 
 |
