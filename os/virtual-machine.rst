@@ -49,7 +49,7 @@ Cloud Services
 =================
 
 - `雲端服務(Cloud Services)介紹 <https://scitechvista.nat.gov.tw/c/sBwv.htm>`_
-
+- `公有雲、私有雲、以及混合雲的差異與優勢 <https://oosga.com/thinking/public-private-and-hybrid-cloud/>`_
 
 
 |
