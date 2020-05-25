@@ -73,3 +73,10 @@ Memory Mountain
 -------------------
 
 |
+
+Related
+----------
+
+- `知乎 - Cache的基本原理 <https://zhuanlan.zhihu.com/p/102293437>`_
+
+|
