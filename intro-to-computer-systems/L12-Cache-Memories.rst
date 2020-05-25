@@ -80,6 +80,7 @@ Related
 - `Cache的基本原理 <https://zhuanlan.zhihu.com/p/102293437>`_
 - `L1，L2，L3 Cache究竟在哪裡？ <https://zhuanlan.zhihu.com/p/31422201>`_
 - `Cache為什麼有那麼多級？為什麼一級比一級大？是不是Cache越大越好？ <https://zhuanlan.zhihu.com/p/32058808>`_
+- `試圖）深入理解Cache <https://jcf94.com/2018/09/04/2018-09-04-cache/>`_
 
 - `Cache Effect <http://igoro.com/archive/gallery-of-processor-cache-effects/>`_
 
