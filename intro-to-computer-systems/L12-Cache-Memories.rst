@@ -85,3 +85,11 @@ Related
 - `Cache Effect <http://igoro.com/archive/gallery-of-processor-cache-effects/>`_
 
 |
+
+jserv
+
+- `HackMD - 現代處理器設計: Cache 原理和實際影響 <https://hackmd.io/@sysprog/HkW3Dr1Rb?type=view#%E7%8F%BE%E4%BB%A3%E8%99%95%E7%90%86%E5%99%A8%E8%A8%AD%E8%A8%88-Cache-%E5%8E%9F%E7%90%86%E5%92%8C%E5%AF%A6%E9%9A%9B%E5%BD%B1%E9%9F%BF>`_
+
+- `YouTube <https://www.youtube.com/watch?v=ceER2kqQ9tA>`_
+
+|
