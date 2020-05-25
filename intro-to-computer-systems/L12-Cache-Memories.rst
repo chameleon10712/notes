@@ -78,5 +78,6 @@ Related
 ----------
 
 - `知乎 - Cache的基本原理 <https://zhuanlan.zhihu.com/p/102293437>`_
+- `L1，L2，L3 Cache究竟在哪裡？ <https://zhuanlan.zhihu.com/p/31422201>`_
 
 |
