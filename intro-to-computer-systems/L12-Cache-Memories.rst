@@ -79,5 +79,8 @@ Related
 
 - `知乎 - Cache的基本原理 <https://zhuanlan.zhihu.com/p/102293437>`_
 - `知乎 - L1，L2，L3 Cache究竟在哪裡？ <https://zhuanlan.zhihu.com/p/31422201>`_
+- `知乎 - Cache為什麼有那麼多級？為什麼一級比一級大？是不是Cache越大越好？ <https://zhuanlan.zhihu.com/p/32058808>`_
+
+
 
 |
