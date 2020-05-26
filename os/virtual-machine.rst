@@ -95,3 +95,56 @@ Swarm Mode 內建 kv 儲存功能，提供了眾多的新特性，比如：具�
 cluster(中文：叢集)，Docker將叢集定義為：一群共同作業並提供高可用性的機器。swarm(中文：群)，是指一個叢集的Docker引擎以swarm mode形式執行。swarm mode是指Docker引擎內嵌的叢集管理和編排功能。當你初始化了一個swarm(cluster)或者將節點加入一個swarm時，其Docker引擎就會以swarm mode的形式執行。
 
 `[ref] <https://zh.wikipedia.org/wiki/Docker>`_
+
+
+
+Docker & K8s
+==============
+
+- `知乎 <https://zhuanlan.zhihu.com/p/53260098>`_
+- `Redhat - Docker <https://www.redhat.com/zh/topics/containers/what-is-docker>`_
+- `Blog <https://blog.toright.com/posts/6416/kubernetes-intro.html>`_
+- `Google slide - Container <https://speakerdeck.com/jbeda/containers-at-scale>`_
+
+|
+
+Virtualization
+=================
+
+按虛擬的物件分類
+
+- Hardware virtualization
+- Virtual machine
+- ...
+
+
+
+
+
+
+按照抽象程度分類
+
+- Instruction Set Architecture Level
+|
+
+- Hardware Abstraction Level 
+
+  - 硬體抽象層等級的虛擬化
+  - VMware ESXi、Hyper-V
+
+
+- Operating System Level
+
+  - 作業系統等級的虛擬化
+  - Docker、LXC、OpenVZ
+|
+  
+- Programming Language Level
+
+- Library Level
+
+  - Wine
+
+
+
+
