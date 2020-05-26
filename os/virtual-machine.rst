@@ -111,6 +111,7 @@ Docker & K8s
 Virtualization
 =================
 
+
 按虛擬的物件分類
 
 - Hardware virtualization
@@ -145,6 +146,11 @@ Virtualization
 
   - Wine
 
+--
+
+Related
+
+- `Virtualization Overview <https://www.vmware.com/pdf/virtualization.pdf#search=%22hypervisor%20VMware%20virtualization%20layer%22>`_
 
 
 
