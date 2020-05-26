@@ -70,5 +70,28 @@ OpenStack 組合開放原始碼工具（又稱專案），採用集中式虛擬�
 
 |
 
+Kubernetes
+============
+
+Kubernetes，又稱為k8s（首字母為k、首字母與尾字母之間有8個字符、尾字母為s，所以簡稱k8s）或者簡稱為"kube" ，是一種可自動實施Linux容器操作的開源平台。它可以幫助用戶省去應用容器化過程的許多手動部署和擴展操作。也就是說，您可以將運行Linux容器的多組主機聚集在一起，由Kubernetes幫助您輕鬆高效地管理這些集群。而且，這些集群可跨公共雲、私有云或混合雲部署主機。因此，對於要求快速擴展的雲原生應用而言（例如借助Apache Kafka進行的實時數據流處理），Kubernetes是理想的託管平台。
 
 
+`[ref] <https://www.redhat.com/zh/topics/containers/what-is-kubernetes>`_
+
+|
+
+Docker
+=========
+
+Docker容器 與虛擬機器類似，但原理上，容器是將作業系統層虛擬化，虛擬機器則是虛擬化硬體，因此容器更具有可攜式性、高效地利用伺服器。 容器更多的用於表示 軟體的一個標準化單元。由於容器的標準化，因此它可以無視基礎設施（Infrastructure）的差異，部署到任何一個地方。另外，Docker也為容器提供更強的業界的隔離相容
+
+Swarm Mode
+------------
+
+當說到 Docker Swarm 時，一般是指單獨專案 Docker Swarm。而在Docker 1.12時，將swarm mode整合到Docker 引擎中，可用Docker引擎API 和 CLI 命令直接使用。官方推薦用戶使用整合的 swarm mode。
+
+Swarm Mode 內建 kv 儲存功能，提供了眾多的新特性，比如：具有容錯能力的去中心化設計、內建服務發現、負載均衡、路由網格、動態伸縮、滾動更新、安全傳輸等。使得 Docker 原生的 Swarm 叢集具備與 Mesos、Kubernetes 競爭的實力。
+
+cluster(中文：叢集)，Docker將叢集定義為：一群共同作業並提供高可用性的機器。swarm(中文：群)，是指一個叢集的Docker引擎以swarm mode形式執行。swarm mode是指Docker引擎內嵌的叢集管理和編排功能。當你初始化了一個swarm(cluster)或者將節點加入一個swarm時，其Docker引擎就會以swarm mode的形式執行。
+
+`[ref] <https://zh.wikipedia.org/wiki/Docker>`_
