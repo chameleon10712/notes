@@ -52,8 +52,23 @@ Kernel-Based Virtual Machine 基於核心的虛擬機器，是Linux核心的一�
 Cloud Services
 =================
 
+類型
+
+- Infrastructure as a Service (IaaS)
+  
+- Platform as a Service (PaaS)
+  
+- Software as a Service (SaaS)
+
+
+
+|
+
+Related
+
 - `雲端服務(Cloud Services)介紹 <https://scitechvista.nat.gov.tw/c/sBwv.htm>`_
 - `公有雲、私有雲、以及混合雲的差異與優勢 <https://oosga.com/thinking/public-private-and-hybrid-cloud/>`_
+
 
 |
 
