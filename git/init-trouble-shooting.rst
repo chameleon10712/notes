@@ -41,10 +41,23 @@ Solution
 從 git 2.9.0 開始預設行為不允許合併沒有共同祖先的分支。
 你需要加上 ``--allow-unrelated-histories`` 選項才不會出現這個錯誤訊息。
 
+
+undo init
+
+.. code::
+
+  rm -rf .git
+
+
+
 |
+
 
 Reference
 ------------
 
 - `blog <https://cythilya.github.io/2018/06/19/git-merge-branch-into-master/>`_
 - `github 討論 <https://github.com/doggy8088/Learn-Git-in-30-days/issues/31>`_
+- `stackoverflow <https://stackoverflow.com/questions/3212459/is-there-a-command-to-undo-git-init>`_
+
+
