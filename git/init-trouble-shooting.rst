@@ -41,8 +41,9 @@ Solution
 從 git 2.9.0 開始預設行為不允許合併沒有共同祖先的分支。
 你需要加上 ``--allow-unrelated-histories`` 選項才不會出現這個錯誤訊息。
 
+|
 
-undo init
+Undo init
 
 .. code::
 
