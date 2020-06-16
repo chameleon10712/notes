@@ -11,6 +11,26 @@ Sorting & Aggregation Algorithms
 
 |
 
+Overview
+----------
+
+- 2 way merge sort
+- Files are broken up to ``N`` pages
+- The DBMS has a finite number of ``B`` fixed-size buffers.
+
+|
+
+2 Way Merge Sort
+-------------------
+
+- Each sorted set of pages is called a ``run``.
+
+
+.. image:: https://i.imgur.com/GB66A4K.png
+
+
+|
+
 Terms
 --------
 
