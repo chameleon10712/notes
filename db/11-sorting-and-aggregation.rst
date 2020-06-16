@@ -42,7 +42,7 @@ Hashing Aggregate
   - when you only need to remove duplicates, no need for ordering
 
 
-
+.. image:: https://i.imgur.com/CnYlXJN.png
 
 |
 
@@ -53,6 +53,7 @@ Terms
 
   - loading a large volume of data into DB
   - `What does “bulk load” mean? <https://stackoverflow.com/a/4462149>`_
+
 
 
 
