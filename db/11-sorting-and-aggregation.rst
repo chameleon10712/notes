@@ -34,6 +34,18 @@ Overview
 
 |
 
+Hashing Aggregate
+--------------------
+
+- alternatives to sorting
+
+  - when you only need to remove duplicates, no need for ordering
+
+
+
+
+|
+
 Terms
 --------
 
