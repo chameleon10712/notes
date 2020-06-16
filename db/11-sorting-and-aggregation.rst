@@ -29,6 +29,9 @@ Overview
 .. image:: https://i.imgur.com/GB66A4K.png
 
 
+- Number of passes = 1 + ⌈ log2 N ⌉
+- Total I/O cost = 2N ∙ (# of passes)
+
 |
 
 Terms
