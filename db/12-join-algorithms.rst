@@ -11,6 +11,15 @@ Join Algorithms
 
 |
 
+Join Operation
+------------------
+
+- equi-join
+
+
+
+|
+
 
 
 Nested Loop Join
@@ -23,6 +32,12 @@ Nested Loop Join
         If r and s satisfy the join condition
            Then output the tuple <r,s>
 
+|
+
+Merge Join
+------------
+
+|
 
 Hash Join
 ------------
