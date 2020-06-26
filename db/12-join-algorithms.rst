@@ -13,3 +13,13 @@ Join Algorithms
 
 
 
+Nested Loop Join
+------------------
+
+.. code:: javascript
+
+  For each tuple r in R do
+     For each tuple s in S do
+        If r and s satisfy the join condition
+           Then output the tuple <r,s>
+
