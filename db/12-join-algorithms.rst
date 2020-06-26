@@ -23,3 +23,9 @@ Nested Loop Join
         If r and s satisfy the join condition
            Then output the tuple <r,s>
 
+
+Hash Join
+------------
+
+
+
