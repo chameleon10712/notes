@@ -22,6 +22,13 @@ ECMAScript 5 提供開發者語法嚴格、語法受限的模式 (strict mode) �
   
   var v = "Hi! I'm a strict mode script!";
 
+|
+
+const
+-------
+
+宣告 ``const`` 會對於它的值建立一個唯讀的參考。並不是說這個值不可變更，而是這個變數不能再一次指定值。例如，假設常數的內容(值)是個物件，那麼此物件的內容(物件的參數)是可以更改的。
+
 
 `[ref] <https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Strict_mode>`_
 
