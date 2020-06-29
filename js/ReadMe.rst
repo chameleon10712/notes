@@ -7,7 +7,7 @@ ES6
 - Const
 - Arrow Function
 - Template Literals
-- Destructuting Assignment
+- Destructuring Assignment
 - Modules
   
   - Import, Export
