@@ -1,14 +1,14 @@
 Redux
 ========
 
-Pure function
+- Pure function
 
-- function depends only on the input variable
+  - function depends only on the input variable
 
+|
+- Impure function
 
-Impure function
-
-- functions depends not only on the input variable
+  - functions depends not only on the input variable
 
 
 |
