@@ -19,6 +19,7 @@ ES6
 - Promises
 - Meta-Programming
 
+|
 
 ES5
 -----
