@@ -1,6 +1,10 @@
 Redux
 ========
 
+Function
+----------
+
+
 - Pure function
 
   - function depends only on the input variable
@@ -36,8 +40,12 @@ Redux
   }
 
 
+|
 
+Reducer
+----------
 
+根據前一個 state 的狀態以及這次執行的 action 來 dispatch 下一個 state
 
 
 
