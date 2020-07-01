@@ -28,7 +28,10 @@ props
 
 |
 
-Component
+Component and Props
+----------------------
+
+|
 
 .. code:: jsx
 
