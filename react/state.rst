@@ -74,7 +74,34 @@ State Updates May Be Asynchronous
 
 State 的更新可能是非同步的
 
+React 可以將多個 ``setState()`` 呼叫批次處理為單一的更新，以提高效能。
 
+因為 ``this.props`` 和 ``this.state`` 可能是非同步的被更新，你不應該依賴它們的值來計算新的 state。
+
+|
+
+例如，這個程式碼可能無法更新 counter：
+
+.. code:: jsx
+
+  // 錯誤
+  this.setState({
+    counter: this.state.counter + this.props.increment,
+  });
+
+
+要修正這個問題，使用第二種形式的 setState()，它接受一個 function 而不是一個 object。Function 將接收先前的 state 作為第一個參數，並且將更新的 props 作為第二個參數：
+
+
+.. code:: jsx
+
+  // 正確
+  this.setState((state, props) => ({
+    counter: state.counter + props.increment
+  }));
+
+
+|
 
 setState 何時是非同步？
 ***********************
