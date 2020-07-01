@@ -39,6 +39,24 @@ react doc - `State 和生命週期 <https://zh-hant.reactjs.org/docs/state-and-l
 
   }
 
+|
+
+State  v.s. Props
+--------------------
+
+State 類似於 prop，但它是私有且由 component 完全控制的。
+
+component 被定義為 class 有一些額外的特性。Local state 就是 class 其中的一個特性。
+
+
+|
+
+Life Cycle
+-------------
+
+加入生命週期方法到 Class
+
+
 
 
 
