@@ -25,6 +25,10 @@ Basic
 
   - state update using ``setState()``
 
+- props
+
+  - props & Component
+
 |
 
 Tools
