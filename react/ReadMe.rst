@@ -35,5 +35,6 @@ Tools
 
 - vs-tips
 - vs-extension
+- React Developer Tools
 
 
