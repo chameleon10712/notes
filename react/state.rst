@@ -63,8 +63,11 @@ props（「properties」的簡寫）和 state 都是純 JavaScript object。雖�
 SetState
 -----------
 
-setState() 安排對 component state object 的更新。當 state 改變時，component 會藉由重新 render 來回應。
+setState() 安排對 component state object 的更新。
 
+當 state 改變時，component 會藉由重新 render 來回應。
+
+|
 
 State Updates May Be Asynchronous
 ++++++++++++++++++++++++++++++++++++++++
