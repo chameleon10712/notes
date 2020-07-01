@@ -58,7 +58,16 @@ Component and Props
   ReactDOM.render(<App />, document.getElementById('root'));
 
 
-|
+
+Result
+
+.. code::
+
+  Hello, Sara1
+  Hello, Cahal2
+  Hello, Edite3
+
+
 
 Reference
 
