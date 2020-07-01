@@ -3,6 +3,8 @@ State
 
 1:09:49 - Mosh
 
+react doc - `State 和生命週期 <https://zh-hant.reactjs.org/docs/state-and-lifecycle.html>`_
+
 
 .. code:: jsx
 
