@@ -1,10 +1,9 @@
 Virtual DOM
 =============
 
-- 大致上是只更新特定修改的 DOM 部分，而不是整個 DOM 都更新
-  |
+大致上是只更新特定修改的 DOM 部分，而不是整個 DOM 都更新 
 
-  - to be faster and more efficient
+- to be faster and more efficient
 
 |
 
