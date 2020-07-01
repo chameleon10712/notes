@@ -27,7 +27,7 @@ Basic
 
 - props
 
-  - props & Component
+  - ``props`` and ``Component``
 
 |
 
