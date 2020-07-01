@@ -15,7 +15,7 @@ props
 |
 
 
-可以使用 javascript function (上方例子) 或者 ``ES6 Class`` 來定義 ``Component``
+可以使用 javascript function (上方例子) 或者 ``ES6 Class`` 來定義 ``React Component``
 
 .. code:: jsx
 
