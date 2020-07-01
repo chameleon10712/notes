@@ -12,4 +12,27 @@ props
   const element = <Welcome name="Sara" />;
   ReactDOM.render(element, document.getElementById('root'));
 
+|
+
+
+可以使用 javascript function (上方例子) 或者 ``ES6 Class`` 來定義 ``Component``
+
+.. code:: jsx
+
+  class Welcome extends React.Component {
+    render() {
+      return <h1>Hello, {this.props.name}</h1>;
+    }
+  }
+
+
+
+|
+
+Reference
+
+- `Reac Doc - Components 與 Props <https://zh-hant.reactjs.org/docs/components-and-props.html>`_
+
+
+
 
