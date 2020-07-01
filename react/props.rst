@@ -70,9 +70,10 @@ Result
 
 |
 
-- Props are Read-Only
+Props are Read-Only
++++++++++++++++++++++
 
-
+不論使用 function 或是 class 來宣告 component，都絕不能修改自己的 props。
 
 
 
