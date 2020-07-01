@@ -68,6 +68,12 @@ Lifecycle
 |
 
 
+.. image:: https://iandays.com/images/react-life.png
+
+
+
+|
+
 Reference
 ------------
 
