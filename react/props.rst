@@ -26,6 +26,34 @@ props
   }
 
 
+|
+
+Component
+
+.. code:: jsx
+
+  function Welcome(props){
+    console.log('props', props)
+    return (
+      <h1>
+        Hello, {props.name}
+        {props.id}
+      </h1>
+    );
+  }
+
+  function App() {
+    return (
+      <div>
+        <Welcome name="Sara" id="1" />
+        <Welcome name="Cahal" id="2" />
+        <Welcome name="Edite" id="3" />
+      </div>
+    );
+  }
+
+  ReactDOM.render(<App />, document.getElementById('root'));
+
 
 |
 
