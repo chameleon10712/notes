@@ -9,7 +9,7 @@ Basic
 
 - step-by-step
 
-  - create react app
+  - ``create react app``
   - simple ``React Component`` example
 
 
