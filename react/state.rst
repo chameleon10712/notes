@@ -32,7 +32,7 @@ react doc - `State 和生命週期 <https://zh-hant.reactjs.org/docs/state-and-l
     };
 
     handleIncrement = () => {
-      setState({count: this.state.count + 1}) // react is aware of the state change when using setState
+      setState({count: this.state.count + 1}) // react is aware of the change of the state
     };  
     
     // ...
