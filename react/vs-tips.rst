@@ -14,5 +14,7 @@ Rename Symbol
 - ex. changing variable name from ``x`` to ``value``
 
 
+More
 
+- `10 VSCode Practices to Hasten Your React Development Flow <https://jsmanifest.com/10-vscode-practices-to-hasten-your-react-development-flow/>`_
 
