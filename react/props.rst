@@ -48,7 +48,7 @@ Component and Props
   function App() {
     return (
       <div>
-        <Welcome name="Sara" id="1" />
+        <Welcome name="Sara"  id="1" />
         <Welcome name="Cahal" id="2" />
         <Welcome name="Edite" id="3" />
       </div>
