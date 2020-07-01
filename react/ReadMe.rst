@@ -1,4 +1,7 @@
 React
+=======
+
+Basic
 
 - pre-knowledge
 
@@ -22,6 +25,11 @@ React
 
   - state update using ``setState()``
 
+|
 
+Tools
+
+- vs-tips
+- vs-extension
 
 
