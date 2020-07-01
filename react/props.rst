@@ -68,6 +68,15 @@ Result
   Hello, Edite3
 
 
+|
+
+- Props are Read-Only
+
+
+
+
+
+|
 
 Reference
 
