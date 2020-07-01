@@ -90,7 +90,7 @@ React Components
 
 |
 
-Other recommended extension
+Other recommended extensions
 
 - `Simple React Snippets <https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets>`_
 
