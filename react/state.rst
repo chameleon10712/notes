@@ -61,7 +61,7 @@ props（「properties」的簡寫）和 state 都是純 JavaScript object。雖�
 
 |
 
-Life Cycle
+Lifecycle
 -------------
 
 加入生命週期方法到 Class
