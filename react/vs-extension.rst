@@ -88,6 +88,23 @@ React Components
 
 
 
+|
+
+Other recommended extension
+
+- `Simple React Snippets <https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets>`_
+
+- `Prettier - Code formatter <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>`_
+
+  - Mac vscode: code -> preference -> setting -> ... 
+  - 8:55 Prettier formatter setting - `mosh video <https://www.youtube.com/watch?v=Ke90Tje7VS0>`_
+
+
+
+
+
+
+
 
 
 
