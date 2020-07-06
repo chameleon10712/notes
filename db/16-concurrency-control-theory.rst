@@ -18,6 +18,8 @@ CORRECTNESS CRITERIA: ACID
 
 - Consistency
 
+  - correct
+
 - Isolation
 
   - transaction 在實際被執行時可能被拆為好幾個 action, 確保 transaction 在執行時不被干擾即是 isolation
