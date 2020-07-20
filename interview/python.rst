@@ -12,8 +12,7 @@ Python
 |
 
 - Functional Programming
-
-  |
+  
   - ``filter``, ``map``, ``reduce``
   - `酷壳 - 函数式编程 <https://coolshell.cn/articles/10822.html>`_
 
