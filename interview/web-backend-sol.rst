@@ -16,7 +16,7 @@ OS
     typically (but not necessarily) within a single thread.
 
   - Reference
-
+  
     - `Difference between a “coroutine” and a “thread”? <https://stackoverflow.com/questions/1934715/difference-between-a-coroutine-and-a-thread>`_
 
 
@@ -33,6 +33,24 @@ OS
 - Inter-Process Communication
 
   - Linux: pipes, message queues
+
+|
+
+- Deadlock
+
+  - **Mutual Exclusion**: One or more than one resource are non-sharable (Only one process can use at a time)
+  - **Hold and Wait**: A process is holding at least one resource and waiting for resources.
+  - **No Preemption**: A resource cannot be taken from a process unless the process releases the resource.
+  - **Circular Wait**: A set of processes are waiting for each other in circular form.
+
+
+
+
+
+
+
+
+
 
 
 
