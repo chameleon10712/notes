@@ -34,6 +34,7 @@ apache24/httpd.conf::
 ===================
 
 Forward Domain (正解) : domain name -> IP  (Forward mapping)
+
 Reverse Domain (反解) : IP -> domain name  (Reverse mapping)
 
 + Name Server 
