@@ -28,6 +28,20 @@ OS
     - `Coroutine in Python <https://www.geeksforgeeks.org/coroutine-in-python/>`_
 
 
+|
+
+- Inter-Process Communication
+
+  - Linux: pipes, message queues
+
+
+
+
+
+
+
+
+
 
 
 
