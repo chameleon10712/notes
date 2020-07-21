@@ -41,6 +41,14 @@ Concept
 
 |
 
+GIL
++++++
+
+Python Global Interpreter Lock
+
+
+|
+
 Garbage Collection
 +++++++++++++++++++++
 
