@@ -61,7 +61,7 @@ OS
       
     - A set of processes are waiting for each other in circular form.
 
-
+  |
   - 處理死鎖基本方法:
 
     - 預防死鎖(摒棄除1以外的條件)
