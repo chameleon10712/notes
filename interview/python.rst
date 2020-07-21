@@ -6,6 +6,9 @@ Python
 
 |
 
+Concept
+---------
+
 - Closure
 - Lambda
 
@@ -35,6 +38,14 @@ Python
   - Pyramid 適用於大型應用程序。它提供了靈活性，並允許開發人員為他們的項目使用正確的工具。開發人員可以選擇數據庫，URL結構，模板樣式等。
 
   - Django 也可以像Pyramid一樣用於更大的應用程序。
+
+|
+
+Garbage Collection
++++++++++++++++++++++
+
+Python GC主要使用引用計數（reference counting）來跟踪和回收垃圾
+
 
 
 |
