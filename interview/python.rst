@@ -41,11 +41,20 @@ Concept
 
 |
 
-GIL
+GIL 
 +++++
 
 Python Global Interpreter Lock
 
+
+線程全局鎖(Global Interpreter Lock),即Python為了保證線程安全而採取的獨立線程運行的限制,說白了就是一個核只能在同一時間運行一個線程. 對於io密集型任務，python的多線程起到作用，但對於cpu密集型任務，python的多線程幾乎佔不到任何優勢，還有可能因為爭奪資源而變慢。
+
+解決辦法就是多進程和下面的協程(協程也只是單CPU,但是能減小切換代價提升性能)
+
+
+參考
+
+- `Python最難的問題 <https://www.oschina.net/translate/pythons-hardest-problem>`
 
 |
 
