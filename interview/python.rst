@@ -10,10 +10,7 @@ Concept
 ---------
 
 
-- Functional Programming
-  
-  - ``filter``, ``map``, ``reduce``
-  - `酷壳 - 函数式编程 <https://coolshell.cn/articles/10822.html>`_
+
 
 |
 - Deep Copy v.s. Shallow Copy
@@ -34,6 +31,39 @@ Concept
   - Pyramid 適用於大型應用程序。它提供了靈活性，並允許開發人員為他們的項目使用正確的工具。開發人員可以選擇數據庫，URL結構，模板樣式等。
 
   - Django 也可以像Pyramid一樣用於更大的應用程序。
+
+|
+
+Functional Programming
++++++++++++++++++++++++++
+
+- ``filter``, ``map``, ``reduce``
+- `酷壳 - 函数式编程 <https://coolshell.cn/articles/10822.html>`_
+
+
+map
+^^^^^
+
+.. code::
+
+  # Add two lists using map and lambda 
+
+  numbers1 = [1, 2, 3] 
+  numbers2 = [4, 5, 6] 
+
+  result = map(lambda x, y: x + y, numbers1, numbers2) 
+  print(list(result)) 
+
+
+
+Output: ``[5, 7, 9]``
+
+|
+
+Reference
+
+- `Python map() function <https://www.geeksforgeeks.org/python-map-function/>`_
+
 
 |
 
