@@ -159,6 +159,7 @@ Python Global Interpreter Lock
 參考
 
 - `Python最難的問題 <https://www.oschina.net/translate/pythons-hardest-problem>`_
+- `YouTube - Understanding the Python GIL <https://www.youtube.com/watch?v=Obt-vMVdM8s>`_
 
 |
 
