@@ -16,7 +16,7 @@ Python
   - ``filter``, ``map``, ``reduce``
   - `酷壳 - 函数式编程 <https://coolshell.cn/articles/10822.html>`_
 
-
+|
 - Deep Copy v.s. Shallow Copy
 
   - Deep Copy 是將對象本身複製給另一個對象。這意味著如果對對象的副本進行更改時不會影響原對象
