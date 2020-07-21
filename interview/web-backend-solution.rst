@@ -53,7 +53,25 @@ OS
     - `Introduction of Deadlock in Operating System <https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/>`_
 
 
+  - Deadlock 原因:
 
+    - 競爭資源
+    - 程序推進順序不當
+    - 必要條件:
+
+      - 互斥條件
+      - 請求和保持條件
+      - 不剝奪條件
+      - 環路等待條件
+
+    - 處理死鎖基本方法:
+
+      - 預防死鎖(摒棄除1以外的條件)
+      - 避免死鎖(銀行家算法)
+      - 檢測死鎖(資源分配圖)
+      - 解除死鎖
+      - 剝奪資源
+      - 撤銷進程
 
 
 
