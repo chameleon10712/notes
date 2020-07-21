@@ -44,17 +44,17 @@ Python
 
 `Reference <https://github.com/taizilongxu/interview_python#%E7%BC%96%E7%A8%8B%E9%A2%98>`_
 
-Fibonacci
+- Fibonacci
 
-矩形覆蓋
+- 矩形覆蓋
 
-楊氏矩陣查找
+- 楊氏矩陣查找
 
-去除列表中的重複元素
+- 去除列表中的重複元素
 
-鍊錶成對調換
+- 鍊錶成對調換
 
-創建字典的方法
+- 創建字典的方法
 
 
 
