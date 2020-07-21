@@ -189,6 +189,24 @@ Duck typing
 鴨子類型在動態語言中經常使用，非常靈活，使得 python 不想 java 那樣專門去弄一大堆的設計模式。
 
 
+|
+
+Python 2 v.s. Python 3
++++++++++++++++++++++++++
+
+1、Python3 使用 print 必須要以小括號包裹打印內容，比如 ``print('hi')``。 Python2 既可以使用帶小括號的方式，也可以使用一個空格來分隔打印內容，比如 ``print 'hi'``
+
+2、python2 ``range(1,10)`` 返回列表，python3 中返回迭代器，節約內存
+
+3、python2 中使用 ascii 編碼， python 中使用 utf-8 編碼
+
+4、python2 中 unicode 表示字符串序列， str 表示字節序列。 Python3中 str 表示字符串序列， byte 表示字節序列
+
+5、python2 中為正常顯示中文，引入 coding 聲明， python3 中不需要
+
+6、python2 中是 ``raw_input()`` 函數，python3 中是 ``input()`` 函數
+
+
 
 
 |
