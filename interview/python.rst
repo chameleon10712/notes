@@ -3,6 +3,7 @@ Python
 
 - `github - interview_python <https://github.com/taizilongxu/interview_python>`_
 - `面試題 <https://www.jianshu.com/p/1e8b5ee9d81f>`_
+- `知乎 - 110 道 Python 考題 <https://zhuanlan.zhihu.com/p/54430650>`_
 
 |
 
@@ -165,6 +166,8 @@ Garbage Collection
 +++++++++++++++++++++
 
 Python GC主要使用引用計數（reference counting）來跟踪和回收垃圾
+
+
 
 |
 
