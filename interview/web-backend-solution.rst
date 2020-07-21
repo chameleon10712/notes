@@ -36,7 +36,7 @@ OS
 
 |
 
-- Deadlock
+- Deadlock 死鎖
   
   - 原因:
 
