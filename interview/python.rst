@@ -125,6 +125,25 @@ Garbage Collection
 
 Python GC主要使用引用計數（reference counting）來跟踪和回收垃圾
 
+|
+
+Duck typing 
++++++++++++++
+鴨子類型
+
+|
+
+“當看到一隻鳥走起來像鴨子、游泳起來像鴨子、叫起來也像鴨子，那麼這隻鳥就可以被稱為鴨子。”
+
+我們並不關心對像是什麼類型，到底是不是鴨子，只關心行為。
+
+比如在python中，有很多file-like的東西，比如 StringIO , GzipFile , socket 。它們有很多相同的方法，我們把它們當作文件使用。
+
+又比如 list.extend() 方法中,我們並不關心它的參數是不是 list ,只要它是可迭代的,所以它的參數可以是 list / tuple / dict / 字符串 / 生成器等.
+
+鴨子類型在動態語言中經常使用，非常靈活，使得 python 不想 java 那樣專門去弄一大堆的設計模式。
+
+
 
 
 |
