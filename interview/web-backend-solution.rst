@@ -75,8 +75,7 @@ OS
   - Reference
   
     - `Introduction of Deadlock in Operating System <https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/>`_
-
-
+    - `Python Interview <https://github.com/taizilongxu/interview_python#3-%E6%AD%BB%E9%94%81>`_
 
 
 
