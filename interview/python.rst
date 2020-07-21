@@ -9,7 +9,7 @@ Python
 Concept
 ---------
 
-- Closure
+
 - Lambda
 
 |
@@ -38,6 +38,33 @@ Concept
   - Pyramid 適用於大型應用程序。它提供了靈活性，並允許開發人員為他們的項目使用正確的工具。開發人員可以選擇數據庫，URL結構，模板樣式等。
 
   - Django 也可以像Pyramid一樣用於更大的應用程序。
+
+|
+
+Closure
++++++++++
+
+example
+
+.. code::
+
+  #!/usr/bin/env python
+
+  def make_printer(msg):
+
+      msg = "hi there"
+
+      def printer():
+          print(msg)
+
+      return printer
+
+
+  myprinter = make_printer("Hello there")
+  myprinter()
+  myprinter()
+  myprinter()
+
 
 |
 
