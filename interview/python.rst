@@ -10,10 +10,6 @@ Concept
 ---------
 
 
-- Lambda
-
-|
-
 - Functional Programming
   
   - ``filter``, ``map``, ``reduce``
@@ -38,6 +34,40 @@ Concept
   - Pyramid 適用於大型應用程序。它提供了靈活性，並允許開發人員為他們的項目使用正確的工具。開發人員可以選擇數據庫，URL結構，模板樣式等。
 
   - Django 也可以像Pyramid一樣用於更大的應用程序。
+
+|
+
+Lambda
+++++++++
+
+簡單來說，編程中提到的lambda表達式，通常是在**需要一個函數，但是又不想費神去命名一個函數的場合下使用**，也就是指**匿名函數**。這一用法跟所謂λ演算（題目說明里的維基鏈接）的關係，有點像原子彈和質能方程的關係，差別其實還是挺大的。
+
+
+.. code::
+
+  map( lambda x: x*x, [y for y in range(10)] )
+
+
+Reference
+
+- `知乎 <https://www.zhihu.com/question/20125256>`_
+
+
+|
+
+|
+
+Scope
+++++++++
+
+Python中的作用域(Scope)
+
+Python 中，一個變量的作用域總是由在代碼中被賦值的地方所決定的。
+
+當Python 遇到一個變量的話他會按照這樣的順序進行搜索：
+
+本地作用域（Local）→當前作用域被嵌入的本地作用域（Enclosing locals）→全局/模塊作用域（Global）→內置作用域（Built-in）
+
 
 |
 
@@ -84,7 +114,7 @@ Python Global Interpreter Lock
 
 參考
 
-- `Python最難的問題 <https://www.oschina.net/translate/pythons-hardest-problem>`
+- `Python最難的問題 <https://www.oschina.net/translate/pythons-hardest-problem>`_
 
 |
 
