@@ -37,5 +37,24 @@ Python
   - Django 也可以像Pyramid一樣用於更大的應用程序。
 
 
+|
+
+程式題
+--------
+
+`Reference <https://github.com/taizilongxu/interview_python#%E7%BC%96%E7%A8%8B%E9%A2%98>`_
+
+Fibonacci
+
+矩形覆蓋
+
+楊氏矩陣查找
+
+去除列表中的重複元素
+
+鍊錶成對調換
+
+創建字典的方法
+
 
 
