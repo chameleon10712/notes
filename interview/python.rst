@@ -48,8 +48,6 @@ example
 
 .. code::
 
-  #!/usr/bin/env python
-
   def make_printer(msg):
 
       msg = "hi there"
@@ -64,6 +62,11 @@ example
   myprinter()
   myprinter()
   myprinter()
+
+
+Reference
+
+- `Python Closure <http://zetcode.com/python/python-closures/>`_
 
 
 |
