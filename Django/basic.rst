@@ -1,6 +1,13 @@
 Basic Usage
 ===============
 
+啟動 Server
+
+.. code::
+
+  python manage.py runserver
+
+
 shell
 
 .. code::
