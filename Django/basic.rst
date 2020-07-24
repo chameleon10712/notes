@@ -1,6 +1,16 @@
 Basic Usage
 ===============
 
+shell
+
+.. code::
+
+  python manage.py shell
+
+
+
+|
+
 修改 DB schema
 
 - Change your models (in ``models.py``).
