@@ -2,7 +2,7 @@ Closures
 ===========
 
 
-`[MDN] Closures <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures>`_
+`[MDN] <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures>`_
 
 
 
