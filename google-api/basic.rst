@@ -47,3 +47,8 @@ Quickstart
 
 - `Creating and managing documents <https://developers.google.com/docs/api/how-tos/documents>`_
 
+
+
+Concept
+
+- `Structure of a Google Docs document <https://developers.google.com/docs/api/concepts/structure>`_
