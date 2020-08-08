@@ -41,7 +41,33 @@ web application OAuth 2
 Google Doc API
 ==================
 
+
+Introduction
+--------------
+
+Document ID
+
+- ``https://docs.google.com/document/d/documentId/edit``
+
+
+Locations within a document: indexes
+
+
+
+|
+
+Concept
+----------
+
+- `Structure of a Google Docs document <https://developers.google.com/docs/api/concepts/structure>`_
+
+
+|
+
+
+
 Quickstart
+------------
 
 - `Python Quickstart <https://developers.google.com/docs/api/quickstart/python>`_
 
@@ -49,6 +75,6 @@ Quickstart
 
 
 
-Concept
 
-- `Structure of a Google Docs document <https://developers.google.com/docs/api/concepts/structure>`_
+
+
