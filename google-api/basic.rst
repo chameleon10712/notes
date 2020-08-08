@@ -83,10 +83,13 @@ Concept
 Document update workflow
 +++++++++++++++++++++++++++
 
+|
 
 Creating and populating a new document
 
 |
+|
+
 
 .. image:: https://developers.google.com/docs/api/images/create-sequence.png
 
