@@ -2,6 +2,10 @@ Google OAuth 2 authorization
 ================================
 
 
+Google 官網文件
+
+- `Using OAuth 2.0 to Access Google APIs <https://developers.google.com/identity/protocols/oauth2>`_
+
 
 web application OAuth 2
 
