@@ -74,7 +74,9 @@ Quickstart
 - `Creating and managing documents <https://developers.google.com/docs/api/how-tos/documents>`_
 
 
+|
 
+其他
 
-
+- `Output document contents as JSON <https://developers.google.com/docs/api/samples/output-json#example_document_dump>`_
 
