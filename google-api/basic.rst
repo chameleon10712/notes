@@ -42,6 +42,23 @@ Google Doc API
 ==================
 
 
+Quickstart
+------------
+
+- `Python Quickstart <https://developers.google.com/docs/api/quickstart/python>`_
+
+- `Creating and managing documents <https://developers.google.com/docs/api/how-tos/documents>`_
+
+
+|
+
+其他
+
+- `Output document contents as JSON <https://developers.google.com/docs/api/samples/output-json#example_document_dump>`_
+
+
+|
+
 Introduction
 --------------
 
@@ -81,22 +98,4 @@ Updating an existing document
 
 .. image:: https://developers.google.com/docs/api/images/update-sequence.png
 
-
-|
-
-
-
-Quickstart
-------------
-
-- `Python Quickstart <https://developers.google.com/docs/api/quickstart/python>`_
-
-- `Creating and managing documents <https://developers.google.com/docs/api/how-tos/documents>`_
-
-
-|
-
-其他
-
-- `Output document contents as JSON <https://developers.google.com/docs/api/samples/output-json#example_document_dump>`_
 
