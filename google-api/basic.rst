@@ -90,10 +90,13 @@ Creating and populating a new document
 
 .. image:: https://developers.google.com/docs/api/images/create-sequence.png
 
+
+|
 |
 
 Updating an existing document
 
+|
 |
 
 .. image:: https://developers.google.com/docs/api/images/update-sequence.png
