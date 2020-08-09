@@ -208,6 +208,10 @@ Python 2 v.s. Python 3
 6、python2 中是 ``raw_input()`` 函數，python3 中是 ``input()`` 函數
 
 
+Reference
+
+- `Python 2.7.x與Python 3.x的主要差異 <http://chenqx.github.io/2014/11/10/Key-differences-between-Python-2-7-x-and-Python-3-x/>`_
+
 |
 
 @staticmethod 和 @classmethod
@@ -224,6 +228,21 @@ Reference
 
 |
 
+Dictionary Comprehension 字典推導式
+++++++++++++++++++++++++++++++++++++++
+
+
+.. code:: python
+
+  d  = { key : value  for ( key , value ) in  iterable }
+
+
+Reference
+
+- `Python Dictionary Comprehension <https://www.geeksforgeeks.org/python-dictionary-comprehension/>`_
+
+
+|
 
 
 Python 中單下劃線和雙下劃線
