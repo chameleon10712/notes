@@ -393,6 +393,21 @@ Reference
 
 |
 
+Mutable vs Immutable Objects
+++++++++++++++++++++++++++++++
+
+可更改（mutable）與 不可更改（immutable）對象
+
+
+在 python 中，``strings``, ``tuples``, 和 ``numbers`` 是不可更改的對象（immutable objects），而 ``list`` , ``dict``, ``set`` 等則是可以修改的對象（mutable objects）
+
+
+
+
+
+
+|
+
 
 Iterator v.s. Generator
 +++++++++++++++++++++++++++
