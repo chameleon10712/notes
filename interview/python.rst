@@ -213,16 +213,28 @@ Python 2 v.s. Python 3
 @staticmethod 和 @classmethod
 ++++++++++++++++++++++++++++++++++
 
-`GitHub - interview_python <https://github.com/taizilongxu/interview_python#3-staticmethod%E5%92%8Cclassmethod>`_
+
+
+
+
+Reference
+
+- `GitHub - interview_python <https://github.com/taizilongxu/interview_python#3-staticmethod%E5%92%8Cclassmethod>`_
 
 
 |
 
 
 
+Python 中單下劃線和雙下劃線
+-------------------------
 
 
 
+
+Reference
+
+- `Naming with Underscores in Python <https://medium.com/python-features/naming-conventions-with-underscores-in-python-791251ac7097>`_ 
 
 
 
