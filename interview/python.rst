@@ -1,7 +1,8 @@
 Python
 ===========
 
-- `github - interview_python <https://github.com/taizilongxu/interview_python>`_
+- `GitHub - interview_python <https://github.com/taizilongxu/interview_python>`_
+- `GitHub - python interview questions <https://github.com/kenwoodjw/python_interview_question>`_  
 - `面試題 <https://www.jianshu.com/p/1e8b5ee9d81f>`_
 - `知乎 - 110 道 Python 考題 <https://zhuanlan.zhihu.com/p/54430650>`_
 
