@@ -208,6 +208,25 @@ Python 2 v.s. Python 3
 6、python2 中是 ``raw_input()`` 函數，python3 中是 ``input()`` 函數
 
 
+|
+
+@staticmethod 和 @classmethod
+++++++++++++++++++++++++++++++++++
+
+`GitHub - interview_python <https://github.com/taizilongxu/interview_python#3-staticmethod%E5%92%8Cclassmethod>`_
+
+
+|
+
+
+
+
+
+
+
+
+
+
 
 
 |
