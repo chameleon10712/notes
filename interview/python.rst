@@ -227,8 +227,7 @@ Reference
 
 
 Python 中單下劃線和雙下劃線
--------------------------
-
++++++++++++++++++++++++++++++
 
 
 
@@ -238,10 +237,41 @@ Reference
 
 
 
+|
 
+
+Iterator v.s. Generator
++++++++++++++++++++++++++++
+
+迭代器和生成器
+
+Reference
+
+- `StackOverflow <https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do>`_
+- `python practice book <https://anandology.com/python-practice-book/iterators.html>`_
 
 
 |
+
+__new__和__init__的區別
++++++++++++++++++++++++++
+
+這個__new__確實很少見到,先做了解吧.
+
+- __new__是一個靜態方法,而__init__是一個實例方法.
+- __new__方法會返回一個創建的實例,而__init__什麼都不返回.
+- 只有在__new__返回一個cls的實例時後面的__init__才能被調用.
+- 當創建一個新實例時調用__new__,初始化一個實例時用__init__
+
+
+
+Reference
+
+- `GitHub <https://github.com/taizilongxu/interview_python#15-__new__%E5%92%8C__init__%E7%9A%84%E5%8C%BA%E5%88%AB>`_
+
+
+|
+
 
 程式題
 --------
