@@ -214,6 +214,55 @@ Reference
 
 |
 
+
+Class Variables vs. Instance Variables
++++++++++++++++++++++++++++++++++++++++++
+
+類變量(class variables)  和 實例變量(instance variables)
+
+Generally speaking, instance variables are for data unique to each instance and class variables are for attributes and methods shared by all instances of the class
+
+
+通常來說，實例變量(instance variables)是對於每個實例(instance)都獨有的數據，而類變量(class variables)是該類(class)所有實例共享的屬性和方法
+
+
+.. code:: python
+
+  class Dog:
+
+      kind = 'canine'         
+      # class variable shared by all instances
+      # 類屬性 kind 為所有實例所共享
+
+      def __init__(self, name):
+          self.name = name    
+          # instance variable unique to each instance
+          # 實例屬性name為每個Dog的實例獨有
+
+  >>> d = Dog('Fido')
+  >>> e = Dog('Buddy')
+  >>> d.kind                  # shared by all dogs
+  'canine'
+  >>> e.kind                  # shared by all dogs
+  'canine'
+  >>> d.name                  # unique to d
+  'Fido'
+  >>> e.name                  # unique to e
+  'Buddy'
+
+
+
+
+|
+
+Reference
+
+- `Python Tutorial <https://docs.python.org/3/tutorial/classes.html#class-and-instance-variables>`_
+
+
+
+|
+
 Import 用法
 +++++++++++++
 
@@ -228,8 +277,6 @@ Reference
 
 Decorator
 +++++++++++
-
-
 
 
 
