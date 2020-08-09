@@ -407,6 +407,60 @@ Reference
 
 |
 
+Object introspection
++++++++++++++++++++++++
+
+這個也是python彪悍的特性.
+
+自省就是面向對象的語言所寫的程序在運行時,所能知道對象的類型.簡單一句就是運行時能夠獲得對象的類型.比如type(),dir(),getattr(),hasattr(),isinstance ()
+
+
+- ``dir``
+
+.. code:: py
+
+  my_list = [1, 2, 3]
+  dir(my_list)
+  # Output: ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__',
+  # '__delslice__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__',
+  # '__getitem__', '__getslice__', '__gt__', '__hash__', '__iadd__', '__imul__',
+  # '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__',
+  # '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__',
+  # '__setattr__', '__setitem__', '__setslice__', '__sizeof__', '__str__',
+  # '__subclasshook__', 'append', 'count', 'extend', 'index', 'insert', 'pop',
+  # 'remove', 'reverse', 'sort']
+
+
+- ``type`` and ``id``
+
+.. code:: py
+
+  print(type(''))
+  # Output: <type 'str'>
+
+  print(type([]))
+  # Output: <type 'list'>
+
+  print(type({}))
+  # Output: <type 'dict'>
+
+  print(type(dict))
+  # Output: <type 'type'>
+
+  print(type(3))
+  # Output: <type 'int'>
+
+
+.. code:: py
+
+  name = "Yasoob"
+  print(id(name))
+  # Output: 139972439030304
+
+
+
+|
+
 __new__和__init__的區別
 +++++++++++++++++++++++++
 
