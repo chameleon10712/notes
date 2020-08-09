@@ -493,6 +493,21 @@ Reference
 
 |
 
+其他
++++++
+
+- Python function overloading
+
+  - `知乎 為什麼Python 不支持函數重載？而其他語言大都支持？ <https://www.zhihu.com/question/20053359>`_
+  - `StackOverflow <https://stackoverflow.com/questions/6434482/python-function-overloading>`_
+
+
+
+
+
+
+
+|
 
 程式題
 --------
