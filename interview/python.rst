@@ -141,6 +141,7 @@ example
 Reference
 
 - `Python Closure <http://zetcode.com/python/python-closures/>`_
+- `Closure - Javascript | MDN <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures>`_
 
 
 |
