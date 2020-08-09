@@ -214,6 +214,71 @@ Reference
 
 |
 
+Class Objects
++++++++++++++++++
+
+Class objects support two kinds of operations: ``attribute references`` and ``instantiation``.
+
+
+Attribute references
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. code:: python
+
+  class MyClass:
+      """A simple example class"""
+      i = 12345
+
+      def f(self):
+          return 'hello world'
+
+|
+
+- ``MyClass.i`` and ``MyClass.f`` are valid attribute references
+- ``__doc__`` is also a valid attribute, returning the docstring belonging to the class: ``"A simple example class"``
+
+
+Class instantiation
+^^^^^^^^^^^^^^^^^^^^^^
+
+一般初始化
+
+.. code:: py
+
+  x = MyClass()
+
+
+
+客製化初始值
+
+
+.. code:: python
+
+  def __init__(self):
+      self.data = []
+
+
+.. code:: py
+
+  >>> class Complex:
+  ...     def __init__(self, realpart, imagpart):
+  ...         self.r = realpart
+  ...         self.i = imagpart
+  ...
+  >>> x = Complex(3.0, -4.5)
+  >>> x.r, x.i
+  (3.0, -4.5)
+
+|
+
+Reference
+
+- `Python Tutorial <https://docs.python.org/3/tutorial/classes.html#class-objects>`_
+
+
+
+|
+
 
 Class Variables vs. Instance Variables
 +++++++++++++++++++++++++++++++++++++++++
