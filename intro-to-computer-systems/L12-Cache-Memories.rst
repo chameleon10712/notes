@@ -15,6 +15,7 @@ CMU - Intro to Computer Systems, Fall 2016
 |
 |
 
+
 Direct-Mapped Cache
 ---------------------
 
@@ -73,6 +74,24 @@ Memory Mountain
 -------------------
 
 |
+|
+
+Term
+---------------
+
+
+Cache Line
+++++++++++++
+
+- cache line 是 cpu cache 中的最小快取單位
+- 主流的 CPU Cache 的 Cache Line 大小多為 64 Bytes
+
+
+|
+|
+
+
+
 
 Related
 ----------
