@@ -16,3 +16,16 @@ Basic Setting
 Ref
 
 - `Linux Console <https://wiki.archlinux.org/index.php/Linux_console#Fonts>`_
+
+
+
+
+Loop Device
+=============
+
+In Unix-like operating systems, a ``loop device``, ``vnd`` (vnode disk), or ``lofi`` (loop file interface) is a pseudo-device that makes a file accessible as a block device.
+
+
+ref
+
+- `wiki <https://en.wikipedia.org/wiki/Loop_device>`_
