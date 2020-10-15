@@ -1,6 +1,13 @@
 Basic Setting
 ================
 
+第一步：新增硬碟/新建分割槽（fdisk）（此步驟非必須）
+第二步：格式化分割槽（mkfs.ext4）
+第三步：載入分割槽（mount）
+
+----
+
+
 
 改變 console 文字大小 (change console font size)
 
