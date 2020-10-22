@@ -8,9 +8,25 @@ Start a Project
   django-admin startproject mysite
 
 
-- avoid names like `django` or `test`
+- avoid names like ``django`` or ``test``
 
 
+結構
+
+.. code::
+
+  mysite/
+      manage.py
+      mysite/
+          __init__.py
+          settings.py
+          urls.py
+          asgi.py
+          wsgi.py
+
+
+
+--
 
 啟動 Server
 
