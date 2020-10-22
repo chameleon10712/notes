@@ -5,7 +5,7 @@ Basic Setting
 第二步：格式化分割槽（mkfs.ext4）
 第三步：載入分割槽（mount）
 
-----
+---
 
 
 
