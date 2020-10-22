@@ -1,6 +1,17 @@
 Basic Usage
 ===============
 
+Start a Project
+
+.. code::
+
+  django-admin startproject mysite
+
+
+- avoid names like `django` or `test`
+
+
+
 啟動 Server
 
 .. code::
