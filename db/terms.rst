@@ -25,7 +25,8 @@ Terms
     
   - `ref <https://www.fooish.com/sql/constraints.html>`_
  
- 
+|
+
 - CASCADE
 
   - `What does on_delete do on Django models? <https://stackoverflow.com/a/38389488>`_
