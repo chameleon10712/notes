@@ -8,18 +8,22 @@ Model
 
 - Change your models (in ``models.py``).
 
-- Run the following code to create migrations for those changes
+- Run
 
   .. code:: sh
 
     python manage.py makemigrations
+    
+    # to create migrations for those changes
 
   
-- Run the following code to apply those changes to the database.
+- Run  
 
   .. code:: sh
   
     python manage.py migrate
+    
+    # to apply those changes to the database.
 
   
 
