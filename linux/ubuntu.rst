@@ -15,3 +15,19 @@ Ubuntu
 
 
 
+- ssh
+
+  - .. code:: sh
+  
+      sudo apt-get install ssh
+
+
+  - ``vim /etc/ssh/sshd_config``
+    修改
+    
+    .. code:: sh
+    
+      Port 22
+      PasswordAuthentication yes
+
+    
