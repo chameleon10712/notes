@@ -10,7 +10,7 @@ Ubuntu
 
   - .. code:: sh
 
-    sudo apt-get install gnome-tweak-tool
+      sudo apt-get install gnome-tweak-tool
       
   - 安裝後，用圖形介面點
 
@@ -26,6 +26,14 @@ Ubuntu
   
   - `Ubuntu: fcitx + chewing 新酷音輸入法 <https://gist.github.com/tanyuan/c0d4ee15cf0c9c93da28cc1cf0ff87b3>`_
 
+
+
+- ping 工具
+
+  - .. code:: sh
+  
+      sudo apt-get update
+      sudo apt-get install iputils-ping
 
 
 - ssh
@@ -51,3 +59,12 @@ Ubuntu
       /etc/init.d/ssh restart
   
   
+- 安裝 chromium
+
+  - .. code:: sh
+  
+    sudo apt-get install chromium-browser
+  
+
+
+
