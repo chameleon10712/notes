@@ -5,6 +5,17 @@ Ubuntu
 
 
 - vim
+
+- 更換 Ctrl 與 CapsLock
+
+  - keymap
+  - install ``gnome-tweak-tool``
+  
+    - 安裝後，用圖形介面點
+    
+      - ``Tweaks`` > ``Keyboard & Mouse`` > ``Keyboard`` > ``Additional Layout Options`` > ``Caps Lock behavior``
+  
+
 - 新酷音
 
   - .. code:: sh
