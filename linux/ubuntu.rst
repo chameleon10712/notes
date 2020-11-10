@@ -59,12 +59,26 @@ Ubuntu
       /etc/init.d/ssh restart
   
   
-- 安裝 chromium
+- 安裝 Chromium
 
   - .. code:: sh
   
-    sudo apt-get install chromium-browser
+      sudo apt-get install chromium-browser
   
 
+
+- 安裝 Gedit
+
+  - .. code:: sh
+  
+      sudo apt-get install gedit
+
+
+
+- 安裝 Steam
+
+  - .. code:: sh
+  
+      sudo apt-get install steam
 
 
