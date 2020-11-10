@@ -31,3 +31,10 @@ Ubuntu
       PasswordAuthentication yes
 
     
+  - 修改後重啟 service
+  
+    .. code:: sh
+    
+      /etc/init.d/ssh restart
+  
+  
