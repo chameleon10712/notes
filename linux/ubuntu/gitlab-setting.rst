@@ -32,7 +32,7 @@ Git authentication methods
     Enter file in which to save the key (/home/user/.ssh/id_ed25519):
 
 
-  輸入 ``gitlab`` 後，會產生 ``gitlab_rsa``, ``gitlab_rsa.pub``
+  輸入 ``gitlab_rsa`` 後，會產生 ``gitlab_rsa``, ``gitlab_rsa.pub``
 
 
   .. code:: sh
