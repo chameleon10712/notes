@@ -12,6 +12,7 @@ ReadMe
 TODO
 
 - vimrc
+- tmux
 
 
 
