@@ -93,8 +93,7 @@ Ubuntu
 GitLab
 =========
 
-
-
+下面設定是 global git aacount setting, 如果要 local 的要
 
 
 Configure Git
@@ -111,29 +110,29 @@ Configure Git
 Git authentication methods
 
 
-RSA SSH keys
+- RSA SSH keys
 
-.. code:: sh
+  .. code:: sh
 
-  ssh-keygen -t rsa -b 2048 -C "email@example.com"
-
-
-執行後會產生
-
-.. code:: sh
-
-  Enter file in which to save the key (/home/user/.ssh/id_ed25519):
+    ssh-keygen -t rsa -b 2048 -C "email@example.com"
 
 
-輸入 ``gitlab`` 後，會產生 ``gitlab_rsa``, ``gitlab_rsa.pub``
+  執行後會產生
+
+  .. code:: sh
+
+    Enter file in which to save the key (/home/user/.ssh/id_ed25519):
 
 
-.. code:: sh
-
-  cat gitlab_rsa.pub
+  輸入 ``gitlab`` 後，會產生 ``gitlab_rsa``, ``gitlab_rsa.pub``
 
 
-複製輸出的文字後，到 gitlab 右上角個人圖像 > setting > SSH Keys , 將剛剛那段文字貼到 Key 大框, title 打你的電腦名稱, 點 Add key
+  .. code:: sh
+
+    cat gitlab_rsa.pub
+
+
+  複製輸出的文字後，到 gitlab 右上角個人圖像 > setting > SSH Keys , 將剛剛那段文字貼到 Key 大框, title 打你的電腦名稱, 點 Add key
 
 |
 
