@@ -94,7 +94,7 @@ GitLab
 =========
 
 
-- `Start using Git on the command line <https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html>`_
+
 
 
 Configure Git
@@ -114,8 +114,12 @@ Git authentication methods - RSA SSH keys
 
   ssh-keygen -t rsa -b 2048 -C "email@example.com"
 
+|
 
 
 
+Reference
+
+- `Start using Git on the command line <https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html>`_
 
 
