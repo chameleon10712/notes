@@ -17,6 +17,12 @@ Ubuntu
     - ``Tweaks`` > ``Keyboard & Mouse`` > ``Keyboard`` > ``Additional Layout Options`` > ``Caps Lock behavior``
 
 
+- Install git
+
+  - .. code:: sh
+
+      sudo apt-get install git
+
 
 - 新酷音
 
