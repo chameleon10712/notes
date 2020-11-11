@@ -10,3 +10,8 @@ Plugin Install
   Bundle 'tomtom/tcomment_vim'
   filetype indent plugin on
 
+
+
+Reference
+
+- `Vundle：Vim Plugin 自動下載、安裝、更新與管理工具（Vim Bundle） <https://blog.gtwang.org/linux/vundle-vim-bundle-plugin-manager/>`_
