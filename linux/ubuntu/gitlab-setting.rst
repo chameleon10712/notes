@@ -44,7 +44,18 @@ Git authentication methods
 
 |
 
+- ssh key 設定完成後, 測試
 
+  .. code:: sh
+  
+    ssh -T git@gitlab.com
+
+  會看到
+  
+  .. code:: sh
+  
+    Welcome to GitLab, @<your_username>!
+  
 
 Reference
 
