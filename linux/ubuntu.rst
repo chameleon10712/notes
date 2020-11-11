@@ -93,7 +93,7 @@ Ubuntu
 GitLab
 =========
 
-下面設定是 global git aacount setting, 如果要 local 的要
+下面設定是 global git aacount setting, 如果要 local 的要改
 
 
 Configure Git
