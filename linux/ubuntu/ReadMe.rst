@@ -13,6 +13,8 @@ TODO
 
 - vimrc
 - tmux
+- default shell setting
+- alias pip=pip3
 
 
 
