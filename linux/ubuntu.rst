@@ -87,4 +87,14 @@ Ubuntu
   
       sudo apt-get install steam
 
+|
+
+
+GitLab
+=========
+
+
+- `Start using Git on the command line <https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html>`_
+
+
 
