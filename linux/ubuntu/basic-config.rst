@@ -42,6 +42,13 @@ Ubuntu
       sudo apt-get install iputils-ping
 
 
+- pip
+
+  - .. code:: sh
+
+      sudo apt-get install python-pip
+
+
 - ssh
 
   - .. code:: sh
