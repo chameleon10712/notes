@@ -97,4 +97,25 @@ GitLab
 - `Start using Git on the command line <https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html>`_
 
 
+Configure Git
+
+.. code:: sh
+
+  git config --global user.name "your_username"
+  git config --global user.email "your_email_address@example.com"
+  git config --global --list
+
+
+
+
+Git authentication methods - RSA SSH keys
+
+.. code:: sh
+
+  ssh-keygen -t rsa -b 2048 -C "email@example.com"
+
+
+
+
+
 
