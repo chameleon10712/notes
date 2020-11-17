@@ -16,7 +16,7 @@ A mixin can also be viewed as an interface with implemented methods.
 This pattern is an example of enforcing the ``dependency inversion principle``.
 
 
-- Diamond Problem
+- **Diamond Problem**
 
   .. raw:: html
 
@@ -24,7 +24,7 @@ This pattern is an example of enforcing the ``dependency inversion principle``.
 
 
 
-- Dependency Inversion Principle
+- **Dependency Inversion Principle**
 
   - In object-oriented design, the dependency inversion principle is a specific form of decoupling software modules. 
     When following this principle, the conventional dependency relationships established from high-level, 
