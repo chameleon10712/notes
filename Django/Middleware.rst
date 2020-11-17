@@ -13,7 +13,10 @@ Activating middleware
     |
     - 各個 middleware 有 dependency 關係的，setting 裡的 order ㄧ定要對
     - Ex. ``SessionMiddleware`` ㄧ定要比 ``AuthentiactionMiddleware`` 順序更前面，因為 Authentication 需要 user session
+    
+    |
     - `Middleware order and layering <https://docs.djangoproject.com/en/3.1/topics/http/middleware/#middleware-order-and-layering>`_
+    - `Middleware ordering <https://docs.djangoproject.com/en/3.1/ref/middleware/#middleware-ordering>`_
   
   |
   - .. code:: sh
