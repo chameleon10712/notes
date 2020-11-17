@@ -1,6 +1,18 @@
 Terms
 =======
 
+Class Method
+----------------
+
+Python classmethod
+
+- ``classmethod()``
+
+- ``@classmethod``
+
+
+|
+
 Callable
 ----------
 
