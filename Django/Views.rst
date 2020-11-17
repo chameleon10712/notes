@@ -39,6 +39,7 @@ class **django.views.generic.base.View**
 
   - **dispatch**
 
+    - The **view** part of the view – the method that accepts a **request** argument plus arguments, and returns a HTTP response.
 
 |
 
