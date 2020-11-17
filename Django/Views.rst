@@ -5,7 +5,7 @@ Introduction to class-based views
 -----------------------------------
 
 The relationship and history of generic view, class-based views, and class-based generic views
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 - function-based views
 
@@ -22,7 +22,7 @@ The relationship and history of generic view, class-based views, and class-based
 |
 
 Using class-based views
-
++++++++++++++++++++++++++++
 
 - view function
 
@@ -51,6 +51,7 @@ Using class-based views
 
 
 
+- ``as_view()`` classmethod
 
 
 
