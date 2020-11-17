@@ -23,7 +23,8 @@ The relationship and history of generic view, class-based views, and class-based
 
 Using class-based views
 
-view function
+
+- view function
 
 .. code:: python
 
@@ -36,7 +37,7 @@ view function
 
 
 
-class-based views
+- class-based views
 
 .. code:: python
 
