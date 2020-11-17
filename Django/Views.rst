@@ -1,6 +1,9 @@
 Views
 ========
 
+Introduction to class-based views
+-----------------------------------
+
 The relationship and history of generic view, class-based views, and class-based generic views
 
 
@@ -16,6 +19,40 @@ The relationship and history of generic view, class-based views, and class-based
 |
 - class-based views
 
+|
+
+Using class-based views
+
+view function
+
+.. code:: python
+
+  from django.http import HttpResponse
+
+  def my_view(request):
+      if request.method == 'GET':
+          # <view logic>
+          return HttpResponse('result')
+
+
+
+class-based views
+
+.. code:: python
+
+  from django.http import HttpResponse
+  from django.views import View
+
+  class MyView(View):
+      def get(self, request):
+          # <view logic>
+          return HttpResponse('result')
+
+
+
+
+
+
 
 |
 
@@ -23,7 +60,7 @@ Reference
 
 - `Introduction to class-based views <https://docs.djangoproject.com/en/3.1/topics/class-based-views/intro/>`_
 
-
+|
 
 Class-based views
 ---------------------
