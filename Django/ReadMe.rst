@@ -2,18 +2,18 @@ Django
 =========
 
 
-- Basic
+Basic
 
-  - django basic command
-
-
-- Middleware
-
-  - explaination of middleware usage in django
+- django basic command
 
 
-- Terms
+Middleware
 
-  - cs terms in django document
+- explaination of middleware usage in django
+
+
+Terms
+
+- cs terms in django document
 
 
