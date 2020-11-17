@@ -10,10 +10,10 @@ How those other classes gain access to the mixin's methods depends on the langua
 Mixins are sometimes described as being "included" rather than "inherited".
 
 Mixins encourage code reuse and can be used to avoid the inheritance ambiguity 
-that multiple inheritance can cause(the "diamond problem"),
+that multiple inheritance can cause(the "``diamond problem``"),
 or to work around lack of support for multiple inheritance in a language.
 A mixin can also be viewed as an interface with implemented methods. 
-This pattern is an example of enforcing the dependency inversion principle.
+This pattern is an example of enforcing the ``dependency inversion principle``.
 
 
 - diamond problem
