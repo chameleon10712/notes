@@ -53,7 +53,7 @@ Using class-based views
 
 - ``as_view()`` classmethod
 
-  - Because Django’s URL resolver expects to send the request and associated arguments to a callable function, not a class, class-based views have an ``as_view()`` class method which returns a function that can be called when a request arrives for a URL matching the associated pattern. 
+  - Because Django’s URL resolver expects to send the request and associated arguments to a callable function, not a class, class-based views have an `as_view() <https://docs.djangoproject.com/en/3.1/ref/class-based-views/base/#django.views.generic.base.View.as_view>`_ class method which returns a function that can be called when a request arrives for a URL matching the associated pattern. 
   
     .. code:: python
 
