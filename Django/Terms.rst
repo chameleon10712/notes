@@ -1,6 +1,29 @@
 Terms
 =======
 
+Callable
+----------
+
+A callable is anything that can be called.
+
+
+- `Stackoverflow - What is a “callable”? <https://stackoverflow.com/a/111255>`_
+
+
+
+|
+
+Metaclass
+------------
+
+A metaclass is the class of a class. A class defines how an instance of the class (i.e. an object) behaves while a metaclass defines how a class behaves. A class is an instance of a metaclass.
+
+- `Stackoverflow - What are metaclasses in Python? <https://stackoverflow.com/a/100146>`_
+
+
+|
+
+
 Mixin
 -------
 
@@ -37,27 +60,3 @@ This pattern is an example of enforcing the ``dependency inversion principle``.
 
 
 |
-
-Callable
-----------
-
-A callable is anything that can be called.
-
-
-- `Stackoverflow - What is a “callable”? <https://stackoverflow.com/a/111255>`_
-
-
-
-|
-
-Metaclass
-------------
-
-A metaclass is the class of a class. A class defines how an instance of the class (i.e. an object) behaves while a metaclass defines how a class behaves. A class is an instance of a metaclass.
-
-- `Stackoverflow - What are metaclasses in Python? <https://stackoverflow.com/a/100146>`_
-
-
-
-
-
