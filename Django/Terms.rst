@@ -36,4 +36,21 @@ This pattern is an example of enforcing the ``dependency inversion principle``.
     2. Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
 
 
+|
+
+Callable
+----------
+
+A callable is anything that can be called.
+
+
+- `Stackoverflow - What is a “callable”? <https://stackoverflow.com/a/111255>`_
+
+
+
+
+
+
+
+
 
