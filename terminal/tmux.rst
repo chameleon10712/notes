@@ -24,6 +24,8 @@ Switch to specific window  ``Ctrl-b`` + ``<number>``
 
 Rename the current window  ``Ctrl-b`` + ``,``
 
+Reorder (renumber) tmux window ``Ctrl-b`` + ``.`` + ``<number>``
+
 
 **Panes**
 
