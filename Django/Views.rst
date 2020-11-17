@@ -1,6 +1,11 @@
 Views
 ========
 
+Django provides base view classes which will suit a wide range of applications. All views inherit from the `View <https://docs.djangoproject.com/en/3.1/ref/class-based-views/base/#django.views.generic.base.View>`_ class, which handles linking the view into the URLs, HTTP method dispatching and other common features. `RedirectView <https://docs.djangoproject.com/en/3.1/ref/class-based-views/base/#django.views.generic.base.RedirectView>`_ provides a HTTP redirect, and `TemplateView <https://docs.djangoproject.com/en/3.1/ref/class-based-views/base/#django.views.generic.base.TemplateView>`_ extends the base class to make it also render a template.
+
+
+|
+
 Introduction to class-based views
 -----------------------------------
 
