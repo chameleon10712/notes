@@ -11,12 +11,12 @@ The relationship and history of generic view, class-based views, and class-based
 
   - cover the simple cases well, but no way to extend or customize
 
-|
+
 - class-based generic views
 
   - built for maximum flexibility, too complicate for simplest use cases
 
-|
+
 - class-based views
 
 |
