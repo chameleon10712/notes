@@ -5,7 +5,7 @@ Introduction to class-based views
 -----------------------------------
 
 The relationship and history of generic view, class-based views, and class-based generic views
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 - function-based views
 
