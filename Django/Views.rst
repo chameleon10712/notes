@@ -68,6 +68,20 @@ Using class-based views
 
 |
 
+
+Using mixins
+++++++++++++++++
+
+Mixins are a form of multiple inheritance where behaviors and attributes of multiple parent classes can be combined.
+
+
+- `Docs - Using mixins <https://docs.djangoproject.com/en/3.1/topics/class-based-views/intro/#using-mixins>`_
+
+
+
+
+|
+
 Reference
 
 - `Introduction to class-based views <https://docs.djangoproject.com/en/3.1/topics/class-based-views/intro/>`_
