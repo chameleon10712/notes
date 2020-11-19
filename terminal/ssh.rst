@@ -27,15 +27,10 @@ Client
 
 Server
 
-1. Copy public key to Server
-
-``~/.ssh/authorized_keys``
+1. Copy public key to Server: ``~/.ssh/authorized_keys``
 
 
-2. Change sshd config
-
-
-``/etc/ssh/sshd_config``
+2. Change sshd config: ``/etc/ssh/sshd_config``
 
 
 ::
@@ -45,6 +40,4 @@ Server
 
 
 
-3. restart sshd service
-
-``/etc/init.d/sshd restart``
+3. restart sshd service: ``/etc/init.d/sshd restart``
