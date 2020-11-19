@@ -40,4 +40,4 @@ Server
 
 
 
-3. restart sshd service: ``/etc/init.d/sshd restart``
+3. Restart sshd service: ``/etc/init.d/sshd restart``
