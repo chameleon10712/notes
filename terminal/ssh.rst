@@ -11,6 +11,9 @@ vim config
 =============
   ssh key
 =============
+
+Client
+
 ::
 	
 	cd ~/.ssh
@@ -21,3 +24,27 @@ vim config
 - id_rsa.pub  ->  server
 
 
+
+Server
+
+1. Copy public key to Server
+
+``~/.ssh/authorized_keys``
+
+
+2. Change sshd config
+
+
+``/etc/ssh/sshd_config``
+
+
+::
+
+	PasswordAuthentication no
+	PubkeyAuthentication yes
+
+
+
+3. restart sshd service
+
+``/etc/init.d/sshd restart``
