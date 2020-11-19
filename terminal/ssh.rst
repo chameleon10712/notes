@@ -16,7 +16,8 @@ vim config
 	cd ~/.ssh
 	ssh-keygen
 
-id_rsa      ->  client
-id_rsa.pub  ->  server
+
+- id_rsa      ->  client
+- id_rsa.pub  ->  server
 
 
