@@ -2,8 +2,11 @@ Basic Usage
 ==============
 
 Computed Properties
+---------------------
 
-html
+Basic Example
++++++++++++++++
+
 
 .. code:: html
 
@@ -13,7 +16,6 @@ html
   </div>
 
 
-js
 
 .. code:: js
 
@@ -38,3 +40,21 @@ output
 
   Orignal message: "Hello"
   Computed reverse message: "olleH"
+
+
+
+Computed Caching vs Methods
++++++++++++++++++++++++++++++
+
+
+- computed properties are cached based on their reactive dependencies
+
+
+|
+
+Computed vs Watched Property
+-------------------------------
+
+
+
+
