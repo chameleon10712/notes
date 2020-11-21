@@ -1,6 +1,9 @@
 Watch
 ======
 
+`JS Bin <https://jsbin.com/haxewes/1/edit?html,js,output>`_
+
+
 .. code:: html
 
   <!DOCTYPE html>
