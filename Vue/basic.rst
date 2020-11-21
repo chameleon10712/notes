@@ -61,8 +61,8 @@ reactivity system
 
 |
 
-Life Cycle
---------------
+Life Cycle Diagram
+---------------------
 
 .. image:: https://vuejs.org/images/lifecycle.png
 
