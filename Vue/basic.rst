@@ -5,8 +5,6 @@ Computed Properties
 ---------------------
 
 Basic Example
-+++++++++++++++
-
 
 .. code:: html
 
@@ -44,8 +42,6 @@ output
 
 
 Computed Caching vs Methods
-+++++++++++++++++++++++++++++
-
 
 - computed properties are cached based on their reactive dependencies
 
