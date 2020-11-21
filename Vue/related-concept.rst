@@ -4,6 +4,13 @@ Related Concept
 MVVM pattern
 --------------
 
+- Model
+- View
+- View model
+- Binder
+
+|
+
 
 Model–view–viewmodel (MVVM)
 ++++++++++++++++++++++++++++
