@@ -61,6 +61,31 @@ reactivity system
 
 |
 
+Instance Lifecycle Hooks
+--------------------------
+
+
+Each Vue instance goes through a series of initialization steps when it’s created - for example, it needs to set up data observation, compile the template, mount the instance to the DOM, and update the DOM when data changes. Along the way, it also runs functions called **lifecycle hooks**, giving users the opportunity to add their own code at specific stages.
+
+
+For example, the ``created`` hook can be used to run code after an instance is created:
+
+.. code:: js
+
+  new Vue({
+    data: {
+      a: 1
+    },
+    created: function () {
+      // `this` points to the vm instance
+      console.log('a is: ' + this.a)
+    }
+  })
+  // => "a is: 1"
+
+
+|
+
 Life Cycle Diagram
 ---------------------
 
