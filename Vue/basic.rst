@@ -24,7 +24,7 @@ Model–view–viewmodel (MVVM) is a software architectural pattern that facilit
 Architectural pattern
 ++++++++++++++++++++++++++
 
-An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context. The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk. Some architectural patterns have been implemented within software frameworks.
+An ``architectural pattern`` is a general, reusable solution to a commonly occurring problem in software architecture within a given context. The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk. Some architectural patterns have been implemented within software frameworks.
 
 
 
