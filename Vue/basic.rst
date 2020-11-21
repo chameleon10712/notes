@@ -58,3 +58,14 @@ reactivity system
   data.a = 3
   vm.a // => 3
 
+
+|
+
+Life Cycle
+--------------
+
+.. image:: https://vuejs.org/images/lifecycle.png
+
+
+
+
