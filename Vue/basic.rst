@@ -1,6 +1,9 @@
 Basic Usage
 ==============
 
+`JS Bin <https://jsbin.com/qudivatuwu/edit?html,js,output>`_
+
+
 Computed Properties
 ---------------------
 
