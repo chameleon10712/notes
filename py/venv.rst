@@ -1,7 +1,7 @@
 Venv
 =======
 
-Source
+Activate venv
 
 .. code:: sh
 
