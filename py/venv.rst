@@ -1,6 +1,14 @@
 Venv
 =======
 
+Source
+
+.. code:: sh
+
+  source ./bin/activate
+
+
+
 Shebang
 
 .. code:: py
