@@ -30,5 +30,12 @@ Function Names
 Function names should be lowercase, with words separated by underscores as necessary to improve readability.
 
 
+Constants
+------------
 
+Constants are usually defined on a module level and written in all capital letters with underscores separating words.
+
+Ex.
+
+- **MAX_OVERFLOW** and **TOTAL**
 
