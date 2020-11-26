@@ -61,3 +61,5 @@ Reference
 
 - `Start using Git on the command line <https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html>`_
 
+- `SSH Clone Permission denied (publickey) - All Users & All Repositories <https://gitlab.com/gitlab-org/gitlab-foss/-/issues/26022>`_
+
