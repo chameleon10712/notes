@@ -2,11 +2,14 @@
 	Multimedia	
 =========================
 
-+ Spatial Filtering 空間濾波
-	`link <https://www.slideshare.net/YKLee3434/spatial-filtering-41713087>`_
+Spatial Filtering 空間濾波
 
-+ Gaussian Blur Filter
-	sigma — Standard deviation of the Gaussian distribution
+- `link <https://www.slideshare.net/YKLee3434/spatial-filtering-41713087>`_
+
+
+Gaussian Blur Filter
+	
+- sigma — Standard deviation of the Gaussian distribution
 
 
 ========================
