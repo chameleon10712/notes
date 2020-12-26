@@ -32,9 +32,9 @@ filter
 
 - `中文版 <https://www.youtube.com/watch?v=CyOYxcsAUWQ>`_
 
-	- pass band
-	- transition band
-	- stop band
+- pass band
+- transition band
+- stop band
 
 
 - `short time fourier transform <http://www.mathworks.com/matlabcentral/fileexchange/45197-short-time-fourier-transformation--stft--with-matlab-implementation?focused=3891027&tab=function>`_
