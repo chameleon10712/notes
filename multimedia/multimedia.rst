@@ -3,7 +3,7 @@
 =========================
 
 + Spatial Filtering 空間濾波
-	https://www.slideshare.net/YKLee3434/spatial-filtering-41713087
+	`link <https://www.slideshare.net/YKLee3434/spatial-filtering-41713087>`_
 
 + Gaussian Blur Filter
 	sigma — Standard deviation of the Gaussian distribution
@@ -36,11 +36,13 @@ median 中位數
 	Gaussian Filter		
 =================================
 
-http://www.ruanyifeng.com/blog/2012/11/gaussian_blur.html
+`link <http://www.ruanyifeng.com/blog/2012/11/gaussian_blur.html>`_
 
 使用 Gaussion function , 帶入參數 x, y, sigma 得到 convolution mask
 
 假設 convolution mask 是 3x3 , sigma = 1.5 :
+
+.. code::
 
 	x, y 分別帶入:
 
