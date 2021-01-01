@@ -26,6 +26,29 @@ Start a Project
 
 
 
+
+Create app
+
+.. code::
+
+  $ python manage.py startapp polls
+
+
+結構
+
+.. code::
+  
+  polls/
+    __init__.py
+    admin.py
+    apps.py
+    migrations/
+        __init__.py
+    models.py
+    tests.py
+    views.py
+
+
 --
 
 啟動 Server
