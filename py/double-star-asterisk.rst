@@ -1,4 +1,4 @@
-Double Star / Asterick
+Double Star / Asterisk
 =========================
 
 
