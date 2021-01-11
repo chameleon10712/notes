@@ -15,7 +15,7 @@ Exceptions
 User-defined Exceptions
 --------------------------
 
-- `<https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions>`_
+- `python tutorial doc <https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions>`_
 
 
 
