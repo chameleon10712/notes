@@ -11,6 +11,41 @@ Exceptions
 
 |
 
+Handling Exceptions
+----------------------
+
+- `python tutorial doc <https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions>`_
+
+
+.. code:: py
+
+  class B(Exception):
+      pass
+
+  class C(B):
+      pass
+
+  class D(C):
+      pass
+
+  for cls in [B, C, D]:
+      try:
+          raise cls()
+      except D:
+          print("D")
+      except C:
+          print("C")
+      except B:
+          print("B")
+
+  # print order: B C D
+
+
+Note that if the except clauses were reversed (with except B first), it would have printed B, B, B — the first matching except clause is triggered.
+
+
+
+|
 
 User-defined Exceptions
 --------------------------
