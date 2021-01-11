@@ -41,8 +41,8 @@ Double Star / Asterisk
 
 
 
-StackOverflow Example
--------------------------
+StackOverflow Ex
+--------------------
 
 
 .. code::
