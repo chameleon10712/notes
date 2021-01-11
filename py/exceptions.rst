@@ -17,7 +17,7 @@ Handling Exceptions
 - `python tutorial doc <https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions>`_
 
 
-.. code:: py
+.. code-block:: python
 
   class B(Exception):
       pass
