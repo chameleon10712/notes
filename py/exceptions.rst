@@ -9,7 +9,13 @@ Exceptions
 - `[python document] Built-in Exceptions <https://docs.python.org/3/library/exceptions.html>`_
 
 
+|
 
+
+User-defined Exceptions
+--------------------------
+
+- `<https://docs.python.org/3/tutorial/errors.html#user-defined-exceptions>`_
 
 
 
