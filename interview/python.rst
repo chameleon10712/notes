@@ -426,6 +426,12 @@ Reference
 Object introspection
 +++++++++++++++++++++++
 
+
+
+``introspection`` is the ability to determine the type of an object at runtime.
+
+|
+
 這個也是python彪悍的特性.
 
 自省就是面向對象的語言所寫的程序在運行時,所能知道對象的類型.簡單一句就是運行時能夠獲得對象的類型.比如 ``type()``, ``dir()``, ``getattr()``, ``hasattr()``, ``isinstance ()``
