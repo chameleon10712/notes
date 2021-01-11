@@ -7,7 +7,12 @@ Object Oriented Programming
 
 - multiple dispatch
 
+  - `wiki c2 <https://wiki.c2.com/?MultipleDispatch>`_
+
+
 - dynamic dispatch
+
+  - `wiki c2 <https://wiki.c2.com/?DynamicDispatch>`_
 
 - overloading
 
@@ -15,6 +20,7 @@ Object Oriented Programming
   - `The Design Impact of Multiple Dispatch <https://nbviewer.jupyter.org/gist/StefanKarpinski/b8fe9dbb36c1427b9f22#The-Design-Impact-of-Multiple-Dispatch>`_
 
 
+- paradigm
 
 
 
