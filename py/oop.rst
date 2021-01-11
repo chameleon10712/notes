@@ -3,6 +3,8 @@ Object Oriented Programming
 
 - polymorphism
 
+  - `Ad hoc polymorphism <https://en.wikipedia.org/wiki/Ad_hoc_polymorphism>`_
+
 - generic programming
 
 - multiple dispatch
