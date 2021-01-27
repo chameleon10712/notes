@@ -25,7 +25,14 @@ Model
     
     # to apply those changes to the database.
 
+|
+
+Clear / Flush DB all objects
+--------------------------------
+
+  .. code:: sh
   
+    python manage.py flush
 
 |
 
