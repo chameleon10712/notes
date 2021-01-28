@@ -93,6 +93,18 @@ All three steps are performed when you call a model’s ``full_clean()`` method.
 
 
 
+.. code:: py
+
+  from django.core.exceptions import ValidationError
+  try:
+      article.full_clean()
+  except ValidationError as e:
+      # Do something based on the errors contained in e.message_dict.
+      # Display them to a user, or handle them programmatically.
+      pass
+
+
+
 |
 
 
