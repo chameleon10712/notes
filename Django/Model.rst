@@ -83,5 +83,8 @@ Serializing Django objects
 
 - `Django Document <https://docs.djangoproject.com/en/3.1/topics/serialization/>`_
 
+.. code:: py
 
+  from django.core import serializers
+  data = serializers.serialize("xml", SomeModel.objects.all())
 
