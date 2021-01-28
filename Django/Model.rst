@@ -81,6 +81,12 @@ Model.__str__()
 Serializing Django objects
 ----------------------------
 
+- XML
+- JSON
+- YAML
+
+
+
 - `Django Document <https://docs.djangoproject.com/en/3.1/topics/serialization/>`_
 
 .. code:: py
