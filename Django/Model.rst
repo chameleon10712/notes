@@ -73,10 +73,15 @@ Model.__str__()
 
 
 
+|
 
 
 
 
+Serializing Django objects
+----------------------------
+
+- `Django Document <https://docs.djangoproject.com/en/3.1/topics/serialization/>`_
 
 
 
