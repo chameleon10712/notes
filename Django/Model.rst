@@ -78,8 +78,6 @@ Model.__str__()
 Validating objects
 ---------------------
 
-- `ref <https://docs.djangoproject.com/en/3.1/ref/models/instances/#validating-objects>`_
-
 
 There are three steps involved in validating a model:
 
@@ -89,6 +87,9 @@ There are three steps involved in validating a model:
 
 
 All three steps are performed when you call a model’s ``full_clean()`` method.
+
+
+- `ref <https://docs.djangoproject.com/en/3.1/ref/models/instances/#validating-objects>`_
 
 
 
