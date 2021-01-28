@@ -75,7 +75,24 @@ Model.__str__()
 
 |
 
+Validating objects
+---------------------
 
+- `ref <https://docs.djangoproject.com/en/3.1/ref/models/instances/#validating-objects>`_
+
+
+There are three steps involved in validating a model:
+
+- Validate the model fields - ``Model.clean_fields()``
+- Validate the model as a whole - ``Model.clean()``
+- Validate the field uniqueness - ``Model.validate_unique()``
+
+
+All three steps are performed when you call a model’s ``full_clean()`` method.
+
+
+
+|
 
 
 Serializing Django objects
