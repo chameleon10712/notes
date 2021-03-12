@@ -19,6 +19,7 @@ Computer Architecture
 - ``immediate operand``
 
   - An immediate operand has a constant value or an expression.
-  - code::
+  
+  - .. code::
   
       BYTE_VALUE  DB  150    ; A byte value is defined
