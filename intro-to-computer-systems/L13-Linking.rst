@@ -19,6 +19,9 @@ linker 會標示哪個是 entry point （程式從哪一個檔案進度、最先
 
 .. image:: https://i.imgur.com/bNwJeeT.png
 
+
+- `slideshare <https://www.slideshare.net/jserv/how-a-compiler-works-gnu-toolchain>`_
+
 |
 
 Static Linking
