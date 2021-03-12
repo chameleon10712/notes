@@ -8,3 +8,9 @@ Computer Architecture
 - ``cycles per instruction (CPI)``
 
 
+- byte addressing
+
+  -  refers to hardware architectures which support accessing individual bytes
+
+- word address
+
