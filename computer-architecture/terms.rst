@@ -7,6 +7,7 @@ Computer Architecture
 
 - ``cycles per instruction (CPI)``
 
+|
 
 - ``byte addressing``
 
@@ -15,6 +16,7 @@ Computer Architecture
 
 - ``word address``
 
+|
 
 - ``immediate operand``
 
