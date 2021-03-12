@@ -8,12 +8,12 @@ Computer Architecture
 - ``cycles per instruction (CPI)``
 
 
-- byte addressing
+- ``byte addressing``
 
   -  refers to hardware architectures which support accessing individual bytes
   - `gitbook 筆記 <https://chi_gitbook.gitbooks.io/personal-note/content/memory_operands.html>`_
 
-- word address
+- ``word address``
 
 
 
