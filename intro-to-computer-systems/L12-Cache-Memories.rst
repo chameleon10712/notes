@@ -12,6 +12,12 @@ CMU - Intro to Computer Systems, Fall 2016
 
 .. image:: https://i.imgur.com/srLI15Q.png
 
+1. 首先用 set index 拿到你要的 set
+2. 將該 set 裡的所有 lines 的 tag 跟你的 tag 做比較，找出你要的 line 位置
+3. 使用 block offset 算出你的 data 位於 line 的哪裡(offset 算 data index 起始點)
+
+
+
 |
 |
 
