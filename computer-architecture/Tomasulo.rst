@@ -83,8 +83,20 @@ Each RS has 7 fields:
 
 - RS2: RS that will produce 2nd operand
 
-- Val
+- Val1: Value of 1st operand
 
+- Val2: Value of 2nd operand
+
+- Imm/addr: holds immediate or effective address
+
+- Busy: indicate if the RS is free or occupied
+
+
+Example:
+
+- Add
+- 1st operand being produced by RS Mul2
+- 2nd operand value is available in register
 
 
 
