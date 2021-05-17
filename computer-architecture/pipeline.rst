@@ -54,6 +54,7 @@ Scheduling Branch Delay Slot
 
         add r1, r2, r3
         beqz r1, L
+        nop
         or r7, r8, r9
         ...
     L: sub r4, r5, r6
