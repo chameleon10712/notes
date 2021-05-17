@@ -24,6 +24,17 @@ Tomasulo's Algorighm
 RS: reservation station
 
 
+- To allow SUB.D to proceed, need to buffer ADD.D somewhere
+  
+  - these buffer are called Reservation Stations (RSs)
+  
+- To allow ADD.D to proceed when its operands become available, RSs must be informed when result available
+
+  - result broadcasted on Common Data Bus (CDB)
+
+|
+
+
 Tomasulo Pipeline Phases
 --------------------------
 
