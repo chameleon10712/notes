@@ -23,6 +23,10 @@ Tomasulo's Algorighm
 
 RS: reservation station
 
+CDB: Common Data Bus
+
+|
+
 
 - To allow ``SUB.D`` to proceed, need to buffer ``ADD.D`` somewhere
   
