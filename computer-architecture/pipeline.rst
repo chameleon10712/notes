@@ -18,8 +18,11 @@ Scheduling Branch Delay Slot
 
 .. code:: py
 
-    beqz r2, L
-    add r1, r2, r3
+        beqz r2, L
+        add r1, r2, r3
+        ...
+    
+    L:
 
 
 
