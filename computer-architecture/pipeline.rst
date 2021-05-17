@@ -48,7 +48,24 @@ Scheduling Branch Delay Slot
       sub r4, r5, r6
 
 
+3. Delay slot scheduled from **fall through** path
 
+.. code:: py
+
+        add r1, r2, r3
+        beqz r1, L
+        or r7, r8, r9
+        ...
+    L: sub r4, r5, r6
+
+
+.. code:: py
+
+        add r1, r2, r3
+        beqz r1, L
+        or r7, r8, r9
+        ...
+    L: sub r4, r5, r6
 
 
 Reference
