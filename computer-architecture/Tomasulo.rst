@@ -66,14 +66,24 @@ Tomasulo Pipeline Phases
   - mark RS free
 
 
+|
 
+RS Structure
+---------------
 
+Each RS has 7 fields:
 
+- op: operation to perform
 
+  - ex. add, sub
+  
+- RS1: RS that will produce 1st operand (0: the source operand is available)
 
+  - contains the identifier of the reservation station that will produce the first operand value
 
+- RS2: RS that will produce 2nd operand
 
-
+- Val
 
 
 
