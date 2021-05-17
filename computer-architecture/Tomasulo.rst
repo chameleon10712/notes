@@ -35,6 +35,10 @@ Tomasulo Pipeline Phases
 
   - get next instr from queue
   - if matching RS free (no structural hazard), issue instr to RS
+  
+    - w/ operand values if they are currently in registers
+    - otherwise, w/ identifiers of RSs that will produce operands
+    
     
 - Execution
 
