@@ -12,7 +12,7 @@ WAW harzard
 
 Name dependence
 
-- can also be removed by renaming
+- can be removed by renaming
 
 .. code:: py
 
