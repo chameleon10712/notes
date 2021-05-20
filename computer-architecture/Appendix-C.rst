@@ -12,6 +12,10 @@ Hazards
   - data dependency
   
     - RAW, WAW, WAR
+  
+  - forwarding
+  
+    - 
 
 |
 - Control hazards
