@@ -1,17 +1,39 @@
+Hazards
+====================
+
+
+- Structure hazards
+
+  - resource conflicts
+
+|
+- Data hazards
+
+  - data dependency
+  
+    - RAW, WAW, WAR
+
+|
+- Control hazards
+
+  - branch
+
+
+|
+
 Branch Prediction
 =====================
 
+- Static
 
-Static
+  - 軟體
+  - compile time
 
-- 軟體
-- compile time
+|
+- Dynamic
 
-
-Dynamic
-
-- 硬體
-- execution time
+  - 硬體
+  - execution time
 
 
 
