@@ -1,6 +1,9 @@
 Tomasulo's Algorithm
 ========================
 
+.. image:: https://i.imgur.com/oiefCis.png
+
+|
 
 .. code:: py
 
