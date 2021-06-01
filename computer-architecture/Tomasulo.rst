@@ -2,7 +2,6 @@ Tomasulo's Algorithm
 ========================
 
 
-
 .. code:: py
 
   div.d F0, F1, F2
@@ -98,7 +97,12 @@ Example:
 - 1st operand being produced by RS Mul2
 - 2nd operand value is available in register
 
+|
+|
 
+Hardware Speculation
+
+.. image:: https://i.imgur.com/nu1MPLE.png
 
 
 
