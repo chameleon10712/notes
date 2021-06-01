@@ -1,6 +1,8 @@
 Reorder Buffer
 ================
 
+.. image:: https://i.imgur.com/FJCQcFt.png
+
 
 Exceptions with ROB
 
