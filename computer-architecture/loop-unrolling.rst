@@ -1,6 +1,12 @@
 Loop Unrolling
 =================
 
+CPI = 3 cycles / 5 instr
+
+.. image:: https://i.imgur.com/nLZyLJU.png
+
+
+
 
 .. code:: py
 
