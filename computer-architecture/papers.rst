@@ -64,6 +64,16 @@ Block cipher mode of operation 區塊加密法工作模式
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/MAC.svg/661px-MAC.svg.png
 
+|
+
+Merkle tree
+++++++++++++++
+
+雜湊樹（hash tree；Merkle tree），在密碼學及電腦科學中是一種樹形資料結構，每個葉節點均以資料塊的雜湊作為標籤，而除了葉節點以外的節點則以其子節點標籤的加密雜湊作為標籤 。雜湊樹能夠高效、安全地驗證大型資料結構的內容，是雜湊鏈的推廣形式。
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/9/95/Hash_Tree.svg
+
+
 
 Reference
 
