@@ -23,7 +23,7 @@ Initialization Vector (IV) 初始化向量
 
 |
 
-Message authentication code (MAC)
+Message authentication code (MAC) 訊息鑑別碼
 
 在密碼學中，訊息鑑別碼（英語：Message authentication code，縮寫為MAC），又譯為訊息認證碼、檔案訊息鑑別碼、消息認證碼、資訊認證碼，是經過特定演算法後產生的一小段資訊，檢查某段訊息的完整性，以及作身分驗證。它可以用來檢查在訊息傳遞過程中，其內容是否被更改過，不管更改的原因是來自意外或是蓄意攻擊。同時可以作為訊息來源的身分驗證，確認訊息的來源。
 
@@ -37,6 +37,7 @@ Message authentication code (MAC)
 Reference
 
 - `2020 存儲技術熱點與趨勢總結 <https://kknews.cc/digital/lv6gjyz.html>`_
+- `wiki <https://zh.wikipedia.org/wiki/%E8%A8%8A%E6%81%AF%E9%91%91%E5%88%A5%E7%A2%BC>`_
 
 
 
