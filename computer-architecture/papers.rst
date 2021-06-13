@@ -70,7 +70,7 @@ Reference
 - `2020 存儲技術熱點與趨勢總結 <https://kknews.cc/digital/lv6gjyz.html>`_
 - `[wiki] 訊息鑑別碼 <https://zh.wikipedia.org/wiki/%E8%A8%8A%E6%81%AF%E9%91%91%E5%88%A5%E7%A2%BC>`_
 - `[wiki] 區塊加密法工作模式 <https://zh.wikipedia.org/wiki/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F>`_
-
+- `[blog] <https://ithelp.ithome.com.tw/articles/10249953>`_
 
 
 
