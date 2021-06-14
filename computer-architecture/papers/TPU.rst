@@ -9,6 +9,22 @@ and in 2018 made them available for third party use,
 both as part of its cloud infrastructure and by offering a smaller version of the chip for sale.
 `[wiki] <https://en.wikipedia.org/wiki/Tensor_Processing_Unit>`_
 
+|
+
+Prediction with neural networks
+------------------------------------
+
+.. image:: https://storage.googleapis.com/gweb-cloudblog-publish/images/tpu-9jsw7.max-700x700.PNG
+
+
+|
+
+
+TPU Block Diagram
+-----------------------
+
+
+.. image:: https://storage.googleapis.com/gweb-cloudblog-publish/images/tpu-15dly1.max-500x500.PNG
 
 
 |
