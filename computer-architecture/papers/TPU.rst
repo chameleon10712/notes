@@ -41,9 +41,9 @@ From TensorFlow to TPU: the software stack
 Parallel Processing on the Matrix Multiplier Unit
 ---------------------------------------------------------
 
+.. raw:: html
 
-.. image:: https://storage.googleapis.com/gweb-cloudblog-publish/images/tpu-116i0h.max-1200x1200.PNG
-
+  <img src="https://storage.googleapis.com/gweb-cloudblog-publish/images/tpu-116i0h.max-1200x1200.PNG" width="600px">
 
 
 |
