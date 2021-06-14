@@ -29,6 +29,16 @@ TPU Block Diagram
 
 |
 
+|
+
+From TensorFlow to TPU: the software stack
+
+.. image:: https://storage.googleapis.com/gweb-cloudblog-publish/images/tpu-2x0vv.max-600x600.PNG
+
+
+
+|
+
 The heart of the TPU: A systolic array
 -----------------------------------------
 
