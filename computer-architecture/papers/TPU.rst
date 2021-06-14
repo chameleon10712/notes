@@ -58,8 +58,21 @@ CPUs and GPUs often spend energy to access multiple registers per operation. A s
 
 .. image:: https://storage.googleapis.com/gweb-cloudblog-publish/images/tpu-17u39j.max-500x500.PNG
 
+|
 
 
+
+.. image:: https://storage.googleapis.com/gweb-cloudblog-publish/original_images/Systolic_Array_for_Neural_Network_1pkw3.GIF
+
+Multiplying an input vector by a weight matrix with a systolic array
+
+
+|
+
+|
+
+Reference
+------------
 
 - `[Google Cloud] An in-depth look at Google’s first Tensor Processing Unit (TPU) <https://cloud.google.com/blog/products/ai-machine-learning/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu>`_
 
