@@ -20,6 +20,9 @@ The algorithm was developed at the IBM Almaden Research Center. In 2006, IBM was
 Content-addressable memory (CAM)
 --------------------------------------
 
+Cache是由CAM（Content Addressable Memory ）為主體的tag和SRAM組成的。
+
+
 
 - `[知乎] L1，L2，L3 Cache究竟在哪裡？ <https://zhuanlan.zhihu.com/p/31422201>`_
 
