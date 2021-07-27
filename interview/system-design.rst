@@ -25,10 +25,13 @@ System Design
   
     - `Nginx <https://www.nginx.com/resources/glossary/reverse-proxy-server/>`_
 
+|
 
 
+List
+--------
 
-
+- `25 Software Design Interview Questions to Crack Any Programming and Technical Interviews <https://medium.com/javarevisited/25-software-design-interview-questions-to-crack-any-programming-and-technical-interviews-4b8237942db0>`_
 
 
 
