@@ -74,6 +74,7 @@ OS
   - BTree v.s. B+Tree
   - SQL 相關的一些考題
   - MySQL 如何實現 Lock？
+    - `[WikiBooks] MySQL/Lock <https://zh.m.wikibooks.org/zh-tw/MySQL/Lock>`_
   
 - Memory Database
   - Redis v.s. Memcached
