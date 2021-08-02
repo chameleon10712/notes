@@ -14,7 +14,7 @@ InnoDB，是MySQL的數據庫引擎之一，為MySQL AB發行binary的標準之�
 
 - `MySQL Manual <https://dev.mysql.com/doc/refman/8.0/en/innodb-introduction.html>`_
 
-- `InnoDB 官網 <https://web.archive.org/web/20051003223833/http://dev.mysql.com/doc/mysql/en/innodb.html>`_
+- `InnoDB <https://web.archive.org/web/20051003223833/http://dev.mysql.com/doc/mysql/en/innodb.html>`_
 
 
 
