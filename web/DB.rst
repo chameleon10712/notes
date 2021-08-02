@@ -8,6 +8,6 @@ MySQL v.s. PostgreSQL
 
 - `Why Uber Engineering Switched from Postgres to MySQL <https://eng.uber.com/postgres-to-mysql-migration/>`_
 
-
+- `PostgreSQL vs MySQL: What is the Difference? <https://www.guru99.com/postgresql-vs-mysql-difference.html>`_
 
 
