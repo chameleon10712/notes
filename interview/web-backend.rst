@@ -76,6 +76,7 @@ OS
   - MySQL 如何實現 Lock？
   
     - `[WikiBooks] MySQL/Lock <https://zh.m.wikibooks.org/zh-tw/MySQL/Lock>`_
+    - `[notes] <https://github.com/chameleon10712/notes/blob/master/web/MySQL/InnoDB.rst>`_
   
 - Memory Database
   - Redis v.s. Memcached
