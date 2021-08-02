@@ -70,6 +70,9 @@ OS
 - Database
 
   - MySQL v.s. PostgreSQL
+  
+    - `[notes] <https://github.com/chameleon10712/notes/edit/master/web/DB.rst>`_
+    
   - Index 有什麼好處？Database 怎麼做 Index？為什麼不要每個欄位都做 Index？
   - BTree v.s. B+Tree
   - SQL 相關的一些考題
