@@ -9,3 +9,9 @@
   
   - `The System Design Primer <https://github.com/donnemartin/system-design-primer>`_
 
+
+
+Reverse Interview
+
+- `[EN] <https://github.com/viraptor/reverse-interview>`_
+- `[TC] <https://github.com/NeroCube/reverse-interview-zh-tw/blob/master/README.md>`_
