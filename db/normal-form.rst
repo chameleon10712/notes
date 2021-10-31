@@ -38,7 +38,7 @@ Normal Form
 
 - 要求所有非主鍵屬性都只和候選鍵 (candidate key) 有相關性，也就是說非主鍵屬性之間應該是獨立無關的
 
-
+.. image:: https://i.imgur.com/szPOKYX.png
 
 
 
