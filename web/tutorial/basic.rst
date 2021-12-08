@@ -11,7 +11,7 @@ Web
 ------
 
 - HTTP
-- Browser Debug Tool
+- Browser Debugging Tool
 
 
 HTML
