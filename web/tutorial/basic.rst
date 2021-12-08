@@ -22,18 +22,20 @@ HTML
 
 JS
 -----
+
 - Asynchronous
 
 
 Python
 --------
+
 - Flask
 
 
 Others
 ---------
 
-Regular Expression
+- Regular Expression
 
 
 
