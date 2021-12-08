@@ -11,7 +11,7 @@ Web
 ------
 
 - HTTP
-- Browser
+- Browser Debug Tool
 
 
 HTML
@@ -20,8 +20,8 @@ HTML
 - DOM
 
 
-JS
-------
+Others
+---------
 
 Regular Expression
 
