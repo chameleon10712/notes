@@ -20,6 +20,16 @@ HTML
 - DOM
 
 
+JS
+-----
+- Asynchronous
+
+
+Python
+--------
+- Flask
+
+
 Others
 ---------
 
