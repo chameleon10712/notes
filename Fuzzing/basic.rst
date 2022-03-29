@@ -25,7 +25,7 @@ Instrumentation
 LLVM Pass
 ------------
 
-- `[YouTube] 2019 LLVM Developers’ Meeting: A. Warzynski “Writing an LLVM Pass: 101” <https://www.youtube.com/watch?v=ar7cJl2aBuU>`_
+- `2019 LLVM Developers’ Meeting: A. Warzynski “Writing an LLVM Pass: 101” | YouTube <https://www.youtube.com/watch?v=ar7cJl2aBuU>`_
 
 |
 
@@ -35,6 +35,13 @@ Compiler sanitizers
 Sanitizers are tools that can detect bugs such as buffer overflows or accesses, dangling pointer or different types of undefined behavior.
 
 The two compilers that mainly support sanitizing options are ``gcc`` and ``clang``. These options are passed to the compiler as flags and, depending on if you are using ``clang`` or ``gcc``, different sanitizers are supported.
+
+|
+
+Reading List
+++++++++++++++
+
+- `Creating an LLVM Sanitizer from Hopes and Dreams | Blog <https://blog.trailofbits.com/2019/06/25/creating-an-llvm-sanitizer-from-hopes-and-dreams/>`_
 
 
 |
