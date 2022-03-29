@@ -33,7 +33,7 @@ Compiler sanitizers
 
 Sanitizers are tools that can detect bugs such as buffer overflows or accesses, dangling pointer or different types of undefined behavior.
 
-The two compilers that mainly support sanitizing options are gcc and clang. These options are passed to the compiler as flags and, depending on if you are using clang or gcc, different sanitizers are supported.
+The two compilers that mainly support sanitizing options are ``gcc`` and ``clang``. These options are passed to the compiler as flags and, depending on if you are using ``clang`` or ``gcc``, different sanitizers are supported.
 
 
 
