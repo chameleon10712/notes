@@ -1,6 +1,12 @@
 RTOS
 =======
 
+.. raw:: html
+
+    <img src="https://i.imgur.com/UJLNPZu.png" width="800px">
+    
+|
+
 ISR
 
 - x86 => 80h
@@ -8,6 +14,7 @@ ISR
   - uC/OS 在 80 號註冊一個 ISR
   - 自己 trigger 80 號: 自己把 CPU 讓出來
   
+
 
 
 |
