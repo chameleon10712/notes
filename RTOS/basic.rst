@@ -15,6 +15,7 @@ ISR
   
   - uC/OS 在 80 號註冊一個 ISR
   - 自己 trigger 80 號: 自己把 CPU 讓出來
+  - 軟體中斷
   
 
 
@@ -40,7 +41,7 @@ Ready --- Scheduler ---> Running
 
 |
 
-- ``OSIntExt()``
+- ``OSIntExit()``
   
   - Preemption
   - 被搶先
@@ -92,9 +93,39 @@ RTOS Kernel
 Non-preemptive Scheduling
 ----------------------------
 
+- Scheduler 設計簡單
+
+- Task 與 Task 之間不會有 Race
+
+  - 少數狀況下有 Race
+
+
+- ex.
+
+  - TinyOS
+
+
+|
+
 .. raw:: html
 
     <img src="https://i.imgur.com/hkz5oHs.png" width="800px">
+
+|
+
+
+Preemptive Scheduling
+-------------------------
+
+- ``OSIntExit()``
+
+
+
+
+
+
+
+
 
 
 
