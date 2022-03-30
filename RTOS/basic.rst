@@ -9,6 +9,8 @@ RTOS
 
 ISR
 
+
+
 - x86 => 80h
   
   - uC/OS 在 80 號註冊一個 ISR
@@ -86,5 +88,13 @@ RTOS Kernel
 - 通常不超過 20K
 
 |
+
+Non-preemptive Scheduling
+----------------------------
+
+.. raw:: html
+
+    <img src="https://i.imgur.com/hkz5oHs.png" width="800px">
+
 
 
