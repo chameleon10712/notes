@@ -57,7 +57,19 @@ Overhead
 .. image:: https://i.imgur.com/Au9QPFV.png
 
 
+Kernel
+--------
 
+uC/OS 的 kernel 做的事情很少
+
+
+- Task Management
+
+  - Scheduling
+
+- IPC
+
+  - mutex lock
 
 
 
