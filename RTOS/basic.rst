@@ -45,7 +45,16 @@ Ready --- Scheduler ---> Running
   - 中斷(Interrupt)離開的時候
 
 
+|
 
+Context Switch
+----------------
+
+Overhead
+
+- 執行時間要再加兩倍 context switch 時間
+
+.. image:: https://i.imgur.com/Au9QPFV.png
 
 
 
