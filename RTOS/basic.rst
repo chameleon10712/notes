@@ -75,10 +75,16 @@ uC/OS 的 kernel 做的事情很少
 
 |
 
-Kernel Romable 
+Kernel Romable?
 
 - size 是不是夠小到可以塞到 ROM
 
+|
 
+RTOS Kernel
+
+- 通常不超過 20K
+
+|
 
 
