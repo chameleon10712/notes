@@ -69,12 +69,15 @@ uC/OS 的 kernel 做的事情很少
 
 - IPC
 
-  - mutex lock
+  - semaphore, mutex lock, message queue, mail box
 
+- Memory Management
 
+|
 
+Kernel Romable 
 
-
+- size 是不是夠小到可以塞到 ROM
 
 
 
