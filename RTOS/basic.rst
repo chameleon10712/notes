@@ -135,6 +135,19 @@ Nested Interrupt
 
   - FreeRTOS
 
+- 最後一個中斷離開的時候才需要做 context switch
+
+|
+
+Interrupt Latency
+-------------------
+
+Interrupt Disable
+
+- Interrupt disable 只是暫時不理會訊號，等到 interrupt enable 後會繼續處理，中斷訊號不會不見
+
+
+
 
 
 
