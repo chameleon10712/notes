@@ -26,14 +26,16 @@ Ready --- Scheduler ---> Running
 - ``OS_Task_SW()``
 
   - 自己 trigger 一個軟體中斷，專門做 context switch
-  - 自己把 CPU 讓出來
+  - 有 Task 想要把 CPU 主動交出
   - 會有一個 Task 從 Ready -> Running
 
 |
 
 - ``OSIntExt()``
   
-  - preemption
+  - Preemption
+  - 被搶先
+  - 中斷(Interrupt)離開的時候
 
 
 
