@@ -120,8 +120,20 @@ Preemptive Scheduling
 - ``OSIntExit()``
 
 
+|
 
+Nested Interrupt
+-------------------
 
+- ISR 有時候是 Nested 的
+- 取決於作業系統, CPU 設計
+- 一般來說，Interrupt 被允許是巢狀(Nested)的
+  
+  - uC/OS
+
+- 有些不允許 Nested Interrupt
+
+  - FreeRTOS
 
 
 
