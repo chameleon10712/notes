@@ -46,6 +46,8 @@ command
 
 guess.s
 
+因為只有跑 compiler, 還沒跑 linker, 所以 addr 還沒有查
+
 .. code:: assembly
 
            .file   "guess.c"
@@ -171,6 +173,9 @@ guess.s
 
 
 |
+
+gcc -o 執行檔, 再用 objdump 反組譯, 來查看真正的 addr
+
 
 objdump -D 反組譯
 
