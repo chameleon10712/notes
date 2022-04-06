@@ -28,8 +28,13 @@ Command
   nm hello
 
   ls -al hello hello1 hello.o
+  
+  # strip 移除掉給使用者看得額外資訊
   strip hello
+  # strip 後沒有東西
   nm hello
+  
+  # -D 還是可以看出一點
   nm -D hello
   
   
