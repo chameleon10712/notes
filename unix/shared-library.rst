@@ -197,5 +197,10 @@ objdump -D 反組譯
    
    # 語法改為 intel
    gdb >> set disassembly-flavor intel
+   
+   gdb >> layout src
+   
+   # 重新 layout 一次
+   gdb >> layout asm
 
 
