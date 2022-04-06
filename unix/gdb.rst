@@ -1,7 +1,7 @@
 Command
 ============
 
-.. code::
+.. code:: shell
 
   gcc -o hello -Wall -g hello.c
 
@@ -10,7 +10,7 @@ Command
 
 
 
-.. code::
+.. code:: shell
 
   make hello
   nm hello
