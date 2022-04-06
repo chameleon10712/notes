@@ -14,6 +14,8 @@ Command
 
   make hello
   nm hello
+  
+  cp hello hello1
 
   gcc -c hello.c
   
@@ -23,8 +25,15 @@ Command
   nm hello.o
   
   gcc hello.o -o hello
-
   nm hello
 
-
-
+  ls -al hello hello1 hello.o
+  strip hello
+  nm hello
+  nm -D hello
+  
+  
+  
+  
+  
+  
