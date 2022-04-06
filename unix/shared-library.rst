@@ -174,7 +174,10 @@ guess.s
 
 |
 
-gcc -o 執行檔, 再用 objdump 反組譯, 來查看真正的 addr
+查看真正的 addr
+----------------
+
+gcc -o 執行檔, 再用 objdump 反組譯, 指定用 intel 語法輸出, 再導到 guess.s
 
 
 objdump -D 反組譯
