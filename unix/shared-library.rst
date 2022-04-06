@@ -187,3 +187,12 @@ objdump -D 反組譯
    gcc -o guess -Wall -g -fno-stack-protector guess.c  
    objdump -D guess -M intel > guess.s
 
+|
+
+.. code:: shell
+
+   gdb got
+   
+   gdb >> layout asm
+
+
