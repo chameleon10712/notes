@@ -40,5 +40,14 @@ Command
   
   
   
+|
   
-  
+GDB
+=====
+
+.. code:: shell
+
+  gdb hello
+  gdb >> list
+
+
