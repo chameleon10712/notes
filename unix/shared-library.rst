@@ -194,5 +194,8 @@ objdump -D 反組譯
    gdb got
    
    gdb >> layout asm
+   
+   # 語法改為 intel
+   gdb >> set disassembly-flavor intel
 
 
