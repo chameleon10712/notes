@@ -44,6 +44,18 @@ Git authentication methods
 
 |
 
+- ~/.ssh/config
+
+  .. code:: sh
+
+  Host gitlab
+  Hostname gitlab.com
+  User git
+  IdentityFile ~/.ssh/gitlab_rsa
+
+
+|
+
 - ssh key 設定完成後, 測試
 
   .. code:: sh
