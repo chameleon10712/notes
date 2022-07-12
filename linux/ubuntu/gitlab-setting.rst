@@ -22,7 +22,7 @@ Git authentication methods
 
   .. code:: sh
 
-    ssh-keygen -t rsa -b 2048 -C "email@example.com"
+    ssh-keygen -t rsa -b 2048 -C "<comment>"
 
 
   執行後會產生
