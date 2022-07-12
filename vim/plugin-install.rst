@@ -1,6 +1,8 @@
 Plugin Install
 ==============
 
+``~/.vimrc``
+
 .. code-block:: sh
 
   filetype off
