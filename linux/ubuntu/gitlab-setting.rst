@@ -1,7 +1,7 @@
 GitLab
 =========
 
-下面設定是 global git aacount setting, 如果要 local 的要改
+下面設定是 global git account setting, 如果要 local 的要改
 
 
 Configure Git
@@ -48,7 +48,7 @@ Git authentication methods
 
   .. code:: sh
 
-  Host gitlab
+  Host gitlab.com
   Hostname gitlab.com
   User git
   IdentityFile ~/.ssh/gitlab_rsa
