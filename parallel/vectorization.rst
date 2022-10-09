@@ -28,6 +28,9 @@ Enables or disables the generation of Advanced SIMD (Neon®), M-profile Vector E
 
 - `Compiler Explorer <https://godbolt.org/>`_
 
+|
+
+- ``__restrict``
 
 |
 
