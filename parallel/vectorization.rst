@@ -15,4 +15,9 @@ Enables or disables the generation of Advanced SIMD (Neon®), M-profile Vector E
 
 
 
+Reference
+-----------
+
+- `Arm Compiler for Embedded Reference Guide <https://developer.arm.com/documentation/101754/0618/armclang-Reference/armclang-Command-line-Options/-fvectorize---fno-vectorize>`_
+
 
