@@ -11,6 +11,20 @@ Enables or disables the generation of Advanced SIMD (Neon®), M-profile Vector E
 
 - At optimization level ``-O2`` and above, the default is ``-fvectorize``. Use ``-fno-vectorize`` to disable automatic vectorization.
 
+|
+
+.. code:: c
+
+  void test1(float* a, float* b, float* c, int N) {
+    __builtin_assume(N == 1024);
+
+    for (int i=0; i<I; i++) {
+      for (int j=0; j<N; j++) {
+        c[j] = a[j] + b[j];
+      }
+    }
+  }
+
 
 
 
