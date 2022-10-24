@@ -3,7 +3,8 @@ TCP
 
 - Congestion Control
 
-  - `TCP Congestion Control - Georgia Tech - Network Congestion <https://www.youtube.com/watch?v=uEN-71R4gjQ>`_
+  - `TCP Congestion Control - Georgia Tech - Network Congestion | YouTube <https://www.youtube.com/watch?v=uEN-71R4gjQ>`_
+  - `3.12 - Flow Control and Congestion Control | YouTube <https://www.youtube.com/watch?v=CQFtBaEzDnU>`_
 
 - Flow Control
 
