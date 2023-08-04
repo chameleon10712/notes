@@ -5,6 +5,8 @@ Plugin Install
 
   sudo apt-get install git curl
   git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+  vim +PluginInstall +qall
+
 
 
 
