@@ -1,6 +1,14 @@
 Plugin Install
 ==============
 
+.. code:: sh
+
+  sudo apt-get install git curl
+  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+
+
+
 ``~/.vimrc``
 
 .. code-block:: sh
